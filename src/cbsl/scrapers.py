@@ -1,8 +1,9 @@
 
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
-from webdriver_manager.firefox import GeckoDriverManager
+
+from webdriver_manager.chrome import ChromeDriverManager
 
 from cbsl._constants import URL
 from cbsl._utils import log
@@ -37,9 +38,7 @@ def open_browser():
     log.debug('Openning browser...')
     options = Options()
     options.headless = True
-    browser = webdriver.Firefox(
-        executable_path=GeckoDriverManager().install(),
-        options=options)
+    browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     return browser
 
 
