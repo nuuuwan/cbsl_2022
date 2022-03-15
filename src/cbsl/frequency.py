@@ -10,24 +10,24 @@ class FREQUNCY:
 
 FREQUNCY_CONFIG = {
     FREQUNCY.ANNUALLY: {
-        'dummy_value': '2022',
+        'dummy_value': '2020',
     },
     FREQUNCY.CENSUS_YEAR: {
-        'dummy_value': '2022',
+        'dummy_value': '2020',
     },
     FREQUNCY.ACADEMIC_YEAR: {
-        'dummy_value': '2022',
+        'dummy_value': '2020',
     },
     FREQUNCY.HALF_YEARLY: {
-        'dummy_value': '2022',
+        'dummy_value': '2020',
     },
     FREQUNCY.QUARTERY: {
-        'dummy_value': '2022',
+        'dummy_value': '2020',
     },
     FREQUNCY.MONTHLY: {
-        'dummy_value': '2022-01',
+        'dummy_value': '2020-01',
     },
     FREQUNCY.DAILY: {
-        'dummy_value': '2022-01-01',
+        'dummy_value': '2020-01-01',
     },
 }
