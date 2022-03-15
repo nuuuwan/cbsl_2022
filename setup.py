@@ -30,5 +30,6 @@ setuptools.setup(
         'pytest',
         'selenium',
         'utils-nuuuwan',
+        'webdriver-manager',
     ],
 )
