@@ -8,15 +8,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
-from utils import jsonx
 
+from cbsl._constants import DIR_ROOT, DIR_DATA, URL
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
-from cbsl.parsers import parse_page0, parse_page1
-
-URL = 'https://www.cbsl.lk/eresearch/'
-DIR_ROOT = '/tmp/cbsl'
-DIR_DATA = os.path.join(DIR_ROOT, 'data')
 
 TIME_WAIT_FOR_ERROR = 3
 TIME_WAIT_FOR_PAGE1 = 10
@@ -136,31 +131,3 @@ def go_backto_page0(browser):
     log.debug('Going back to page0')
     elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK)
     elem_button_back.click()
-
-
-def scrape_everything():
-    browser = open_browser()
-    open_page0(browser)
-    idx = parse_page0(browser.page_source)
-
-    for sub0 in idx:
-        for i_sub1, sub1 in enumerate(list(idx[sub0])):
-            for frequency_name in FREQUNCY_CONFIG:
-                if goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
-                    idx1 = parse_page1(browser.page_source)
-                    idx[sub0][sub1][frequency_name] = idx1
-                    go_backto_page0(browser)
-            break
-        break
-
-    data_file = os.path.join(DIR_DATA, 'contents.json')
-    jsonx.write(data_file, idx)
-    n_sub0 = len(idx)
-    log.info(f'Wrote {n_sub0} sub0s to {data_file}')
-
-    browser.quit()
-
-
-if __name__ == '__main__':
-    init()
-    scrape_everything()
