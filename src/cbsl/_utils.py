@@ -1,6 +1,5 @@
 """Utils."""
 
-import logging
+from utils import logx
 
-logging.basicConfig(level=logging.INFO)
-log = logging.getLogger('cbsl')
+log = logx.get_logger('cbsl')
