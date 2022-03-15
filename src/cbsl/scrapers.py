@@ -1,6 +1,6 @@
 
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
 
 from cbsl._constants import URL
@@ -36,7 +36,7 @@ def open_browser():
     log.debug('Openning browser...')
     options = Options()
     options.headless = True
-    browser = webdriver.Firefox(options=options)
+    browser = webdriver.Chrome(options=options)
     return browser
 
 
@@ -52,7 +52,6 @@ def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
         f'Openning to page1 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
 
     find_element_by_class_name(browser, CLASS_TABLE0)
-
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
 
     sub0_str = sub0.replace(' ', '')
