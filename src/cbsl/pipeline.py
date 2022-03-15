@@ -6,8 +6,8 @@ from cbsl._constants import DIR_DATA
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
 from cbsl.parsers import parse_page0, parse_page1
-from cbsl.scrapers import (go_backto_page0, goto_page1, init, open_browser,
-                           open_page0)
+from cbsl.scrapers import (init, open_browser, open_page0, open_page1,
+                           open_page2)
 
 
 def run():
@@ -18,10 +18,12 @@ def run():
     for sub0 in idx:
         for i_sub1, sub1 in enumerate(list(idx[sub0])):
             for frequency_name in FREQUNCY_CONFIG:
-                if goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
+                if open_page1(browser, sub0, i_sub1, sub1, frequency_name):
                     idx1 = parse_page1(browser.page_source)
                     idx[sub0][sub1][frequency_name] = idx1
-                    go_backto_page0(browser)
+                    open_page2(browser)
+                    # go_backto_page0(browser)
+                    break
             break
         break
 

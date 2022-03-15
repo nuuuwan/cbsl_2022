@@ -48,20 +48,21 @@ def open_page0(browser):
     browser.set_window_size(BROWSER_WIDTH, BROWSER_HEIGHT)
 
 
-def goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
+def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
     for i in range(0, MAX_PAGE1_RETRIES):
         try:
-            r = goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
+            r = open_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
             return r
         except Exception as e:
             log.warning('Exception', e)
-            log.warning(f'goto_page1_try: retry {i}')
+            log.warning(f'open_page1_try: retry {i}')
     log.error(f'Failed after {MAX_PAGE1_RETRIES} retries')
     return False
 
 
-def goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
-    log.debug(f'Going to page1 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
+def open_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
+    log.debug(
+        f'Openning to page1 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
     sub0_str = sub0.replace(' ', '')
 
     elem_button_clear_all = browser.find_element_by_id(ID_BUTTON_CLEAR_ALL)
@@ -126,10 +127,11 @@ def goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
     return True
 
 
-def goto_page2(browser):
+def open_page2(browser):
+    log.debug('Openning page2...')
     elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
     for elem_select in elem_selects:
-        elem_selects.click()
+        elem_select.click()
     time.sleep(TIME_WAIT_ACTION)
 
     elem_input_add = browser.find_element_by_id(ID_BUTTON_ADD)
@@ -139,12 +141,17 @@ def goto_page2(browser):
     elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
     elem_button_next.click()
 
+    img_file = '/tmp/selenium.page2.png'
+    browser.save_screenshot(img_file)
+    log.debug(img_file)
+
 
 def go_backto_page0(browser):
-    img_file = '/tmp/selenium.back.png'
+    img_file = '/tmp/selenium.before-back.png'
     browser.save_screenshot(img_file)
     log.debug(img_file)
 
     log.debug('Going back to page0')
     elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK)
     elem_button_back.click()
+    time.sleep(TIME_WAIT_ACTION)
