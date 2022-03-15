@@ -119,6 +119,7 @@ def scrape_details(idx):
                     scrape_sub1(sub0, i_sub1, sub1, frequency_name)
                 except Exception:
                     log.error('Could not scrape: {sub0}/{sub1}')
+            break        
 
 
 def run():
