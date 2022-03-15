@@ -83,9 +83,11 @@ def open_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
     d = FREQUNCY_CONFIG[frequency_name]
     elem_text_box_list = browser.find_elements_by_class_name(
         'form_txt_box')
-    for elem_text_box in elem_text_box_list:
+
+    time_span = d['time_span']
+    for i, elem_text_box in enumerate(elem_text_box_list):
         elem_text_box.clear()
-        elem_text_box.send_keys(d['dummy_value'])
+        elem_text_box.send_keys(time_span[i])
 
     elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
     elem_button_next.click()
