@@ -1,14 +1,13 @@
-import time
 
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select, WebDriverWait
+from selenium.webdriver.support.ui import Select
 
 from cbsl._constants import URL
 from cbsl._utils import log
+from cbsl.browser_common import (find_element_by_class_name,
+                                 find_element_by_id, find_element_by_tag_name,
+                                 find_elements_by_id_safe, scroll_down)
 from cbsl.frequency import FREQUNCY_CONFIG
 
 TIME_WAIT_FOR_ERROR = 3
@@ -16,6 +15,10 @@ TIME_WAIT_FOR_PAGE1 = 10
 MAX_PAGE1_RETRIES = 5
 TIME_WAIT_ACTION = 0.5
 
+CLASS_TABLE0 = 'subjectgrid'
+ID_TABLE_PAGE1_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
+ID_TABLE_PAGE2_FOOTNOTES = 'ContentPlaceHolder1_grdFootNotes'
+ID_TABLE_PAGE2_RESULTS = 'ContentPlaceHolder1_grdResult'
 ID_BUTTON_CLEAR_ALL = 'ContentPlaceHolder1_grdClearAll'
 ID_BUTTON_NEXT = 'ContentPlaceHolder1_btnNext'
 ID_BUTTON_BACK_PAGE1 = 'ContentPlaceHolder1_btnBack'
@@ -35,96 +38,45 @@ def open_browser():
     return browser
 
 
-def scroll_down(browser):
-    browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-
 def open_page0(browser):
     log.debug('Openning page0...')
     browser.get(URL)
     browser.set_window_size(BROWSER_WIDTH, BROWSER_HEIGHT)
+    find_element_by_class_name(browser, CLASS_TABLE0, time_wait=1)
 
 
 def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
-    for i in range(0, MAX_PAGE1_RETRIES):
-        try:
-            r = open_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
-            return r
-        except Exception as e:
-            print(e)
-            log.warning(f'open_page1_try: retry {i}')
-
-    log.error(f'Failed after {MAX_PAGE1_RETRIES} retries')
-    return False
-
-
-def open_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
     log.debug(
         f'Openning to page1 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
+
+    find_element_by_id(ID_BUTTON_CLEAR_ALL).click()
+
     sub0_str = sub0.replace(' ', '')
+    checkbox_id = 'ContentPlaceHolder1_grdSubjects_'  \
+        + f'{sub0_str}_chkIsSelect_{i_sub1}'
+    find_element_by_id(checkbox_id).click()
 
-    elem_button_clear_all = browser.find_element_by_id(ID_BUTTON_CLEAR_ALL)
-    elem_button_clear_all.click()
-    time.sleep(TIME_WAIT_ACTION)
-
-    checkbox_id = f'ContentPlaceHolder1_grdSubjects_{sub0_str}' + \
-        f'_chkIsSelect_{i_sub1}'
-    elem_checkbox = browser.find_element_by_id(checkbox_id)
-    elem_checkbox.click()
-    time.sleep(TIME_WAIT_ACTION)
-
-    select = Select(browser.find_element_by_tag_name('select'))
-    html_value = frequency_name[0]
-    select.select_by_value(html_value)
-    time.sleep(TIME_WAIT_ACTION)
+    select = Select(find_element_by_tag_name('select'))
+    select.select_by_value(frequency_name[0])
 
     d = FREQUNCY_CONFIG[frequency_name]
     elem_text_box_list = browser.find_elements_by_class_name(
         'form_txt_box')
-
     time_span = d['time_span']
     for i, elem_text_box in enumerate(elem_text_box_list):
         elem_text_box.clear()
         elem_text_box.send_keys(time_span[i])
 
     scroll_down(browser)
-    elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
-    elem_button_next.click()
+    find_element_by_id(ID_BUTTON_NEXT).click()
 
-    try:
-        WebDriverWait(
-            browser,
-            TIME_WAIT_FOR_ERROR,
-        ).until(
-            EC.presence_of_element_located(
-                (By.ID, ID_SPAN_ERROR),
-            ),
-        )
+    elem = find_elements_by_id_safe(ID_SPAN_ERROR)
+    if elem:
         log.info(f'No elements for {sub0}/{sub1}/{frequency_name}')
-        img_file = '/tmp/selenium.no_elements.png'
-        browser.save_screenshot(img_file)
-        log.debug(img_file)
         return False
-    except TimeoutException:
-        pass
 
-    try:
-        elem_checkbox_list_all_items = WebDriverWait(
-            browser,
-            TIME_WAIT_FOR_PAGE1,
-        ).until(
-            EC.presence_of_element_located(
-                (By.ID, ID_CHECKBOX_LIST_ALL_ITEMS),
-            ),
-        )
-    except TimeoutException:
-        img_file = '/tmp/selenium.cannot_find_list_all.png'
-        browser.save_screenshot(img_file)
-        log.debug(img_file)
-        raise Exception('Could not find ID_CHECKBOX_LIST_ALL_ITEMS')
-
-    elem_checkbox_list_all_items.click()
-
+    find_element_by_id(ID_CHECKBOX_LIST_ALL_ITEMS).click()
+    find_element_by_id(ID_CHECKBOX_SELECT)
     return True
 
 
@@ -133,26 +85,18 @@ def open_page2(browser):
     elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
     for elem_select in elem_selects:
         elem_select.click()
-    time.sleep(TIME_WAIT_ACTION)
 
-    elem_input_add = browser.find_element_by_id(ID_BUTTON_ADD)
-    elem_input_add.click()
-    time.sleep(TIME_WAIT_ACTION)
+    find_element_by_id(ID_BUTTON_ADD).click()
 
     scroll_down(browser)
-    elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
-    elem_button_next.click()
+    find_element_by_id(ID_BUTTON_NEXT).click()
 
 
 def go_back_to_page0(browser):
-    log.debug('Going back to page 0')
-    elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK_PAGE1)
-    elem_button_back.click()
-    time.sleep(TIME_WAIT_ACTION)
+    log.debug('Going back page 0')
+    find_element_by_id(ID_BUTTON_BACK_PAGE1).click()
 
 
 def go_back_to_page1(browser):
     log.debug('Going back page 1')
-    elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK_PAGE2)
-    elem_button_back.click()
-    time.sleep(TIME_WAIT_ACTION)
+    find_element_by_id(ID_BUTTON_BACK_PAGE2).click()
