@@ -3,11 +3,9 @@ import re
 from bs4 import BeautifulSoup
 
 from cbsl._utils import log
+from cbsl.scrapers import (CLASS_TABLE0, ID_TABLE_PAGE1_SEARCH_LIST,
+                           ID_TABLE_PAGE2_FOOTNOTES, ID_TABLE_PAGE2_RESULTS)
 
-CLASS_TABLE0 = 'subjectgrid'
-ID_TABLE_PAGE1_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
-ID_TABLE_PAGE2_FOOTNOTES = 'ContentPlaceHolder1_grdFootNotes'
-ID_TABLE_PAGE2_RESULTS = 'ContentPlaceHolder1_grdResult'
 MIN_SUB3_LEN = 6
 
 
