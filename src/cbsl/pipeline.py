@@ -22,12 +22,16 @@ def run():
                     idx1 = parse_page1(browser.page_source)
 
                     open_page2(browser)
-                    footnote_idx = parse_page2(browser.page_source)
+                    [footnote_idx, results_idx] = parse_page2(
+                        browser.page_source)
                     idx1_extended = {}
                     for sub2 in idx1:
                         idx1_extended[sub2] = {}
                         for sub3 in idx1[sub2]:
-                            idx1_extended[sub2][sub3] = footnote_idx[sub3]
+                            idx1_extended[sub2][sub3] = {
+                                'results': results_idx[sub3],
+                                'footnotes': footnote_idx[sub3],
+                            }
                     idx[sub0][sub1][frequency_name] = idx1_extended
                     break
             break

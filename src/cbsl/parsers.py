@@ -7,6 +7,7 @@ from cbsl._utils import log
 CLASS_TABLE0 = 'subjectgrid'
 ID_TABLE_PAGE1_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
 ID_TABLE_PAGE2_FOOTNOTES = 'ContentPlaceHolder1_grdFootNotes'
+ID_TABLE_PAGE2_RESULTS = 'ContentPlaceHolder1_grdResult'
 MIN_SUB3_LEN = 6
 
 
@@ -60,10 +61,7 @@ def parse_page1(html):
     return idx
 
 
-def parse_page2(html):
-    log.debug('Parsing page2...')
-    soup = BeautifulSoup(html, 'html.parser')
-
+def parse_page2_footnotes(soup):
     table = soup.find('table', {'id': ID_TABLE_PAGE2_FOOTNOTES})
     footnote_idx = {}
     cur_footnote = None
@@ -86,3 +84,15 @@ def parse_page2(html):
     if cur_footnote:
         footnote_idx[cur_sub3] = cur_footnote
     return footnote_idx
+
+
+def parse_page2_results(soup):
+    return {}
+
+
+def parse_page2(html):
+    log.debug('Parsing page2...')
+    soup = BeautifulSoup(html, 'html.parser')
+    footnote_idx = parse_page2_footnotes(soup)
+    results_idx = parse_page2_results(soup)
+    return [footnote_idx, results_idx]
