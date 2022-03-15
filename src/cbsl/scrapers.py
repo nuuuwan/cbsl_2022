@@ -91,8 +91,7 @@ def open_page2(browser, i_min, i_max):
     if not chk.is_selected():
         chk.click()
 
-    elem_dels = browser.find_elements_by_id(ID_IMG_DEL)
-    for elem_del in elem_dels:
+    for elem_del in browser.find_elements_by_id(ID_IMG_DEL):
         elem_del.click()
 
     elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
@@ -101,28 +100,17 @@ def open_page2(browser, i_min, i_max):
     log.debug(f'Found {n_elem_selects} elem_selects')
     for i in range(0, n_elem_selects):
         elem_select = elem_selects[i]
-        is_selected = elem_select.is_selected()
-        log.debug(f'{i} -  {is_selected}')
+        elem_select.is_selected()
         if i_min <= i < i_max:
             if not elem_select.is_selected():
                 elem_select.click()
-                log.debug(f'Selecting {i}')
-        else:
-            if elem_select.is_selected():
-                elem_select.click()
-                log.debug(f'Un-Selecting {i}')
 
     find_element_by_id(browser, ID_BUTTON_ADD).click()
 
     scroll_down(browser)
     find_element_by_id(browser, ID_BUTTON_NEXT).click()
 
-    try:
-        find_element_by_id(browser, ID_TABLE_PAGE2_RESULTS, time_wait=60)
-    except Exception as e:
-        save_screenshot(browser)
-        raise e
-
+    find_element_by_id(browser, ID_TABLE_PAGE2_RESULTS)
     find_element_by_id(browser, ID_TABLE_PAGE2_FOOTNOTES)
 
 
