@@ -9,7 +9,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 
-from cbsl._constants import DIR_ROOT, DIR_DATA, URL
+from cbsl._constants import DIR_DATA, DIR_ROOT, URL
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
 
@@ -23,6 +23,8 @@ ID_BUTTON_NEXT = 'ContentPlaceHolder1_btnNext'
 ID_BUTTON_BACK = 'ContentPlaceHolder1_btnBack'
 ID_CHECKBOX_LIST_ALL_ITEMS = 'ContentPlaceHolder1_chkshowAll'
 ID_SPAN_ERROR = 'ContentPlaceHolder1_lbl_errmsg'
+ID_CHECKBOX_SELECT = 'chkSelect'
+ID_BUTTON_ADD = 'add'
 BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 12000
 
 
@@ -120,7 +122,22 @@ def goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
         raise Exception('Could not find ID_CHECKBOX_LIST_ALL_ITEMS')
 
     elem_checkbox_list_all_items.click()
+
     return True
+
+
+def goto_page2(browser):
+    elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
+    for elem_select in elem_selects:
+        elem_selects.click()
+    time.sleep(TIME_WAIT_ACTION)
+
+    elem_input_add = browser.find_element_by_id(ID_BUTTON_ADD)
+    elem_input_add.click()
+    time.sleep(TIME_WAIT_ACTION)
+
+    elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
+    elem_button_next.click()
 
 
 def go_backto_page0(browser):
