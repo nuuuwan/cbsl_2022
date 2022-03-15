@@ -1,5 +1,6 @@
 import os
 import shutil
+import math
 
 from utils import jsonx, tsv
 
@@ -10,6 +11,7 @@ from cbsl.parsers import parse_page0, parse_page1, parse_page2
 from cbsl.scrapers import (go_back_to_page0, go_back_to_page1, open_browser,
                            open_page0, open_page1, open_page2)
 
+GROUP_SIZE = 4
 
 def init():
     shutil.rmtree(DIR_ROOT, ignore_errors=True)
@@ -17,7 +19,7 @@ def init():
     os.mkdir(DIR_DATA)
 
 
-def save_table(sub0, sub1, frequency_name, results_idx):
+def save_table(sub0, sub1, frequency_name, i_group, results_idx):
     dir = os.path.join(
         DIR_DATA,
         sub0,
@@ -37,7 +39,7 @@ def save_table(sub0, sub1, frequency_name, results_idx):
             } | d['results']
         )
     frequency_name_str = frequency_name.replace(' ', '-').lower()
-    tsv_file = os.path.join(dir, f'{frequency_name_str}.tsv')
+    tsv_file = os.path.join(dir, f'{frequency_name_str}-{i_group:03d}.tsv')
     tsv.write(tsv_file, data_list)
     n_rows = len(data_list)
     n_cols = len(data_list[0])
@@ -60,26 +62,36 @@ def run():
 
     for sub0 in idx:
         for i_sub1, sub1 in enumerate(list(idx[sub0])):
-            if i_sub1 == 0:
-                continue
+            # if i_sub1 == 0:
+            #     continue
             for frequency_name in FREQUNCY_CONFIG:
-                if open_page1(browser, sub0, i_sub1, sub1, frequency_name):
+                elem_selects = open_page1(
+                    browser, sub0, i_sub1, sub1, frequency_name)
+                if elem_selects:
                     idx1 = parse_page1(browser.page_source)
 
-                    open_page2(browser)
-                    [footnote_idx, results_idx] = parse_page2(
-                        browser.page_source)
-                    idx1_extended = {}
-                    for sub2 in idx1:
-                        idx1_extended[sub2] = {}
-                        for sub3 in idx1[sub2]:
-                            idx1_extended[sub2][sub3] = footnote_idx[sub3]
-                    idx[sub0][sub1][frequency_name] = idx1_extended
+                    n_elem_selects = len(elem_selects)
+                    n_groups = math.ceil(n_elem_selects / GROUP_SIZE)
+                    for i_group in range(0, n_groups):
+                        i_min = GROUP_SIZE * i_group
+                        i_max = min(i_min + GROUP_SIZE, n_elem_selects)
+                        open_page2(browser, i_min, i_max)
 
-                    save_table(sub0, sub1, frequency_name, results_idx)
-                    go_back_to_page1(browser)
+                        [footnote_idx, results_idx] = parse_page2(
+                            browser.page_source)
+                        idx1_extended = {}
+                        for sub2 in idx1:
+                            idx1_extended[sub2] = {}
+                            for sub3 in idx1[sub2]:
+                                if sub3 in footnote_idx:
+                                    idx1_extended[sub2][sub3] = footnote_idx[sub3]
+                        idx[sub0][sub1][frequency_name] = idx1_extended
+
+                        save_table(
+                            sub0, sub1, frequency_name, i_group, results_idx)
+                        go_back_to_page1(browser)
+
                     go_back_to_page0(browser)
-                    break
 
     save_contents(idx, 'extended')
 
