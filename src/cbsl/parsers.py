@@ -5,11 +5,16 @@ from bs4 import BeautifulSoup
 from cbsl._utils import log
 
 CLASS_TABLE0 = 'subjectgrid'
-ID_TABLE_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
+ID_TABLE_PAGE1_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
+ID_TABLE_PAGE2_FOOTNOTES = 'ContentPlaceHolder1_grdFootNotes'
+MIN_SUB3_LEN = 6
 
 
 def clean(s):
-    return re.sub(r'\s+', ' ', s).strip()
+    s = s.replace(' -', '-')
+    s = s.replace('- ', '-')
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
 
 
 def parse_page0(html):
@@ -35,7 +40,7 @@ def parse_page1(html):
     soup = BeautifulSoup(html, 'html.parser')
     idx = {}
     n_sub2, n_sub3 = 0, 0
-    for table in soup.find_all('table', {'id': ID_TABLE_SEARCH_LIST}):
+    for table in soup.find_all('table', {'id': ID_TABLE_PAGE1_SEARCH_LIST}):
         for tr in table.find_all('tr'):
             td_list = tr.find_all('td')
             if len(td_list) < 3:
@@ -53,3 +58,31 @@ def parse_page1(html):
                     n_sub3 += 1
     log.info(f'Found {n_sub2} sub2s, {n_sub3} sub3s')
     return idx
+
+
+def parse_page2(html):
+    log.debug('Parsing page2...')
+    soup = BeautifulSoup(html, 'html.parser')
+
+    table = soup.find('table', {'id': ID_TABLE_PAGE2_FOOTNOTES})
+    footnote_idx = {}
+    cur_footnote = None
+    cur_sub3 = None
+    for tr in table.find_all('tr'):
+        td = tr.find_all('td')[1]
+        span = td.find('span')
+        text = clean(span.text)
+        if 'bold' in span['style']:
+            new_sub3 = clean(text.partition(')')[2])
+            if len(new_sub3) > MIN_SUB3_LEN:
+                if cur_footnote:
+                    footnote_idx[cur_sub3] = cur_footnote
+                cur_footnote = {'sub3': new_sub3}
+                cur_sub3 = new_sub3
+        else:
+            k, ___, v = text.partition(':')
+            cur_footnote[k] = v
+
+    if cur_footnote:
+        footnote_idx[cur_sub3] = cur_footnote
+    return footnote_idx
