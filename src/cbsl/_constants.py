@@ -1,4 +1,4 @@
 """Constants."""
 
-CACHE_NAME = 'gh_template_py'
+CACHE_NAME = 'cbsl'
 CACHE_TIMEOUT = 3600

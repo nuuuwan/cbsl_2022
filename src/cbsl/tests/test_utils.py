@@ -1,6 +1,6 @@
 import unittest
 
-from gh_template_py import _utils
+from cbsl import _utils
 
 
 class TestCase(unittest.TestCase):
