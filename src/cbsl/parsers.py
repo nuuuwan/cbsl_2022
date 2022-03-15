@@ -87,7 +87,37 @@ def parse_page2_footnotes(soup):
 
 
 def parse_page2_results(soup):
-    return {}
+    table = soup.find('table', {'id': ID_TABLE_PAGE2_RESULTS})
+    headers = None
+    results_idx = {}
+    for row in table.find_all('tr'):
+        if not headers:
+            th_list = list(map(
+                lambda th: clean(th.text),
+                row.find_all('th'),
+            ))
+            headers = th_list[4:]
+        else:
+            td_list = list(map(
+                lambda th: clean(th.text),
+                row.find_all('td'),
+            ))
+
+            if td_list[0] != '':
+                sub3, unit, scale = td_list[1:4]
+
+                results = dict(zip(
+                    headers,
+                    td_list[4:],
+                ))
+                results_idx[sub3] = {
+                    'sub3': sub3,
+                    'unit': unit,
+                    'scale': scale,
+                    'results': results,
+                }
+
+    return results_idx
 
 
 def parse_page2(html):
