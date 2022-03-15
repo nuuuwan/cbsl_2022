@@ -6,6 +6,7 @@ from utils import jsonx, tsv
 
 from cbsl._constants import DIR_DATA, DIR_ROOT
 from cbsl._utils import log
+from cbsl.browser_common import save_screenshot
 from cbsl.frequency import FREQUNCY_CONFIG
 from cbsl.parsers import parse_page0, parse_page1, parse_page2
 from cbsl.scrapers import (go_back_to_page1, open_browser, open_page0,
