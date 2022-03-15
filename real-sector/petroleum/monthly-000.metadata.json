@@ -1,0 +1,79 @@
+{
+  "Petroleum-Crude oil imports": {
+    "sub3": "Petroleum-Crude oil imports",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "Petroleum-Petrol sales": {
+    "sub3": "Petroleum-Petrol sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "Petroleum-Diesel sales": {
+    "sub3": "Petroleum-Diesel sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "Petroleum-Kerosene sales": {
+    "sub3": "Petroleum-Kerosene sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "Crude Oil Futures Prices-Brent (Benchmark price)": {
+    "sub3": "Crude Oil Futures Prices-Brent (Benchmark price)",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Crude Oil Futures Prices-WTI (Benchmark price)": {
+    "sub3": "Crude Oil Futures Prices-WTI (Benchmark price)",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "CPC Import Prices": {
+    "sub3": "CPC Import Prices",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

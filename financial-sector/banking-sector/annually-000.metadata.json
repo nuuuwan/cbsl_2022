@@ -1,0 +1,314 @@
+{
+  "Banking Sector-Core Capital Ratio (Tier I Capital)": {
+    "sub3": "Banking Sector-Core Capital Ratio (Tier I Capital)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio core capital to risk-weighted assets",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Non-performing Advances (NPLs) to Capital Ratio": {
+    "sub3": "Banking Sector-Net Non-performing Advances (NPLs) to Capital Ratio",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Non-performing Loans to Total Loans and Advances (Gross Non-performing Advances (NPLs) Ratio)": {
+    "sub3": "Banking Sector-Non-performing Loans to Total Loans and Advances (Gross Non-performing Advances (NPLs) Ratio)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "NPLs-Net of interest in suspense-Total loans and advances including non-performing loans net of interest in suspense",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Non-performing Loans to Total Loans and Advances (Net Non-performing Advances (NPLs) Ratio)": {
+    "sub3": "Banking Sector-Net Non-performing Loans to Total Loans and Advances (Net Non-performing Advances (NPLs) Ratio)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "NPLs-Net of interest in suspense and specific loan loss provisions-Total loans and advances including non-performing loans net of interest in suspense",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Efficiency (Operating Cost) Ratio": {
+    "sub3": "Banking Sector-Efficiency (Operating Cost) Ratio",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of non-interest expenses to (gross income + recoveries-specific provision charged to income-write off-provision for decline in value of held to maturity investments). Gross income includes net interest income and non-interest income",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Interest Income (NII) to Average Assets (Net Interest Margin)": {
+    "sub3": "Banking Sector-Net Interest Income (NII) to Average Assets (Net Interest Margin)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "NII-Interest income less interest expenses",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Credit to Total Deposits": {
+    "sub3": "Banking Sector-Credit to Total Deposits",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of total loans (net of interest in suspense) to total deposits",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Gross Loans and Advances": {
+    "sub3": "Banking Sector-Gross Loans and Advances",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Gross Loans and Advances-Net of interest in suspense.",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Loans and Advances": {
+    "sub3": "Banking Sector-Net Loans and Advances",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Net Loans and Advances Net of interest in suspense and specific loan loss provisions.",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Gross Non-performing Advances": {
+    "sub3": "Banking Sector-Gross Non-performing Advances",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Non-performing Advances": {
+    "sub3": "Banking Sector-Net Non-performing Advances",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Investments": {
+    "sub3": "Banking Sector-Investments",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Capital Funds": {
+    "sub3": "Banking Sector-Capital Funds",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Capital funds reported in the balance sheet.",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Core Capital (Tier 1 Capital)": {
+    "sub3": "Banking Sector-Core Capital (Tier 1 Capital)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Capital Base": {
+    "sub3": "Banking Sector-Capital Base",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Deposits": {
+    "sub3": "Banking Sector-Deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Demand Deposits": {
+    "sub3": "Banking Sector-Demand Deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Borrowings": {
+    "sub3": "Banking Sector-Borrowings",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Contingencies": {
+    "sub3": "Banking Sector-Contingencies",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Interest Income": {
+    "sub3": "Banking Sector-Interest Income",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Interest Expenses": {
+    "sub3": "Banking Sector-Interest Expenses",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Net Interest Income": {
+    "sub3": "Banking Sector-Net Interest Income",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Non-interest Income": {
+    "sub3": "Banking Sector-Non-interest Income",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Foreign Exchange Income (net)": {
+    "sub3": "Banking Sector-Foreign Exchange Income (net)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Number of Banks AMPARA": {
+    "sub3": "Banking Sector-Number of Banks AMPARA",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Number of Banks ANURADHAPURA": {
+    "sub3": "Banking Sector-Number of Banks ANURADHAPURA",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector-Number of Banks BADULLA": {
+    "sub3": "Banking Sector-Number of Banks BADULLA",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Banking Sector- Number of Banks GAMPAHA": {
+    "sub3": "Banking Sector- Number of Banks GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  },
+  "Banking Sector- Number of Branches GAMPAHA": {
+    "sub3": "Banking Sector- Number of Branches GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  },
+  "Banking Sector- Number of Other Banking Outlets GAMPAHA": {
+    "sub3": "Banking Sector- Number of Other Banking Outlets GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  }
+}

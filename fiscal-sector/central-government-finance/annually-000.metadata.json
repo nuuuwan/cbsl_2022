@@ -1,0 +1,221 @@
+{
+  "General Government Revenue-Tax Revenue": {
+    "sub3": "General Government Revenue-Tax Revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "General Government Revenue-Non-Tax Revenue": {
+    "sub3": "General Government Revenue-Non-Tax Revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "General Government Revenue-Total Tax and Non Tax Revenue": {
+    "sub3": "General Government Revenue-Total Tax and Non Tax Revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "Total Expenditure on Higher Education": {
+    "sub3": "Total Expenditure on Higher Education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "Capital Expenditure on Higher Education": {
+    "sub3": "Capital Expenditure on Higher Education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "Recurrent Expenditure on Higher Education": {
+    "sub3": "Recurrent Expenditure on Higher Education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "Government expenditure on education as a per cent of GDP": {
+    "sub3": "Government expenditure on education as a per cent of GDP",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Finance, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "Government expenditure on health as a per cent of GDP": {
+    "sub3": "Government expenditure on health as a per cent of GDP",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Finance, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General Governmnet Expenditure-Recurrent Expenditure": {
+    "sub3": "General Governmnet Expenditure-Recurrent Expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "General Governmnet Expenditure-Capital Expenditure": {
+    "sub3": "General Governmnet Expenditure-Capital Expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "General Governmnet Expenditure-Total Expenditure": {
+    "sub3": "General Governmnet Expenditure-Total Expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-07",
+    "Update frequency": "Four months after the end of year"
+  },
+  "External Debt Statistics (EDS)-Outstanding Total External Debt": {
+    "sub3": "External Debt Statistics (EDS)-Outstanding Total External Debt",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-General Government-short term": {
+    "sub3": "EDS-General Government-short term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-General Government-long term": {
+    "sub3": "EDS-General Government-long term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-Central Bank-short term": {
+    "sub3": "EDS-Central Bank-short term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-Central Bank-long term": {
+    "sub3": "EDS-Central Bank-long term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-Deposit Taking Corporations-short term": {
+    "sub3": "EDS-Deposit Taking Corporations-short term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-Deposit Taking Corporations -long term": {
+    "sub3": "EDS-Deposit Taking Corporations -long term",
+    "unit": "USD",
+    "scale": "Millions"
+  },
+  "EDS-Other Sectors-short term": {
+    "sub3": "EDS-Other Sectors-short term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "EDS-Other Sectors -long term": {
+    "sub3": "EDS-Other Sectors -long term",
+    "unit": "USD",
+    "scale": "Millions"
+  },
+  "EDS-Direct Investment-Intercompany Lending": {
+    "sub3": "EDS-Direct Investment-Intercompany Lending",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  }
+}

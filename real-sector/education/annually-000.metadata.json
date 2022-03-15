@@ -1,0 +1,314 @@
+{
+  "Government schools-School density": {
+    "sub3": "Government schools-School density",
+    "unit": "sq. km.",
+    "scale": "sq. km.",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "Government schools-Student/teacher ratio": {
+    "sub3": "Government schools-Student/teacher ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Age specific enrolment ratio": {
+    "sub3": "General education-Age specific enrolment ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Primary net enrolment ratio": {
+    "sub3": "General education-Primary net enrolment ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Government-Schools": {
+    "sub3": "General education-Government-Schools",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Government-Students": {
+    "sub3": "General education-Government-Students",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Government-Teachers": {
+    "sub3": "General education-Government-Teachers",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Pirivenas -Schools": {
+    "sub3": "General education-Pirivenas -Schools",
+    "unit": "Number",
+    "scale": "Number"
+  },
+  "General education- Pirivenas -Students": {
+    "sub3": "General education- Pirivenas -Students",
+    "unit": "Number",
+    "scale": "Number"
+  },
+  "General education- Pirivenas-Teachers": {
+    "sub3": "General education- Pirivenas-Teachers",
+    "unit": "Number",
+    "scale": "Number"
+  },
+  "General education-Private-Schools": {
+    "sub3": "General education-Private-Schools",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Private-Students": {
+    "sub3": "General education-Private-Students",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "General education-Private-Teachers": {
+    "sub3": "General education-Private-Teachers",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "Performance of Candidates-School candidates sat for GCE (O-L)": {
+    "sub3": "Performance of Candidates-School candidates sat for GCE (O-L)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (O-L)-School candidates : Percentage of qualifying for GCE (A-L)": {
+    "sub3": "Performance of Candidates-GCE (O-L)-School candidates : Percentage of qualifying for GCE (A-L)",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-All candidates sat for GCE (O-L)": {
+    "sub3": "Performance of Candidates-All candidates sat for GCE (O-L)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (O-L)-All candidates : Percentage of qualifying for GCE (A-L)": {
+    "sub3": "Performance of Candidates-GCE (O-L)-All candidates : Percentage of qualifying for GCE (A-L)",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-School candidates sat for GCE (A-L)": {
+    "sub3": "Performance of Candidates-School candidates sat for GCE (A-L)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (A-L)-School candidates : Qualifying to enter University": {
+    "sub3": "Performance of Candidates-GCE (A-L)-School candidates : Qualifying to enter University",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (A-L)-School candidates : Percentage of qualifying to enter University": {
+    "sub3": "Performance of Candidates-GCE (A-L)-School candidates : Percentage of qualifying to enter University",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-All candidates sat for GCE (A-L)": {
+    "sub3": "Performance of Candidates-All candidates sat for GCE (A-L)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (A-L)-All candidates : Qualifying to enter University": {
+    "sub3": "Performance of Candidates-GCE (A-L)-All candidates : Qualifying to enter University",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "Performance of Candidates-GCE (A-L)-All candidates : Percentage of qualifying to enter University": {
+    "sub3": "Performance of Candidates-GCE (A-L)-All candidates : Percentage of qualifying to enter University",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Arts & Oriental Studies (B.A.-B.A. Special)": {
+    "sub3": "No. of University Students Graduated-Arts & Oriental Studies (B.A.-B.A. Special)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Commerce & Management Studies (B.Sc.-B.Com.-B.B.A.)": {
+    "sub3": "No. of University Students Graduated-Commerce & Management Studies (B.Sc.-B.Com.-B.B.A.)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Dental Surgery (B.D.S.)": {
+    "sub3": "No. of University Students Graduated-Dental Surgery (B.D.S.)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Agriculture (B.Sc.)": {
+    "sub3": "No. of University Students Graduated-Agriculture (B.Sc.)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Architecture and Quantity Surveying (B.Sc.)": {
+    "sub3": "No. of University Students Graduated-Architecture and Quantity Surveying (B.Sc.)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "No. of University Students Graduated-Computer Science-Information Technology-Information & Communication Technology-Management & Information Technology": {
+    "sub3": "No. of University Students Graduated-Computer Science-Information Technology-Information & Communication Technology-Management & Information Technology",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "Includes External & Open University also",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "Eligible for university admission as a percentage of number sat for GCE (A/L)": {
+    "sub3": "Eligible for university admission as a percentage of number sat for GCE (A/L)",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  }
+}

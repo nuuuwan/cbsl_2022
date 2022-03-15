@@ -1,0 +1,266 @@
+{
+  "GDP-Current Market Prices (2010 Series)-Agriculture, Forestry and Fishing": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Agriculture, Forestry and Fishing",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Rice": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Rice",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Vegetabl": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Vegetabl",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Sugar ca": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Sugar ca",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Oleagino": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Oleagino",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Tea (Gre": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of Tea (Gre",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of other be": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of other be",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of spices,": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of spices,",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of rubber": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of rubber",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of other pe": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Growing of other pe",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Plant propagation a": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Plant propagation a",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Marine fishing and": {
+    "sub3": "GDP-Current Market Prices (2010 Series)- Agriculture, Forestry and Fishing-Marine fishing and",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Mining and quarrying": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Mining and quarrying",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of food, beverages & Tobacco pr": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of food, beverages & Tobacco pr",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of textiles, wearing apparel an": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of textiles, wearing apparel an",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of wood and of products of wood": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of wood and of products of wood",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of paper products, printing an": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of paper products, printing an",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of coke and refined petroleum p": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of coke and refined petroleum p",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of chemical products and basic": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of chemical products and basic",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of rubber and plastic products": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of rubber and plastic products",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of other non-metallic mineral": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of other non-metallic mineral",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of basic metals and fabricated": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of basic metals and fabricated",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of machinery and equipment i.e.": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of machinery and equipment i.e.",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of furniture": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Manufacture of furniture",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Electricity, gas, steam and air conditionin": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Electricity, gas, steam and air conditionin",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Industries-Construction": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Industries-Construction",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Gross Value Added (GVA) at Basic Price": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Gross Value Added (GVA) at Basic Price",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Gross Domestic Product at Market Price": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Gross Domestic Product at Market Price",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "GDP-Current Market Prices (2010 Series)-Gross National Income at Market Price": {
+    "sub3": "GDP-Current Market Prices (2010 Series)-Gross National Income at Market Price",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-25",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  }
+}

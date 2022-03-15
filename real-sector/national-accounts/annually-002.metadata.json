@@ -1,0 +1,296 @@
+{
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of Cereals (except rice)": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of Cereals (except rice)",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of fruits": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of fruits",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of Oleaginous Fruits (Co": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Growing of Oleaginous Fruits (Co",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Animal Production": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Animal Production",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Forestry and Logging": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Forestry and Logging",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Fresh water fishing and Fresh wa": {
+    "sub3": "GDP-Constant (2010) Prices- Agriculture, Forestry and Fishing-Fresh water fishing and Fresh wa",
+    "unit": "Rs.",
+    "scale": "Million"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Actual Household (HH) Final Consumption Expendit": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Actual Household (HH) Final Consumption Expendit",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Individual consumption (IC) expenditure of house": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Individual consumption (IC) expenditure of house",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Food and non-alcoholic beverages": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Food and non-alcoholic beverages",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Alcoholic beverages, tobacco and narcotics": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Alcoholic beverages, tobacco and narcotics",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Clothing and footwear": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Clothing and footwear",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Housing, water, electricity, gas and other fuels": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Housing, water, electricity, gas and other fuels",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Furnishings, household equipment and routine hou": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Furnishings, household equipment and routine hou",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Health": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Health",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Transport": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Transport",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Communication": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Communication",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Recreation and culture": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Recreation and culture",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Education": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Restaurants and hotels": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Restaurants and hotels",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Miscellaneous goods and services": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Miscellaneous goods and services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Direct Purchases Abroad by Residents": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Direct Purchases Abroad by Residents",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Direct Purchases in Domestic Market by Non-Resid": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Direct Purchases in Domestic Market by Non-Resid",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-HH Cons. by COICOP-Individual consumption expenditure of general go": {
+    "sub3": "GDE-Constant (2010) Prices-HH Cons. by COICOP-Individual consumption expenditure of general go",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH \u2013 Household; Cons. \u2013 Consumption; COICOP \u2013 Classification of Individual Consumption by Purpose",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-General public services": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-General public services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Public order and safety": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Public order and safety",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Housing and community ameniti": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Housing and community ameniti",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Individual Final Cons. by COFOG-Health": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Individual Final Cons. by COFOG-Health",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Recreation, culture and relig": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Recreation, culture and relig",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Individual Final Cons. by COFOG-Education": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Individual Final Cons. by COFOG-Education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Social protection": {
+    "sub3": "GDE-Constant (2010) Prices-Govt. Collective Final Cons. by COFOG-Social protection",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Cons. \u2013 Consumption; COFOG-Classification of the Functions of Government",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  }
+}

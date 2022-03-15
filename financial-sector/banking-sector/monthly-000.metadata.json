@@ -1,0 +1,68 @@
+{
+  "Commercial Paper-Total Issues-Cumulative": {
+    "sub3": "Commercial Paper-Total Issues-Cumulative",
+    "unit": "Rs",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Commercial Paper-Outstanding (as at end of the period )": {
+    "sub3": "Commercial Paper-Outstanding (as at end of the period )",
+    "unit": "Rs",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Credit Card-Total Number of Active Cards": {
+    "sub3": "Credit Card-Total Number of Active Cards",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Credit Card-Local (accepted only locally)": {
+    "sub3": "Credit Card-Local (accepted only locally)",
+    "unit": "Rs",
+    "scale": "Million",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Credit Card-Global (accepted globally)": {
+    "sub3": "Credit Card-Global (accepted globally)",
+    "unit": "Rs",
+    "scale": "Million",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Credit Card-Outstanding balance": {
+    "sub3": "Credit Card-Outstanding balance",
+    "unit": "Rs",
+    "scale": "Million",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

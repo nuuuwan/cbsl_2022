@@ -1,0 +1,150 @@
+{
+  "Revenue and Grants": {
+    "sub3": "Revenue and Grants",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Revenue": {
+    "sub3": "Revenue",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Tax Revenue": {
+    "sub3": "Tax Revenue",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Non Tax Revenue": {
+    "sub3": "Non Tax Revenue",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Grants": {
+    "sub3": "Grants",
+    "unit": "Rupees",
+    "scale": "Billion"
+  },
+  "Capital and Net Lending": {
+    "sub3": "Capital and Net Lending",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Expenditure and Net Lending": {
+    "sub3": "Expenditure and Net Lending",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Recurrent Expenditure": {
+    "sub3": "Recurrent Expenditure",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Total Outstanding Domestic Debt": {
+    "sub3": "Total Outstanding Domestic Debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Outstanding Treasury Bills": {
+    "sub3": "Outstanding Treasury Bills",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Outstanding Treasury Bonds": {
+    "sub3": "Outstanding Treasury Bonds",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Outstanding Rupee Loans": {
+    "sub3": "Outstanding Rupee Loans",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Outstanding Total Foreign Debt": {
+    "sub3": "Outstanding Total Foreign Debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "Total outstanding central Government Debt": {
+    "sub3": "Total outstanding central Government Debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

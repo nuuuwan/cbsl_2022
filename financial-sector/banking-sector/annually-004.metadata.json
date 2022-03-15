@@ -1,0 +1,230 @@
+{
+  "Banking Sector-Total Number of Other Banking Outlets": {
+    "sub3": "Banking Sector-Total Number of Other Banking Outlets",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks- Total Capital Adequacy Ratio (CAR)": {
+    "sub3": "Licensed Commercial Banks- Total Capital Adequacy Ratio (CAR)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Core Capital Ratio (Tier I Capital)": {
+    "sub3": "Licensed Commercial Banks- Core Capital Ratio (Tier I Capital)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Net Non-performing Advances (NPLs) to Capital Ratio": {
+    "sub3": "Licensed Commercial Banks- Net Non-performing Advances (NPLs) to Capital Ratio",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Non-performing Loans to Total Loans and Advances (Gross Non-performing Advances (NPLs) Ratio)": {
+    "sub3": "Licensed Commercial Banks- Non-performing Loans to Total Loans and Advances (Gross Non-performing Advances (NPLs) Ratio)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Net Non-performing Loans to Total Loans and Advances (Net Non-performing Advances (NPLs) Ratio)": {
+    "sub3": "Licensed Commercial Banks- Net Non-performing Loans to Total Loans and Advances (Net Non-performing Advances (NPLs) Ratio)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Specific Provision Coverage Ratio": {
+    "sub3": "Licensed Commercial Banks- Specific Provision Coverage Ratio",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Return on Equity (ROE) \u2013 After tax": {
+    "sub3": "Licensed Commercial Banks- Return on Equity (ROE) \u2013 After tax",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Return on Assets (ROA)\u2013 Before tax": {
+    "sub3": "Licensed Commercial Banks- Return on Assets (ROA)\u2013 Before tax",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Return on Assets (ROA) \u2013 After tax": {
+    "sub3": "Licensed Commercial Banks- Return on Assets (ROA) \u2013 After tax",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Efficiency (Operating Cost) Ratio": {
+    "sub3": "Licensed Commercial Banks- Efficiency (Operating Cost) Ratio",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Staff Cost to Operating Expenses": {
+    "sub3": "Licensed Commercial Banks- Staff Cost to Operating Expenses",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Net Interest Income (NII) to Average Assets (Net Interest Margin)": {
+    "sub3": "Licensed Commercial Banks- Net Interest Income (NII) to Average Assets (Net Interest Margin)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Statutory Liquid Asset Ratio (SLAR) \u2013 Domestic Banking Unit (DBU)": {
+    "sub3": "Licensed Commercial Banks- Statutory Liquid Asset Ratio (SLAR) \u2013 Domestic Banking Unit (DBU)",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks- Credit to Total Deposits": {
+    "sub3": "Licensed Commercial Banks- Credit to Total Deposits",
+    "unit": "Ratio",
+    "scale": "%"
+  },
+  "Licensed Commercial Banks-Gross Loans and Advances": {
+    "sub3": "Licensed Commercial Banks-Gross Loans and Advances",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Gross Loans and Advances-Net of interest in suspense.",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Capital Funds": {
+    "sub3": "Licensed Commercial Banks-Capital Funds",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Capital funds reported in the balance sheet.",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Core Capital (Tier 1 Capital)": {
+    "sub3": "Licensed Commercial Banks-Core Capital (Tier 1 Capital)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Capital Base": {
+    "sub3": "Licensed Commercial Banks-Capital Base",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Deposits": {
+    "sub3": "Licensed Commercial Banks-Deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Demand Deposits": {
+    "sub3": "Licensed Commercial Banks-Demand Deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Borrowings": {
+    "sub3": "Licensed Commercial Banks-Borrowings",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Contingencies": {
+    "sub3": "Licensed Commercial Banks-Contingencies",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Gross Loans and Advances-Market Share": {
+    "sub3": "Licensed Commercial Banks-Gross Loans and Advances-Market Share",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Deposits-Market Share": {
+    "sub3": "Licensed Commercial Banks-Deposits-Market Share",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Borrowings-Market Share": {
+    "sub3": "Licensed Commercial Banks-Borrowings-Market Share",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks-Foreign Exchange Income (net)": {
+    "sub3": "Licensed Commercial Banks-Foreign Exchange Income (net)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "Licensed Commercial Banks- Number of Banks GAMPAHA": {
+    "sub3": "Licensed Commercial Banks- Number of Banks GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  },
+  "Licensed Commercial Banks- Number of Branches GAMPAHA": {
+    "sub3": "Licensed Commercial Banks- Number of Branches GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  },
+  "Licensed Commercial Banks- Number of Other Banking Outlets GAMPAHA": {
+    "sub3": "Licensed Commercial Banks- Number of Other Banking Outlets GAMPAHA",
+    "unit": "Unit",
+    "scale": "Unit"
+  }
+}

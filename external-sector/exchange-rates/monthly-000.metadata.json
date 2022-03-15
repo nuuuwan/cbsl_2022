@@ -1,0 +1,46 @@
+{
+  "Month End a Exchange Rates": {
+    "sub3": "Month End a Exchange Rates",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  },
+  "Monthly Average Exchange Rates": {
+    "sub3": "Monthly Average Exchange Rates",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  },
+  "Nominal Effective Exchange Rate Index": {
+    "sub3": "Nominal Effective Exchange Rate Index",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  },
+  "Real Effective Exchange Rate Index": {
+    "sub3": "Real Effective Exchange Rate Index",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  }
+}
