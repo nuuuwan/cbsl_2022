@@ -1,6 +1,6 @@
 import os
 
-from utils import jsonx
+from utils import jsonx, tsv
 
 from cbsl._constants import DIR_DATA
 from cbsl._utils import log
@@ -8,6 +8,32 @@ from cbsl.frequency import FREQUNCY_CONFIG
 from cbsl.parsers import parse_page0, parse_page1, parse_page2
 from cbsl.scrapers import (init, open_browser, open_page0, open_page1,
                            open_page2)
+
+
+def save_table(sub0, sub1, frequency_name, results_idx):
+    dir = os.path.join(
+        DIR_DATA,
+        sub0,
+        sub1,
+    ).replace(' ', '-').lower()
+
+    if not os.path.exists(dir):
+        os.system(f'mkdir -p "{dir}"')
+
+    data_list = []
+    for sub3, d in results_idx.items():
+        data_list.append(
+            {
+                'sub3': sub3,
+                'unit': d['unit'],
+                'scale': d['scale'],
+            } | d['results']
+        )
+    frequency_name_str = frequency_name.lower()
+    tsv_file = os.path.join(dir, f'{frequency_name_str}.tsv')
+    tsv.write(tsv_file, data_list)
+    n_datalist = len(data_list)
+    log.info(f'Wrote {n_datalist} rows to {tsv_file}')
 
 
 def run():
@@ -28,11 +54,12 @@ def run():
                     for sub2 in idx1:
                         idx1_extended[sub2] = {}
                         for sub3 in idx1[sub2]:
-                            idx1_extended[sub2][sub3] = {
-                                'results': results_idx[sub3],
-                                'footnotes': footnote_idx[sub3],
-                            }
+                            idx1_extended[sub2][sub3] = footnote_idx[sub3]
                     idx[sub0][sub1][frequency_name] = idx1_extended
+
+                    # save
+                    save_table(sub0, sub1, frequency_name, results_idx)
+
                     break
             break
         break
