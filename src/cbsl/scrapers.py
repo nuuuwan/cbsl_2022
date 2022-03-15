@@ -1,9 +1,7 @@
 import os
-import re
 import shutil
 import time
 
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
@@ -14,6 +12,7 @@ from utils import jsonx
 
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
+from cbsl.parsers import parse_page0, parse_page1
 
 URL = 'https://www.cbsl.lk/eresearch/'
 DIR_ROOT = '/tmp/cbsl'
@@ -24,17 +23,11 @@ TIME_WAIT_FOR_PAGE1 = 10
 MAX_PAGE1_RETRIES = 5
 TIME_WAIT_ACTION = 0.5
 
-CLASS_TABLE0 = 'subjectgrid'
 ID_BUTTON_CLEAR_ALL = 'ContentPlaceHolder1_grdClearAll'
 ID_BUTTON_NEXT = 'ContentPlaceHolder1_btnNext'
 ID_BUTTON_BACK = 'ContentPlaceHolder1_btnBack'
 ID_CHECKBOX_LIST_ALL_ITEMS = 'ContentPlaceHolder1_chkshowAll'
-ID_TABLE_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
 ID_SPAN_ERROR = 'ContentPlaceHolder1_lbl_errmsg'
-
-
-def clean(s):
-    return re.sub(r'\s+', ' ', s).strip()
 
 
 def init():
@@ -57,30 +50,13 @@ def open_page0(browser):
     browser.set_window_size(1000, 12000)
 
 
-def parse_page0(html):
-    log.debug('Parsing page0...')
-    soup = BeautifulSoup(html, 'html.parser')
-    idx = {}
-    n_sub0, n_sub1 = 0, 0
-    for table in soup.find_all('table', {'class': CLASS_TABLE0}):
-        tr_list = [tr for tr in table.find_all('tr')]
-        sub0 = clean(tr_list[0].text)
-        n_sub0 += 1
-        idx[sub0] = {}
-        for tr in tr_list[1:]:
-            sub1 = clean(tr.find_all('td')[1].text)
-            idx[sub0][sub1] = {}
-            n_sub1 += 1
-    log.info(f'Found {n_sub0} sub0s, {n_sub1} sub1s')
-    return idx
-
-
 def goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
     for i in range(0, MAX_PAGE1_RETRIES):
         try:
             r = goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
             return r
         except Exception as e:
+
             log.warning('Exception', e)
             log.warning(f'goto_page1_try: retry {i}')
     log.error(f'Failed after {MAX_PAGE1_RETRIES} retries')
@@ -150,31 +126,6 @@ def goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
 
     elem_checkbox_list_all_items.click()
     return True
-
-
-def parse_page1(html):
-    log.debug('Parsing page1...')
-    soup = BeautifulSoup(html, 'html.parser')
-    idx = {}
-    n_sub2, n_sub3 = 0, 0
-    for table in soup.find_all('table', {'id': ID_TABLE_SEARCH_LIST}):
-        for tr in table.find_all('tr'):
-            td_list = tr.find_all('td')
-            if len(td_list) < 3:
-                continue
-            td = td_list[2]
-            if 'GdHDColor1' in td.attrs['class']:
-                sub2 = clean(td.text)
-                idx[sub2] = {}
-                n_sub2 += 1
-
-            else:
-                sub3 = clean(td.text)
-                if sub3:
-                    idx[sub2][sub3] = {}
-                    n_sub3 += 1
-    log.info(f'Found {n_sub2} sub2s, {n_sub3} sub3s')
-    return idx
 
 
 def go_backto_page0(browser):
