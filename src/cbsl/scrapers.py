@@ -28,6 +28,7 @@ ID_BUTTON_NEXT = 'ContentPlaceHolder1_btnNext'
 ID_BUTTON_BACK = 'ContentPlaceHolder1_btnBack'
 ID_CHECKBOX_LIST_ALL_ITEMS = 'ContentPlaceHolder1_chkshowAll'
 ID_SPAN_ERROR = 'ContentPlaceHolder1_lbl_errmsg'
+BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 12000
 
 
 def init():
@@ -47,7 +48,7 @@ def open_browser():
 def open_page0(browser):
     log.debug('Openning page0...')
     browser.get(URL)
-    browser.set_window_size(1000, 12000)
+    browser.set_window_size(BROWSER_WIDTH, BROWSER_HEIGHT)
 
 
 def goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
@@ -56,7 +57,6 @@ def goto_page1(browser, sub0, i_sub1, sub1, frequency_name):
             r = goto_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
             return r
         except Exception as e:
-
             log.warning('Exception', e)
             log.warning(f'goto_page1_try: retry {i}')
     log.error(f'Failed after {MAX_PAGE1_RETRIES} retries')
