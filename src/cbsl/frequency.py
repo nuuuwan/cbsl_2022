@@ -1,3 +1,6 @@
+from utils import timex
+
+
 class FREQUNCY:
     ANNUALLY = 'Annually'
     CENSUS_YEAR = 'Census Year'
@@ -8,26 +11,51 @@ class FREQUNCY:
     DAILY = 'Daily'
 
 
-FREQUNCY_CONFIG = {
-    FREQUNCY.ANNUALLY: {
-        'dummy_value': '2020',
-    },
-    FREQUNCY.CENSUS_YEAR: {
-        'dummy_value': '2020',
-    },
-    FREQUNCY.ACADEMIC_YEAR: {
-        'dummy_value': '2020',
-    },
-    FREQUNCY.HALF_YEARLY: {
-        'dummy_value': '2020',
-    },
-    FREQUNCY.QUARTERY: {
-        'dummy_value': '2020',
-    },
-    FREQUNCY.MONTHLY: {
-        'dummy_value': '2020-01',
-    },
-    FREQUNCY.DAILY: {
-        'dummy_value': '2020-01-01',
-    },
-}
+TIME_WINDOW_YEARS = 100
+
+
+def build_frequency_config():
+    max_ut = timex.get_unixtime()
+    min_ut = max_ut - timex.SECONDS_IN.YEAR * TIME_WINDOW_YEARS
+
+    min_date, max_date = list(map(
+        lambda ut: timex.format_time(ut, '%Y-%m-%d'),
+        [min_ut, max_ut],
+    ))
+
+    min_month, max_month = list(map(
+        lambda ut: timex.format_time(ut, '%Y-%m'),
+        [min_ut, max_ut],
+    ))
+
+    min_year, max_year = list(map(
+        lambda ut: timex.format_time(ut, '%Y'),
+        [min_ut, max_ut],
+    ))
+
+    return {
+        FREQUNCY.ANNUALLY: {
+            'time_span': [min_year, max_year],
+        },
+        FREQUNCY.CENSUS_YEAR: {
+            'time_span': [min_year, max_year],
+        },
+        FREQUNCY.ACADEMIC_YEAR: {
+            'time_span': [min_year, max_year],
+        },
+        FREQUNCY.HALF_YEARLY: {
+            'time_span': [min_year, max_year],
+        },
+        FREQUNCY.QUARTERY: {
+            'time_span': [min_year, max_year],
+        },
+        FREQUNCY.MONTHLY: {
+            'time_span': [min_month, max_month],
+        },
+        FREQUNCY.DAILY: {
+            'time_span': [min_date, max_date],
+        },
+    }
+
+
+FREQUNCY_CONFIG = build_frequency_config()
