@@ -2,7 +2,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
-
 from webdriver_manager.chrome import ChromeDriverManager
 
 from cbsl._constants import URL
@@ -18,6 +17,7 @@ TIME_WAIT_FOR_PAGE1 = 10
 MAX_PAGE1_RETRIES = 5
 TIME_WAIT_ACTION = 0.5
 
+CLASS_TXT_BOX = 'form_txt_box'
 CLASS_TABLE0 = 'subjectgrid'
 ID_TABLE_PAGE1_SEARCH_LIST = 'ContentPlaceHolder1_grdSearchList'
 ID_TABLE_PAGE2_FOOTNOTES = 'ContentPlaceHolder1_grdFootNotes'
@@ -38,7 +38,9 @@ def open_browser():
     log.debug('Openning browser...')
     options = Options()
     options.headless = True
-    browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    browser = webdriver.Chrome(
+        ChromeDriverManager().install(),
+        options=options)
     return browser
 
 
@@ -64,9 +66,12 @@ def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
     select = Select(find_element_by_tag_name(browser, 'select'))
     select.select_by_value(frequency_name[0])
 
-    d = FREQUNCY_CONFIG[frequency_name]
+    find_element_by_class_name(browser, CLASS_TXT_BOX)
     elem_text_box_list = browser.find_elements_by_class_name(
-        'form_txt_box')
+        CLASS_TXT_BOX)
+
+    log.debug(elem_text_box_list)
+    d = FREQUNCY_CONFIG[frequency_name]
     time_span = d['time_span']
     for i, elem_text_box in enumerate(elem_text_box_list):
         elem_text_box.clear()
@@ -92,11 +97,14 @@ def open_page2(browser, i_min, i_max):
     if not chk.is_selected():
         chk.click()
 
+    find_element_by_id(browser, ID_IMG_DEL)
     for elem_del in browser.find_elements_by_id(ID_IMG_DEL):
         elem_del.click()
 
+    find_element_by_id(browser, ID_CHECKBOX_SELECT)
     elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
     save_screenshot(browser)
+
     n_elem_selects = len(elem_selects)
     log.debug(f'Found {n_elem_selects} elem_selects')
     for i in range(0, n_elem_selects):
