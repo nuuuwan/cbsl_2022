@@ -1,5 +1,3 @@
-import os
-import shutil
 import time
 
 from selenium import webdriver
@@ -9,7 +7,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 
-from cbsl._constants import DIR_DATA, DIR_ROOT, URL
+from cbsl._constants import URL
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
 
@@ -26,13 +24,7 @@ ID_CHECKBOX_LIST_ALL_ITEMS = 'ContentPlaceHolder1_chkshowAll'
 ID_SPAN_ERROR = 'ContentPlaceHolder1_lbl_errmsg'
 ID_CHECKBOX_SELECT = 'chkSelect'
 ID_BUTTON_ADD = 'add'
-BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 5000
-
-
-def init():
-    shutil.rmtree(DIR_ROOT, ignore_errors=True)
-    os.mkdir(DIR_ROOT)
-    os.mkdir(DIR_DATA)
+BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 12000
 
 
 def open_browser():
@@ -41,6 +33,10 @@ def open_browser():
     options.headless = True
     browser = webdriver.Firefox(options=options)
     return browser
+
+
+def scroll_down(browser):
+    browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
 
 def open_page0(browser):
@@ -91,6 +87,7 @@ def open_page1_try(browser, sub0, i_sub1, sub1, frequency_name):
         elem_text_box.clear()
         elem_text_box.send_keys(time_span[i])
 
+    scroll_down(browser)
     elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
     elem_button_next.click()
 
@@ -142,12 +139,9 @@ def open_page2(browser):
     elem_input_add.click()
     time.sleep(TIME_WAIT_ACTION)
 
+    scroll_down(browser)
     elem_button_next = browser.find_element_by_id(ID_BUTTON_NEXT)
     elem_button_next.click()
-
-    img_file = '/tmp/selenium.page2.png'
-    browser.save_screenshot(img_file)
-    log.debug(img_file)
 
 
 def go_back_to_page0(browser):

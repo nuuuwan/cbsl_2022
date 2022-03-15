@@ -1,13 +1,20 @@
 import os
+import shutil
 
 from utils import jsonx, tsv
 
-from cbsl._constants import DIR_DATA
+from cbsl._constants import DIR_DATA, DIR_ROOT
 from cbsl._utils import log
 from cbsl.frequency import FREQUNCY_CONFIG
 from cbsl.parsers import parse_page0, parse_page1, parse_page2
-from cbsl.scrapers import (go_back_to_page0, go_back_to_page1, init, open_browser, open_page0, open_page1,
-                           open_page2)
+from cbsl.scrapers import (go_back_to_page0, go_back_to_page1, open_browser,
+                           open_page0, open_page1, open_page2)
+
+
+def init():
+    shutil.rmtree(DIR_ROOT, ignore_errors=True)
+    os.mkdir(DIR_ROOT)
+    os.mkdir(DIR_DATA)
 
 
 def save_table(sub0, sub1, frequency_name, results_idx):
