@@ -97,7 +97,7 @@ def open_page2(browser, i_min, i_max):
     if not chk.is_selected():
         chk.click()
 
-    find_element_by_id(browser, ID_IMG_DEL)
+    find_element_by_id_safe(browser, ID_IMG_DEL)
     for elem_del in browser.find_elements_by_id(ID_IMG_DEL):
         elem_del.click()
 
