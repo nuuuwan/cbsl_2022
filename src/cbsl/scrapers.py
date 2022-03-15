@@ -20,12 +20,13 @@ TIME_WAIT_ACTION = 0.5
 
 ID_BUTTON_CLEAR_ALL = 'ContentPlaceHolder1_grdClearAll'
 ID_BUTTON_NEXT = 'ContentPlaceHolder1_btnNext'
-ID_BUTTON_BACK = 'ContentPlaceHolder1_btnBack'
+ID_BUTTON_BACK_PAGE1 = 'ContentPlaceHolder1_btnBack'
+ID_BUTTON_BACK_PAGE2 = 'ContentPlaceHolder1_btnBack2'
 ID_CHECKBOX_LIST_ALL_ITEMS = 'ContentPlaceHolder1_chkshowAll'
 ID_SPAN_ERROR = 'ContentPlaceHolder1_lbl_errmsg'
 ID_CHECKBOX_SELECT = 'chkSelect'
 ID_BUTTON_ADD = 'add'
-BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 12000
+BROWSER_WIDTH, BROWSER_HEIGHT = 1000, 5000
 
 
 def init():
@@ -54,8 +55,9 @@ def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
             r = open_page1_try(browser, sub0, i_sub1, sub1, frequency_name)
             return r
         except Exception as e:
-            log.warning('Exception', e)
+            print(e)
             log.warning(f'open_page1_try: retry {i}')
+
     log.error(f'Failed after {MAX_PAGE1_RETRIES} retries')
     return False
 
@@ -148,12 +150,15 @@ def open_page2(browser):
     log.debug(img_file)
 
 
-def go_backto_page0(browser):
-    img_file = '/tmp/selenium.before-back.png'
-    browser.save_screenshot(img_file)
-    log.debug(img_file)
+def go_back_to_page0(browser):
+    log.debug('Going back to page 0')
+    elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK_PAGE1)
+    elem_button_back.click()
+    time.sleep(TIME_WAIT_ACTION)
 
-    log.debug('Going back to page0')
-    elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK)
+
+def go_back_to_page1(browser):
+    log.debug('Going back page 1')
+    elem_button_back = browser.find_element_by_id(ID_BUTTON_BACK_PAGE2)
     elem_button_back.click()
     time.sleep(TIME_WAIT_ACTION)
