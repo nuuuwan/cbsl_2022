@@ -37,18 +37,6 @@ def build_frequency_config():
         FREQUNCY.ANNUALLY: {
             'time_span': [min_year, max_year],
         },
-        FREQUNCY.CENSUS_YEAR: {
-            'time_span': [min_year, max_year],
-        },
-        FREQUNCY.ACADEMIC_YEAR: {
-            'time_span': [min_year, max_year],
-        },
-        FREQUNCY.HALF_YEARLY: {
-            'time_span': [min_year, max_year],
-        },
-        FREQUNCY.QUARTERY: {
-            'time_span': [min_year, max_year],
-        },
         FREQUNCY.MONTHLY: {
             'time_span': [min_month, max_month],
         },
