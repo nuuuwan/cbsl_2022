@@ -82,8 +82,11 @@ def scrape_basic():
 def scrape_sub1(sub0, i_sub1, sub1, frequency_name):
     browser = open_browser()
     open_page0(browser)
+    save_screenshot(browser)
 
     elem_selects = open_page1(browser, sub0, i_sub1, sub1, frequency_name)
+    save_screenshot(browser)
+
     if not elem_selects:
         browser.quit()
         return
@@ -95,6 +98,7 @@ def scrape_sub1(sub0, i_sub1, sub1, frequency_name):
         i_min = GROUP_SIZE * i_group
         i_max = min(i_min + GROUP_SIZE, n_elem_selects)
         open_page2(browser, i_min, i_max)
+        save_screenshot(browser)
 
         [footnote_idx, results_idx] = parse_page2(
             browser.page_source,
@@ -120,6 +124,7 @@ def scrape_details(idx):
                 except Exception:
                     log.error(f'Could not scrape: {sub0}/{sub1}')
             break
+        break
 
 
 def run():

@@ -16,7 +16,7 @@ def scroll_down(browser):
 
 def save_screenshot(browser):
     time_str = timex.get_time_id()
-    png_file = f'/tmp/selenium.screenshot.{time_str}.png'
+    png_file = f'/tmp/cbsl/data/selenium.screenshot.{time_str}.png'
     browser.save_screenshot(png_file)
     log.debug(f'Saved {png_file}')
 
