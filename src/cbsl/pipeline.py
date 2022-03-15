@@ -32,8 +32,9 @@ def save_table(sub0, sub1, frequency_name, results_idx):
     frequency_name_str = frequency_name.lower()
     tsv_file = os.path.join(dir, f'{frequency_name_str}.tsv')
     tsv.write(tsv_file, data_list)
-    n_datalist = len(data_list)
-    log.info(f'Wrote {n_datalist} rows to {tsv_file}')
+    n_rows = len(data_list)
+    n_cols = len(data_list[0])
+    log.info(f'Wrote {n_rows}x{n_cols} table to {tsv_file}')
 
 
 def run():
