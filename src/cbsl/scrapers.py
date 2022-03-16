@@ -96,8 +96,13 @@ def open_step3(browser, i_min, i_max):
     if not chk.is_selected():
         chk.click()
 
-    for elem_del in find_elements_by_id(browser, ID_IMG_DEL):
-        elem_del.click()
+    has_del = find_element_by_id_safe(ID_IMG_DEL)
+    if has_del:
+        for elem_del in find_elements_by_id(
+            browser,
+            ID_IMG_DEL,
+        ):
+            elem_del.click()
 
     elem_selects = find_elements_by_id(browser, ID_CHECKBOX_SELECT)
     save_screenshot(browser)
