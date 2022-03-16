@@ -21,11 +21,17 @@ def save_screenshot(browser):
     log.debug(f'Saved {png_file}')
 
 
-def find_element_by_id(browser, id, time_wait=TIME_WAIT_DEFAULT):
+def find_element_by_id(browser, id, time_wait=TIME_WAIT_DEFAULT, do_log=True):
     log.debug(f'find_element_by_id: {id} ({time_wait}s)')
     return WebDriverWait(browser, time_wait).until(
         EC.presence_of_element_located((By.ID, id)),
     )
+
+
+def find_elements_by_id(browser, id, time_wait=TIME_WAIT_DEFAULT):
+    log.debug(f'find_elements_by_id: {id} ({time_wait}s)')
+    find_element_by_id(browser, id, time_wait)
+    return browser.find_elements_by_id(id)
 
 
 def find_element_by_class_name(
@@ -36,6 +42,15 @@ def find_element_by_class_name(
     return WebDriverWait(browser, time_wait).until(
         EC.presence_of_element_located((By.CLASS_NAME, class_name)),
     )
+
+
+def find_elements_by_class_name(
+        browser,
+        class_name,
+        time_wait=TIME_WAIT_DEFAULT):
+    log.debug(f'find_elements_by_class_name: {class_name} ({time_wait}s)')
+    find_element_by_class_name(browser, class_name, time_wait)
+    return browser.find_elements_by_class_name(class_name)
 
 
 def find_element_by_tag_name(
