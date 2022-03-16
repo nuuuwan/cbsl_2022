@@ -37,8 +37,11 @@ def get_idx1234():
                 continue
 
             for sub3 in os.listdir(dir12):
-                tree[sub1][sub2][sub3] = {}
                 dir123 = os.path.join(dir12, sub3)
+                if not os.path.isdir(dir123):
+                    continue
+                tree[sub1][sub2][sub3] = {}
+
                 for file_only in os.listdir(dir123):
                     if file_only[-4:] != '.tsv':
                         continue

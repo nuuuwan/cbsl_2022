@@ -4,7 +4,7 @@ from utils.xmlx import _
 
 from cbsl._constants import DIR_GH_PAGES, URL
 from cbsl._utils import log
-from cbsl.core.data import get_idx1234
+from cbsl.core.data import get_idx1234, git_checkout
 
 
 def sub_to_title(sub):
