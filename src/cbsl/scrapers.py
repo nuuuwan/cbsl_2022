@@ -58,7 +58,7 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
 
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
 
-    sub1_str = sub1.replace('-', ' ').title()
+    sub1_str = sub1.replace('-', ' ').title().replace(' ', '')
     checkbox_id = 'ContentPlaceHolder1_grdSubjects_'  \
         + f'{sub1_str}_chkIsSelect_{i_sub2}'
     find_element_by_id(browser, checkbox_id).click()

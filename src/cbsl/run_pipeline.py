@@ -48,6 +48,7 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
 
             [footnote_idx, results_idx] = parse_step3(
                 browser.page_source,
+                sub3,
             )
             save_results(
                 sub1,

@@ -22,7 +22,7 @@ def make_sub(s, parent_s=''):
     s = s.lower()
     s = s.replace(' ', '-')
     s = re.sub(r'-+', '-', s).strip()
-    s = s.replace(parent_s, '')
+    s = s.replace(parent_s, '').strip('-')
     return s
 
 
@@ -69,7 +69,7 @@ def parse_step2(html, sub2):
     return idx
 
 
-def parse_step3_footnotes(soup):
+def parse_step3_footnotes(soup, sub3):
     table = soup.find('table', {'id': ID_TABLE_PAGE2_FOOTNOTES})
     footnote_idx = {}
     cur_footnote = None
@@ -79,7 +79,7 @@ def parse_step3_footnotes(soup):
         span = td.find('span')
         text = clean(span.text)
         if 'bold' in span['style']:
-            new_sub4 = clean(text.partition(')')[2])
+            new_sub4 = make_sub(text.partition(')')[2], sub3)
             if len(new_sub4) > MIN_SUB3_LEN:
                 if cur_footnote:
                     footnote_idx[cur_sub4] = cur_footnote
@@ -94,7 +94,7 @@ def parse_step3_footnotes(soup):
     return footnote_idx
 
 
-def parse_step3_results(soup):
+def parse_step3_results(soup, sub3):
     table = soup.find('table', {'id': ID_TABLE_PAGE2_RESULTS})
     headers = None
     results_idx = {}
@@ -113,6 +113,7 @@ def parse_step3_results(soup):
 
             if td_list[0] != '':
                 sub4, unit, scale = td_list[1:4]
+                sub4 = make_sub(sub4, sub3)
 
                 results = dict(zip(
                     headers,
@@ -128,9 +129,9 @@ def parse_step3_results(soup):
     return results_idx
 
 
-def parse_step3(html):
+def parse_step3(html, sub3):
     log.debug('Parsing step3...')
     soup = BeautifulSoup(html, 'html.parser')
-    footnote_idx = parse_step3_footnotes(soup)
-    results_idx = parse_step3_results(soup)
+    footnote_idx = parse_step3_footnotes(soup, sub3)
+    results_idx = parse_step3_results(soup, sub3)
     return [footnote_idx, results_idx]
