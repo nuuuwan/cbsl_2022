@@ -51,8 +51,8 @@ def render_sub1(sub1, idx234):
 
 def main():
     init()
+    git_checkout()
     copy_files()
-    # git_checkout()
 
     idx1234 = get_idx1234()
 
