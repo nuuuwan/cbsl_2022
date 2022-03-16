@@ -1,8 +1,8 @@
 import math
 import os
 
+from utils import colorx, timex
 from utils.xmlx import _
-from utils import timex
 
 from cbsl._constants import DIR_GH_PAGES, URL
 from cbsl._utils import is_test_mode, log
@@ -20,6 +20,7 @@ METADATA_FIELDS = [
     'Note',
 ]
 
+
 def parse_float(s):
     s = s.replace(',', '')
     try:
@@ -28,8 +29,10 @@ def parse_float(s):
     except ValueError:
         return 0
 
+
 def sub_to_title(sub):
     return sub.replace('-', ' ').title()
+
 
 def humanize_number(x):
     if x > 1_000_000:
@@ -42,9 +45,12 @@ def humanize_number(x):
 
     return f'{x}', ''
 
-def format_cell(k, d, metadata):
+
+def format_cell(k, d, metadata, value_to_rank_p):
     v = d.get(k, '')
     display_unit = ''
+    background = 'white'
+    class_name = ''
     if k == 'sub4':
         text = sub_to_title(v)
         class_name = 'div-cell-text'
@@ -52,7 +58,7 @@ def format_cell(k, d, metadata):
         try:
             ut = timex.parse_time(v, '%Y-%m-%d')
             text = timex.format_time(ut, '%b %d, %Y')
-        except:
+        except BaseException:
             text = ''
         class_name = 'div-cell-date'
     elif k in METADATA_FIELDS:
@@ -61,23 +67,30 @@ def format_cell(k, d, metadata):
     else:
         unit = metadata.get('unit')
         value = parse_float(v)
-        if unit == 'Thousands':
-            value *= 1000
+        if value == 0:
+            text = '-'
+        else:
+            rank_p = value_to_rank_p[value]
+            hue = 0 + 120 * (1 - rank_p)
+            lightness = 0.8
+            background = colorx.random_hsl(hue=hue, lightness=lightness)
+            if unit == 'Thousands':
+                value *= 1000
 
-        text, display_unit = humanize_number(value)
-        class_name = 'div-cell-number'
+            text, display_unit = humanize_number(value)
+            class_name = 'div-cell-number'
 
-        if unit == '%':
-            text, display_unit = f'{value:.1f}', '%'
-        elif unit in ['Per 1,000 Persons', 'Per 1000 Persons']:
-            text, display_unit = f'{value:.1f}', 'per 1000'
-
-
+            if unit == '%':
+                text, display_unit = f'{value:.1f}', '%'
+            elif unit in ['Per 1,000 Persons', 'Per 1000 Persons']:
+                text, display_unit = f'{value:.1f}', 'per 1000'
 
     return [_('div', [
-        _('div', text, {'class': class_name}),
-        _('div', display_unit, {'class': 'div-cell-unit'}),
-    ])]
+        _('div', [
+            _('div', text, {'class': class_name}),
+            _('div', display_unit, {'class': 'div-cell-unit'}),
+        ], {'class': 'div-cell-inner'})
+    ], {'style': f'background:{background}'})]
 
 
 def format_header_cell(k):
@@ -132,9 +145,22 @@ def render_header_row(key_list):
 
 
 def render_row(key_list, d, metadata_idx):
+    sorted_values = sorted(list(map(
+        lambda k: parse_float(d.get(k, '')),
+        key_list[1:],
+    )))
+    n = len(sorted_values)
+    value_to_rank_p = dict(list(map(
+        lambda x: [x[1], x[0] / n],
+        enumerate(sorted_values),
+    )))
+
     metadata = metadata_idx.get(d['sub4'])
     return _('tr', list(map(
-        lambda k: _('td', format_cell(k, d, metadata)),
+        lambda k: _(
+            'td',
+            format_cell(k, d, metadata, value_to_rank_p),
+        ),
         key_list,
     )))
 
@@ -151,7 +177,14 @@ def render_table(
         lambda d: render_row(key_list, d, metadata_idx),
         data_list,
     )))
-    return _('table', [thead, tbody])
+    table_title = key_list[1] + ' to ' + key_list[-1]
+    return _('div',
+             [
+                 _('h3', table_title),
+                 _('table', [thead, tbody]),
+             ],
+             {'class': 'div-single-table'},
+             )
 
 
 def get_non_empty_result_key_list(data_list):

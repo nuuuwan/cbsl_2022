@@ -42,7 +42,6 @@ table {
 
 table, th, td {
   border: 1px solid #ccc;
-  padding: 6px;
 }
 
 td {
@@ -78,4 +77,9 @@ td {
   color: gray;
   text-align: right;
   font-size: x-small;
+}
+
+
+.div-cell-inner {
+  padding: 6px;
 }
