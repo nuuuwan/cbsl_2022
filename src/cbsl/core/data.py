@@ -44,17 +44,19 @@ def get_idx1234():
                 for file_only in os.listdir(dir123):
                     if file_only[-4:] != '.tsv':
                         continue
+                    tree[sub1][sub2][sub3][file_only] = []
                     data_file = os.path.join(dir123, file_only)
                     data_list = tsv.read(data_file)
                     for d in data_list:
                         sub4 = d['sub4']
-                        tree[sub1][sub2][sub3][sub4] = {
-                            'data_file_only': file_only,
-                            'metadata_file_only': file_only.replace(
-                                '.tsv', '.metadata.json'
-                            ),
-                        }
+                        tree[sub1][sub2][sub3][file_only].append(sub4)
     return tree
+
+
+def read_file(sub1, sub2, sub3, file_only):
+    dir123 = os.path.join(DIR_DATA, sub1, sub2, sub3)
+    tsv_file = os.path.join(dir123, file_only)
+    return tsv.read(tsv_file)
 
 
 if __name__ == '__main__':
