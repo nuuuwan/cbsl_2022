@@ -1,3 +1,4 @@
+import argparse
 import math
 
 from cbsl._utils import log
@@ -8,7 +9,6 @@ from cbsl.scrapers import (go_back_to_step2, open_browser, open_step1,
                            open_step2, open_step3)
 
 GROUP_SIZE = 30
-TEST_MODE = True
 
 
 def scrape_basic():
@@ -71,28 +71,36 @@ def scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name):
         log.error(f'Could not scrape: {sub1}/{sub2}')
 
 
-def scrape_details(idx12):
-    if TEST_MODE:
-        log.warning('Running in TEST_MODE')
+def scrape_details(idx12, test_mode):
+    if test_mode:
+        log.warning('Running in test-mode')
     else:
-        log.debug('NOT running in TEST_MODE')
+        log.debug('NOT running in test-mode')
 
     for sub1 in idx12:
         for i_sub2, sub2 in enumerate(list(idx12[sub1])):
             for frequency_name in FREQUNCY_CONFIG:
                 scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name)
 
-            if TEST_MODE:
+            if test_mode:
                 break
-        if TEST_MODE:
+        if test_mode:
             break
 
 
-def run():
+def run(test_mode):
     idx12 = scrape_basic()
-    scrape_details(idx12)
+    scrape_details(idx12, test_mode)
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--test-mode', action=argparse.BooleanOptionalAction)
+    args = parser.parse_args()
+    return args
 
 
 if __name__ == '__main__':
+    args = get_args()
     init()
-    run()
+    run(args.test_mode)
