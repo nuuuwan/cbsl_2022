@@ -1,0 +1,13 @@
+{
+  "tourist-earnings-(in-lkr)": {
+    "sub4": "tourist-earnings-(in-lkr)",
+    "unit": "Rs.",
+    "scale": "Billion",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

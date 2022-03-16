@@ -1,0 +1,178 @@
+{
+  "gdp-constant-(2010)-prices-taxes-less-subsidies-on-products": {
+    "sub4": "gdp-constant-(2010)-prices-taxes-less-subsidies-on-products",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-consumption-final-consumption-expenditure": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-consumption-final-consumption-expenditure",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-consumption-household-final-consumption-expenditure": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-consumption-household-final-consumption-expenditure",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-consumption-government-final-consumption-expenditure": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-consumption-government-final-consumption-expenditure",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-consumption-govt.-individual-consumption-expenditure": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-consumption-govt.-individual-consumption-expenditure",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gross-capital-formation-(gcf)": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gross-capital-formation-(gcf)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-gross-fixed-capital-formation": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-gross-fixed-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-changes-in-inventories": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-changes-in-inventories",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-acquisitions-less-disposal-of-valuables": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-acquisitions-less-disposal-of-valuables",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-net-external-demand": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-net-external-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-exports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-exports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-imports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-imports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "gdp-income-at-constant-(2010)-prices-other-taxes-less-subsidies-on-production": {
+    "sub4": "gdp-income-at-constant-(2010)-prices-other-taxes-less-subsidies-on-production",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "gdp-income-at-constant-(2010)-prices-nfc-other-taxes-less-subsidies-on-production": {
+    "sub4": "gdp-income-at-constant-(2010)-prices-nfc-other-taxes-less-subsidies-on-production",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "NFC \u2013 Non-Financial Corporations",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "gdp-income-at-constant-(2010)-prices-fc-other-taxes-less-subsidies-on-production": {
+    "sub4": "gdp-income-at-constant-(2010)-prices-fc-other-taxes-less-subsidies-on-production",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "FC \u2013 Financial Corporations",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "gdp-income-at-constant-(2010)-prices-hh-&-npish-other-taxes-less-subsidies-on-production": {
+    "sub4": "gdp-income-at-constant-(2010)-prices-hh-&-npish-other-taxes-less-subsidies-on-production",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "HH & NPISH \u2013 Households and Non-Profit Institutions Serving Households",
+    "Data last updated": "2021-05-07",
+    "Update frequency": "20th day of the third calender month after completion of a year"
+  }
+}

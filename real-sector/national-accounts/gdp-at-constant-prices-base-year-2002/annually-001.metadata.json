@@ -1,0 +1,211 @@
+{
+  "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade": {
+    "sub4": "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-import-trade": {
+    "sub4": "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-import-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-export-trade": {
+    "sub4": "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-export-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-domestic-trade": {
+    "sub4": "gdp-constant-(2002)-prices-services-wholesale-and-retail-trade-domestic-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-transport-and-communication": {
+    "sub4": "gdp-constant-(2002)-prices-services-transport-and-communication",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-transport-and-communication-transport": {
+    "sub4": "gdp-constant-(2002)-prices-services-transport-and-communication-transport",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-transport-and-communication-cargo-handling-ports-and-civ": {
+    "sub4": "gdp-constant-(2002)-prices-services-transport-and-communication-cargo-handling-ports-and-civ",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-transport-and-communication-post-and-telecommunication": {
+    "sub4": "gdp-constant-(2002)-prices-services-transport-and-communication-post-and-telecommunication",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-ownership-of-dwellings": {
+    "sub4": "gdp-constant-(2002)-prices-services-ownership-of-dwellings",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-constant-(2002)-prices-services-private-services": {
+    "sub4": "gdp-constant-(2002)-prices-services-private-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-external-demand-imports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-external-demand-imports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-external-demand-exports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-external-demand-exports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-consumption-total-consumption-expenditure": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-consumption-total-consumption-expenditure",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation-private": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation-private",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation-government": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-gdcf-gross-domestic-fixed-capital-formation-government",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-gdcf-changes-in-stocks": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-gdcf-changes-in-stocks",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-total-demand": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-total-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-constant-(2002)-prices-external-demand-net-external-demand": {
+    "sub4": "gdp-exp.-at-constant-(2002)-prices-external-demand-net-external-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  }
+}

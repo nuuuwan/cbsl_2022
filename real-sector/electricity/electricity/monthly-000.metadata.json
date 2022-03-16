@@ -1,0 +1,46 @@
+{
+  "installed-capacity": {
+    "sub4": "installed-capacity",
+    "unit": "Mega Watt",
+    "scale": "Mega Watt",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "power-generation": {
+    "sub4": "power-generation",
+    "unit": "Giga Watt hours",
+    "scale": "Giga Watt hours",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "power-consumption": {
+    "sub4": "power-consumption",
+    "unit": "Giga Watt hours",
+    "scale": "Giga Watt hours",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "per-capita--consumption": {
+    "sub4": "per-capita--consumption",
+    "unit": "Giga Watt hours",
+    "scale": "Giga Watt hours",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the year"
+  }
+}

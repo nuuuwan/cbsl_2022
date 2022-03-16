@@ -1,0 +1,35 @@
+{
+  "co-operative-rural-banks--total": {
+    "sub4": "co-operative-rural-banks--total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--savings": {
+    "sub4": "co-operative-rural-banks--savings",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--time": {
+    "sub4": "co-operative-rural-banks--time",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

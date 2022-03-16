@@ -1,0 +1,12 @@
+{
+  "marine": {
+    "sub4": "marine",
+    "unit": "Kg",
+    "scale": "Million"
+  },
+  "inland": {
+    "sub4": "inland",
+    "unit": "Kg",
+    "scale": "Million"
+  }
+}

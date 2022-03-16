@@ -1,0 +1,68 @@
+{
+  "co-operative-rural-banks--outstanding-total": {
+    "sub4": "co-operative-rural-banks--outstanding-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--outstanding-agriculture-&-animal-husbandry": {
+    "sub4": "co-operative-rural-banks--outstanding-agriculture-&-animal-husbandry",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--outstanding-small-industries": {
+    "sub4": "co-operative-rural-banks--outstanding-small-industries",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--outstanding-housing-electrification-&-water": {
+    "sub4": "co-operative-rural-banks--outstanding-housing-electrification-&-water",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--outstanding-commerce-&-other-projects": {
+    "sub4": "co-operative-rural-banks--outstanding-commerce-&-other-projects",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "co-operative-rural-banks--outstanding-other": {
+    "sub4": "co-operative-rural-banks--outstanding-other",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Co-operative Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

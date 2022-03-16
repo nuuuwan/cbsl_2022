@@ -1,0 +1,123 @@
+{
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-food,-beverages-&-tobacco-pr": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-food,-beverages-&-tobacco-pr",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-textiles,-wearing-apparel-an": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-textiles,-wearing-apparel-an",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-wood-and-of-products-of-wood": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-wood-and-of-products-of-wood",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-paper-products,-printing-an": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-paper-products,-printing-an",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-coke-and-refined-petroleum-p": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-coke-and-refined-petroleum-p",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-chemical-products-and-basic": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-chemical-products-and-basic",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-rubber-and-plastic-products": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-rubber-and-plastic-products",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-other-non-metallic-mineral": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-other-non-metallic-mineral",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-basic-metals-and-fabricated": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-basic-metals-and-fabricated",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-machinery-and-equipment-i.e.": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-machinery-and-equipment-i.e.",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "gdp-current-market-prices-(2010-series)-industries-manufacture-of-furniture": {
+    "sub4": "gdp-current-market-prices-(2010-series)-industries-manufacture-of-furniture",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-09-21",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "gdp-exp.-at-current-mp-(2002-series)-gross-domestic-capital-formation": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gross-domestic-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation-private": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation-private",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP-Market Prices, GDCF-Gross Domestic Capital Formation",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation-government": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation-government",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation, MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-gross-domestic-fixed-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation, MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation, MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks-private": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks-private",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation, MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks-govt.": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-gdcf-changes-in-stocks-govt.",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GDCF-Gross Domestic Capital Formation, MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "government-savings-at-current-prices-(2002-series)": {
+    "sub4": "government-savings-at-current-prices-(2002-series)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "national-savings-investment-gap-at-current-prices-(2002-series)": {
+    "sub4": "national-savings-investment-gap-at-current-prices-(2002-series)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-total-demand": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-total-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-exp.-at-current-mp-(2002-series)-external-demand-net-external-demand": {
+    "sub4": "gdp-exp.-at-current-mp-(2002-series)-external-demand-net-external-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP-Market Prices",
+    "Data last updated": "2016-05-20",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  }
+}
