@@ -1,7 +1,6 @@
-import argparse
 import math
 
-from cbsl._utils import log
+from cbsl._utils import get_args, log
 from cbsl.core.frequency import FREQUNCY_CONFIG
 from cbsl.scraping.parsers import parse_step1, parse_step2, parse_step3
 from cbsl.scraping.persistence import init, save_contents, save_results
@@ -92,13 +91,6 @@ def scrape_details(idx12, test_mode):
 def run(test_mode):
     idx12 = scrape_basic()
     scrape_details(idx12, test_mode)
-
-
-def get_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--test-mode', action=argparse.BooleanOptionalAction)
-    args = parser.parse_args()
-    return args
 
 
 if __name__ == '__main__':
