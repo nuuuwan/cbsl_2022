@@ -34,7 +34,7 @@ def render_sub2(sub2, idx34):
     ))
 
     return _('div', [
-        _('div', sub_to_title(sub2), {'class': 'div-sub2-title'}),
+        _('h2', sub_to_title(sub2)),
     ] + rendered_sub3s, {'class': 'div-sub2'})
 
 
@@ -45,12 +45,12 @@ def render_sub1(sub1, idx234):
     ))
 
     return _('div', [
-        _('div', sub_to_title(sub1), {'class': 'div-sub1-title'}),
+        _('h1', sub_to_title(sub1)),
     ] + rendered_sub2s, {'class': 'div-sub1'})
 
 
 def main():
-    git_checkout()
+    # git_checkout()
     init()
     copy_files()
 
@@ -65,12 +65,12 @@ def main():
         _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'})
     ])
     body = _('body', [
-        _('div', 'Central Bank of Sri Lanka', {'class': 'div-supertitle'}),
-        _('div', 'Data Library', {'class': 'div-title'}),
-        _('div', [
+        _('h2', 'Central Bank of Sri Lanka'),
+        _('h1', 'Data Library'),
+        _('h3', [
             _('span', 'Source:'),
             _('a', URL, {'href': URL})
-        ], {'class': 'div-source'}),
+        ]),
     ] + rendered_sub1s)
     html = _('html', [head, body])
 
