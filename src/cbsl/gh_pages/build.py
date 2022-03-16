@@ -20,10 +20,12 @@ def format_cell(k, d):
         return sub_to_title(v)
     return v
 
+
 def format_header_cell(k):
     if k == 'sub4':
         return 'Subject'
     return k
+
 
 def init():
     os.system(f'rm -rf {DIR_GH_PAGES}')
@@ -91,18 +93,33 @@ def render_table(
     return _('table', [thead, tbody])
 
 
+def get_non_empty_result_key_list(data_list):
+    key_list = get_all_keys(data_list)
+    non_empty_key_list = []
+    for k in key_list:
+        if k == 'sub4':
+            continue
+        non_empty = False
+        for d in data_list:
+            if d[k]:
+                non_empty = True
+                break
+        if non_empty:
+            non_empty_key_list.append(k)
+    return list(reversed(sorted(non_empty_key_list)))
+
+
 def render_tables(data_list):
-    n_cols = len(data_list[0].keys()) - 1
+    all_result_key_list = get_non_empty_result_key_list(data_list)
+    n_cols = len(all_result_key_list)
     n_groups = math.ceil(n_cols / MAX_COLS_PER_TABLE)
-    all_key_list = list(data_list[0].keys())
+
     rendered_tables = []
     for i_group in range(0, n_groups):
         col_min = i_group * MAX_COLS_PER_TABLE
         col_max = min(col_min + MAX_COLS_PER_TABLE, n_cols)
-        key_list = list(map(
-            lambda i_col: all_key_list[i_col],
-            [0] + [i + 1 for i in range(col_min, col_max)],
-        ))
+        key_list = ['sub4'] + [all_result_key_list[i]
+                               for i in range(col_min, col_max)]
         rendered_tables.append(
             render_table(
                 data_list,
