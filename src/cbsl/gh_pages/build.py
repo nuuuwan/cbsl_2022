@@ -34,7 +34,7 @@ def get_sub3_html_file_only(sub3):
     return f'{sub3}.html'
 
 
-def rendered_metadata(
+def render_metadata(
     metadata_idx,
 ):
     data_list = list(metadata_idx.values())
@@ -93,9 +93,11 @@ def render_tables(data_list):
         col_max = min(col_min + MAX_COLS_PER_TABLE, n_cols)
         i_cols = [0] + [i + 1 for i in range(col_min, col_max)]
         rendered_tables.append(
-            data_list,
-            key_list,
-            i_cols,
+            render_table(
+                data_list,
+                key_list,
+                i_cols,
+            )
         )
     return rendered_tables
 
@@ -104,10 +106,11 @@ def render_file(sub1, sub2, sub3, file_only, sub4_list):
     data_list = read_file(sub1, sub2, sub3, file_only)
     metadata_idx = read_metadata(sub1, sub2, sub3, file_only)
 
-    rendered_metadata(metadata_idx)
+    rendered_metadata = render_metadata(metadata_idx)
     rendered_tables = render_tables(data_list)
     return _('div', [
         _('h2', file_only),
+        rendered_metadata,
     ] + rendered_tables, {'class': 'div-file'})
 
 
