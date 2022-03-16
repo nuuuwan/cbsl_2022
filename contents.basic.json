@@ -1,0 +1,45 @@
+{
+  "real-sector": {
+    "population-statistics": {},
+    "national-accounts": {},
+    "agriculture": {},
+    "industry-and-housing": {},
+    "prices-and-indices": {},
+    "wages-and-indices": {},
+    "labour-force-and-employment": {},
+    "education": {},
+    "health": {},
+    "communication-media": {},
+    "transport": {},
+    "other-socio-economic-data": {},
+    "electricity": {},
+    "petroleum": {},
+    "property-indices": {}
+  },
+  "monetary-sector": {
+    "money-supply": {},
+    "open-market-operations": {},
+    "interest-rates": {}
+  },
+  "external-sector": {
+    "imports-and-exports": {},
+    "tourism": {},
+    "balance-of-payments": {},
+    "international-investment-position": {},
+    "exchange-rates": {}
+  },
+  "financial-sector": {
+    "banking-sector": {},
+    "non-bank-sector": {},
+    "payment-data": {},
+    "co-operative-rural-banks": {},
+    "thrift-&-credit-co-operative-societies": {},
+    "share-market-data": {}
+  },
+  "fiscal-sector": {
+    "central-government-finance": {},
+    "revenue-and-expenditure-of-provincial-councils": {},
+    "treasury-bills": {},
+    "treasury-bonds": {}
+  }
+}
