@@ -5,7 +5,7 @@ from utils.xmlx import _
 
 from cbsl._constants import DIR_GH_PAGES, URL
 from cbsl._utils import log
-from cbsl.core.data import get_idx1234, read_file
+from cbsl.core.data import get_idx1234, git_checkout, read_file
 
 MAX_COLS_PER_TABLE = 10
 
@@ -137,7 +137,7 @@ def render_sub1(sub1, idx234):
 
 
 def main():
-    # git_checkout()
+    git_checkout()
     init()
     copy_files()
 
