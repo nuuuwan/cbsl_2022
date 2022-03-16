@@ -13,3 +13,4 @@ git commit -m "[clean_data] $(date)"
 git push origin data
 
 git checkout main
+open -a safari "https://github.com/nuuuwan/cbsl/tree/data"
