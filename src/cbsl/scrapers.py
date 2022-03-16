@@ -10,8 +10,7 @@ from cbsl.browser_common import (find_element_by_class_name,
                                  find_element_by_id, find_element_by_id_safe,
                                  find_element_by_tag_name,
                                  find_elements_by_class_name,
-                                 find_elements_by_id, save_screenshot,
-                                 scroll_down)
+                                 find_elements_by_id, scroll_down)
 from cbsl.frequency import FREQUNCY_CONFIG
 
 TIME_WAIT_FOR_ERROR = 3
@@ -105,7 +104,6 @@ def open_step3(browser, i_min, i_max):
             elem_del.click()
 
     elem_selects = find_elements_by_id(browser, ID_CHECKBOX_SELECT)
-    save_screenshot(browser)
 
     n_elem_selects = len(elem_selects)
     log.debug(f'Found {n_elem_selects} elem_selects')
