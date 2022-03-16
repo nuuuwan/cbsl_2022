@@ -57,7 +57,6 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     log.debug(
         f'Openning to step2 ({sub1}/{i_sub2}-{sub2}/{frequency_name})...')
 
-    find_element_by_class_name(browser, CLASS_TABLE0)
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
 
     sub1_str = sub1.replace(' ', '')
@@ -68,7 +67,6 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     select = Select(find_element_by_tag_name(browser, 'select'))
     select.select_by_value(frequency_name[0])
 
-    find_element_by_class_name(browser, CLASS_TXT_BOX)
     elem_text_box_list = find_elements_by_class_name(browser,
                                                      CLASS_TXT_BOX)
 
@@ -88,7 +86,6 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
         return False
 
     find_element_by_id(browser, ID_CHECKBOX_LIST_ALL_ITEMS).click()
-    find_element_by_id(browser, ID_CHECKBOX_SELECT)
     return find_elements_by_id(browser, ID_CHECKBOX_SELECT)
 
 
@@ -99,11 +96,9 @@ def open_step3(browser, i_min, i_max):
     if not chk.is_selected():
         chk.click()
 
-    find_element_by_id_safe(browser, ID_IMG_DEL)
     for elem_del in find_elements_by_id(browser, ID_IMG_DEL):
         elem_del.click()
 
-    find_element_by_id(browser, ID_CHECKBOX_SELECT)
     elem_selects = find_elements_by_id(browser, ID_CHECKBOX_SELECT)
     save_screenshot(browser)
 
