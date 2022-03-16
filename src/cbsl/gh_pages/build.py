@@ -4,7 +4,7 @@ import os
 from utils.xmlx import _
 
 from cbsl._constants import DIR_GH_PAGES, URL
-from cbsl._utils import get_args, log
+from cbsl._utils import is_test_mode, log
 from cbsl.core.data import get_idx1234, git_checkout, read_file, read_metadata
 
 MAX_COLS_PER_TABLE = 10
@@ -32,6 +32,7 @@ def copy_files():
 
 def get_sub3_html_file_only(sub3):
     return f'{sub3}.html'
+
 
 def get_all_keys(data_list):
     k_set = set()
@@ -223,5 +224,4 @@ def main(test_mode):
 
 
 if __name__ == '__main__':
-    args = get_args()
-    main(args.test_mode)
+    main(is_test_mode())

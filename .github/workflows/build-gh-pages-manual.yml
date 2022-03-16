@@ -28,7 +28,7 @@ jobs:
     - name: Run - Upload GH Pages
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python src/cbsl/gh_pages/build.py
+        python src/cbsl/gh_pages/build.py --prod-mode
 
     - name: Checkout repo branch gh-pages
       uses: actions/checkout@v2

@@ -28,7 +28,7 @@ jobs:
     - name: Run - Upload Data
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python src/cbsl/scraping/run_pipeline.py
+        python src/cbsl/scraping/run_pipeline.py --prod-mode
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2
