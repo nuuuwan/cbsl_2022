@@ -67,26 +67,29 @@ def render_metadata(
     return _('table', [thead, tbody])
 
 
+def render_header_row(key_list):
+    return _('tr', list(map(
+        lambda k: _('th', k),
+        key_list,
+    )))
+
+
+def render_row(key_list, d):
+    return _('tr', list(map(
+        lambda k: _('td', d[k]),
+        key_list,
+    )))
+
+
 def render_table(
     data_list,
     key_list,
-    i_cols,
 ):
     thead = _('thead', [
-        _('tr', list(map(
-            lambda i_col: _('th', key_list[i_col]),
-            i_cols,
-        ))),
+        render_header_row(key_list),
     ])
     tbody = _('tbody', list(map(
-        lambda d: _('tr', list(map(
-            lambda i_col: _(
-                'td',
-                format_cell(d[key_list[i_col]], i_col),
-                {'class': f'td-{i_col}'}
-            ),
-            i_cols,
-        ))),
+        lambda d: render_row(key_list, d),
         data_list,
     )))
     return _('table', [thead, tbody])
@@ -95,17 +98,19 @@ def render_table(
 def render_tables(data_list):
     n_cols = len(data_list[0].keys()) - 1
     n_groups = math.ceil(n_cols / MAX_COLS_PER_TABLE)
-    key_list = list(data_list[0].keys())
+    all_key_list = list(data_list[0].keys())
     rendered_tables = []
     for i_group in range(0, n_groups):
         col_min = i_group * MAX_COLS_PER_TABLE
         col_max = min(col_min + MAX_COLS_PER_TABLE, n_cols)
-        i_cols = [0] + [i + 1 for i in range(col_min, col_max)]
+        key_list = list(map(
+            lambda i_col: all_key_list[i_col],
+            [0] + [i + 1 for i in range(col_min, col_max)],
+        ))
         rendered_tables.append(
             render_table(
                 data_list,
                 key_list,
-                i_cols,
             )
         )
     return rendered_tables
