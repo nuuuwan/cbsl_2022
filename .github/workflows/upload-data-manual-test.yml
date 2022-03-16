@@ -1,9 +1,6 @@
 
-name: Upload Data - Cron
+name: Upload Data - Manual (Test Mode)
 
-# on:
-#  schedule:
-#    - cron:  "0 11 * * *"
 on: workflow_dispatch
 
 
@@ -31,7 +28,7 @@ jobs:
     - name: Run - Upload Data
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python src/cbsl/run_pipeline.py
+        python src/cbsl/run_pipeline.py --test-mode
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2
