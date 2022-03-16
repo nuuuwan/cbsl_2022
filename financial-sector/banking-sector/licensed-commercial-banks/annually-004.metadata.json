@@ -1,0 +1,57 @@
+{
+  "total-assets-market-share": {
+    "sub4": "total-assets-market-share",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "total-number-of-banks": {
+    "sub4": "total-number-of-banks",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "total-number-of-branches": {
+    "sub4": "total-number-of-branches",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "total-number-of-other-banking-outlets": {
+    "sub4": "total-number-of-other-banking-outlets",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  },
+  "total-number-of-atms": {
+    "sub4": "total-number-of-atms",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  }
+}

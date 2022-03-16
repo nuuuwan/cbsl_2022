@@ -1,0 +1,112 @@
+{
+  "cardamoms-production": {
+    "sub4": "cardamoms-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "cashew-production": {
+    "sub4": "cashew-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "cinnamon-production": {
+    "sub4": "cinnamon-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "cloves-production": {
+    "sub4": "cloves-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "cocoa-production": {
+    "sub4": "cocoa-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "coffee-production": {
+    "sub4": "coffee-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "mace-production": {
+    "sub4": "mace-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "nutmeg-production": {
+    "sub4": "nutmeg-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "pepper-production": {
+    "sub4": "pepper-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "tobacco-production": {
+    "sub4": "tobacco-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Export Agriculture",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "nominal-effective-exchange-rate-index": {
+    "sub4": "nominal-effective-exchange-rate-index",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  },
+  "real-effective-exchange-rate-index": {
+    "sub4": "real-effective-exchange-rate-index",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  }
+}

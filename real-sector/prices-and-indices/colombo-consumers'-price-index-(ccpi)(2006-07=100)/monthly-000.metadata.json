@@ -1,0 +1,90 @@
+{
+  "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-16",
+    "Update frequency": "Three Working Days from the published date"
+  },
+  "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items(headline-inflation)(year-on-year-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items(headline-inflation)(year-on-year-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Three Working Days from the published date"
+  },
+  "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items(headline-inflation)(annual-average-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2006-07=100)-all-items(headline-inflation)(annual-average-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Three Working Days from the published date"
+  },
+  "colombo-consumer-price-index-(ccpi)(2006-07=100)(monthly-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2006-07=100)(monthly-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-17",
+    "Update frequency": "Three Working Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)-all-items": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)-all-items",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-17",
+    "Update frequency": "Three Working Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)(monthly-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)(monthly-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-17",
+    "Update frequency": "Three Working Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)-(2006-07=100)(year-on-year-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)-(2006-07=100)(year-on-year-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-17",
+    "Update frequency": "Three Working Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)(annual-average-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2006-07=100)(annual-average-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "Discontinued from January 2017",
+    "Data last updated": "2017-02-17",
+    "Update frequency": "Three Working Days"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "estimated--production-western": {
+    "sub4": "estimated--production-western",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-central": {
+    "sub4": "estimated--production-central",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-southern": {
+    "sub4": "estimated--production-southern",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-northern": {
+    "sub4": "estimated--production-northern",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-eastern": {
+    "sub4": "estimated--production-eastern",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-north-western": {
+    "sub4": "estimated--production-north-western",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-north-central": {
+    "sub4": "estimated--production-north-central",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-uva": {
+    "sub4": "estimated--production-uva",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-sabaragamuwa": {
+    "sub4": "estimated--production-sabaragamuwa",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-western": {
+    "sub4": "no.-of--factories-western",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-central": {
+    "sub4": "no.-of--factories-central",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-southern": {
+    "sub4": "no.-of--factories-southern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-northern": {
+    "sub4": "no.-of--factories-northern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-eastern": {
+    "sub4": "no.-of--factories-eastern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-north-western": {
+    "sub4": "no.-of--factories-north-western",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-north-central": {
+    "sub4": "no.-of--factories-north-central",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-uva": {
+    "sub4": "no.-of--factories-uva",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories-sabaragamuwa": {
+    "sub4": "no.-of--factories-sabaragamuwa",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "Provincial",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of--factories": {
+    "sub4": "no.-of--factories",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "National",
+    "Note": "No. of Tea Factories (in operation)",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

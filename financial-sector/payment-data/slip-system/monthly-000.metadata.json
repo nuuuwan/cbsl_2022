@@ -1,0 +1,24 @@
+{
+  "total-volume-of-transactions-cleared-through": {
+    "sub4": "total-volume-of-transactions-cleared-through",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-value-of-transactions-cleared-through": {
+    "sub4": "total-value-of-transactions-cleared-through",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "production": {
+    "sub4": "production",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Coconut Development & Janatha Estate Development",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-07-30",
+    "Update frequency": "Two months after the end of the month"
+  }
+}

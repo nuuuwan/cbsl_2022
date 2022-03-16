@@ -1,0 +1,79 @@
+{
+  "yield-kg-per-hectare-western": {
+    "sub4": "yield-kg-per-hectare-western",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-southern": {
+    "sub4": "yield-kg-per-hectare-southern",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-northern": {
+    "sub4": "yield-kg-per-hectare-northern",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-north-western": {
+    "sub4": "yield-kg-per-hectare-north-western",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-north-central": {
+    "sub4": "yield-kg-per-hectare-north-central",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-uva": {
+    "sub4": "yield-kg-per-hectare-uva",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "yield-kg-per-hectare-sabaragamuwa": {
+    "sub4": "yield-kg-per-hectare-sabaragamuwa",
+    "unit": "Kg per Hectare",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

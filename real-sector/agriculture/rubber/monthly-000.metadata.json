@@ -1,0 +1,13 @@
+{
+  "production": {
+    "sub4": "production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Rubber Development Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-07-30",
+    "Update frequency": "Two months after the end of the month"
+  }
+}

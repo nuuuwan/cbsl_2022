@@ -1,0 +1,46 @@
+{
+  "petroleum-crude-oil-imports": {
+    "sub4": "petroleum-crude-oil-imports",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "petroleum-petrol-sales": {
+    "sub4": "petroleum-petrol-sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "petroleum-diesel-sales": {
+    "sub4": "petroleum-diesel-sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "petroleum-kerosene-sales": {
+    "sub4": "petroleum-kerosene-sales",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Lanka Marine Services (Pvt) Ltd",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  }
+}

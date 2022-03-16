@@ -1,0 +1,112 @@
+{
+  "government-sector-western-medicine-hospitals": {
+    "sub4": "government-sector-western-medicine-hospitals",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-beds": {
+    "sub4": "government-sector-western-medicine-beds",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-doctors": {
+    "sub4": "government-sector-western-medicine-doctors",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-nurses": {
+    "sub4": "government-sector-western-medicine-nurses",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-in-patients": {
+    "sub4": "government-sector-western-medicine-in-patients",
+    "unit": "Number",
+    "scale": "Thousands",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-out-patients": {
+    "sub4": "government-sector-western-medicine-out-patients",
+    "unit": "Number",
+    "scale": "Thousands",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-hospital-beds-per-1,000-persons": {
+    "sub4": "government-sector-western-medicine-hospital-beds-per-1,000-persons",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-persons-per-doctor": {
+    "sub4": "government-sector-western-medicine-persons-per-doctor",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-sector-western-medicine-nurses-per-10,000-persons": {
+    "sub4": "government-sector-western-medicine-nurses-per-10,000-persons",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Health, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "health-indicators-infant-mortality-per-1,000-live-births": {
+    "sub4": "health-indicators-infant-mortality-per-1,000-live-births",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2018-08-01",
+    "Update frequency": "Four months after the end of the half year"
+  }
+}

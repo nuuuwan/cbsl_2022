@@ -1,0 +1,145 @@
+{
+  "government-schools-school-density": {
+    "sub4": "government-schools-school-density",
+    "unit": "sq. km.",
+    "scale": "sq. km.",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-schools-student/teacher-ratio": {
+    "sub4": "government-schools-student/teacher-ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-age-specific-enrolment-ratio": {
+    "sub4": "education-age-specific-enrolment-ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-primary-net-enrolment-ratio": {
+    "sub4": "education-primary-net-enrolment-ratio",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-government-schools": {
+    "sub4": "education-government-schools",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-government-students": {
+    "sub4": "education-government-students",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-government-teachers": {
+    "sub4": "education-government-teachers",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-pirivenas-schools": {
+    "sub4": "education-pirivenas-schools",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-pirivenas-students": {
+    "sub4": "education-pirivenas-students",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-pirivenas-teachers": {
+    "sub4": "education-pirivenas-teachers",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-private-schools": {
+    "sub4": "education-private-schools",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-private-students": {
+    "sub4": "education-private-students",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "education-private-teachers": {
+    "sub4": "education-private-teachers",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Education",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": "Four months after the end of the half year"
+  }
+}

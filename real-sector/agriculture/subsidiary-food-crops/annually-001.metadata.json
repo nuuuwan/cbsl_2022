@@ -1,0 +1,189 @@
+{
+  "maize-production": {
+    "sub4": "maize-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "sorghum-production": {
+    "sub4": "sorghum-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "meneri-production": {
+    "sub4": "meneri-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "soya-beans-production": {
+    "sub4": "soya-beans-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "manioc-production": {
+    "sub4": "manioc-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "sweet-potatoes-production": {
+    "sub4": "sweet-potatoes-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "potatoes-production": {
+    "sub4": "potatoes-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "red-onions-production": {
+    "sub4": "red-onions-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "musterd-production": {
+    "sub4": "musterd-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "tumeric-(raw)-production": {
+    "sub4": "tumeric-(raw)-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "raddish-production": {
+    "sub4": "raddish-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "red-pumpkin-production": {
+    "sub4": "red-pumpkin-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "snake-gourd-production": {
+    "sub4": "snake-gourd-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "tomatoes-production": {
+    "sub4": "tomatoes-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "vatana-production": {
+    "sub4": "vatana-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "winged-bean-production": {
+    "sub4": "winged-bean-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "sugar-production": {
+    "sub4": "sugar-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sevenagala/Pelwatta/Galloya",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  }
+}

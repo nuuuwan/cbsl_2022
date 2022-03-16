@@ -1,0 +1,13 @@
+{
+  "workers'-remittances": {
+    "sub4": "workers'-remittances",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Two months after the end of month"
+  }
+}

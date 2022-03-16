@@ -1,0 +1,29 @@
+{
+  "marine--all-island": {
+    "sub4": "marine--all-island",
+    "unit": "Mt",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": ""
+  },
+  "inland--all-island": {
+    "sub4": "inland--all-island",
+    "unit": "Mt",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "total": {
+    "sub4": "total",
+    "unit": "Mt",
+    "scale": ""
+  }
+}

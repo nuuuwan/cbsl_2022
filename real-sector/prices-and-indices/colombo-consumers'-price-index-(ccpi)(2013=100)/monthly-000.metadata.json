@@ -1,0 +1,90 @@
+{
+  "colombo-consumer-price-index-(ccpi)(2013=100)-all-items": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2013=100)-all-items",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(2013=100)-all-items(headline-inflation)(year-on-year-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2013=100)-all-items(headline-inflation)(year-on-year-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(2013=100)-all-items(headline-inflation)(annual-average-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2013=100)-all-items(headline-inflation)(annual-average-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(2013=100)(monthly-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(2013=100)(monthly-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2013=100)-all-items": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2013=100)-all-items",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2013=100)-(year-on-year-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2013=100)-(year-on-year-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2013=100)(annual-average-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2013=100)(annual-average-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  },
+  "colombo-consumer-price-index-(ccpi)(core)(2013=100)-(monthly-%)": {
+    "sub4": "colombo-consumer-price-index-(ccpi)(core)(2013=100)-(monthly-%)",
+    "unit": "Percentage",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-11-01",
+    "Update frequency": "3 woking Days"
+  }
+}

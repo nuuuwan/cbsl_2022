@@ -1,0 +1,35 @@
+{
+  "public-road-transport-operated-average-busses": {
+    "sub4": "public-road-transport-operated-average-busses",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "public-road-transport-operated-kilometres": {
+    "sub4": "public-road-transport-operated-kilometres",
+    "unit": "Kilometres",
+    "scale": "Kilometres",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "public-road-transport-passenger-kilometres": {
+    "sub4": "public-road-transport-passenger-kilometres",
+    "unit": "Kilometres",
+    "scale": "Kilometres",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  }
+}

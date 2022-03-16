@@ -1,0 +1,57 @@
+{
+  "class-c-roads": {
+    "sub4": "class-c-roads",
+    "unit": "Kilometres",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Road Development Authority,Provincial Councils",
+    "GeoArea": "National",
+    "Note": "\u201cC\u201d Class \u2013 Other roads such as agricultural roads and local roads (Single carriage way of 12ft. width and a platform width of 22ft. mostly metalled but with a small percentage gravelled).",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "class-d-roads": {
+    "sub4": "class-d-roads",
+    "unit": "Kilometres",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Road Development Authority,Provincial Councils",
+    "GeoArea": "National",
+    "Note": "\u201cD\u201d Class \u2013 Gravelled road with 8ft. \u2013 10ft. width surface generally motorable during dry weather only.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "expressways": {
+    "sub4": "expressways",
+    "unit": "Kilometres",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Road Development Authority,Provincial Councils",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "class-e-roads": {
+    "sub4": "class-e-roads",
+    "unit": "Kilometres",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Road Development Authority,Provincial Councils",
+    "GeoArea": "National",
+    "Note": "\u201cE\u201d Class \u2013 Briddle paths, generally unmotorable but some are jeepable.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "total-roads": {
+    "sub4": "total-roads",
+    "unit": "Kilometres",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Road Development Authority,Provincial Councils",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

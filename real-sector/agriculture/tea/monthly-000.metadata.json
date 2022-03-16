@@ -1,0 +1,13 @@
+{
+  "production": {
+    "sub4": "production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Tea Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Two months after the end of the month"
+  }
+}

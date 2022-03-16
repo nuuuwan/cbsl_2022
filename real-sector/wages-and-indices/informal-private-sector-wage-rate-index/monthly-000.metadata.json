@@ -1,0 +1,24 @@
+{
+  "wage-rate-index-informal-private-sector-(2012=100)-total-nominal": {
+    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-total-nominal",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "Two months"
+  },
+  "wage-rate-index-informal-private-sector-(2012=100)-total-real": {
+    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-total-real",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "Based on NCPI (2013=100)",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "Two months"
+  }
+}

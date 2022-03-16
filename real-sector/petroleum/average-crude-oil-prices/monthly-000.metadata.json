@@ -1,0 +1,35 @@
+{
+  "crude-oil-futures-prices-brent-(benchmark-price)": {
+    "sub4": "crude-oil-futures-prices-brent-(benchmark-price)",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "crude-oil-futures-prices-wti-(benchmark-price)": {
+    "sub4": "crude-oil-futures-prices-wti-(benchmark-price)",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "cpc-import-prices": {
+    "sub4": "cpc-import-prices",
+    "unit": "US$/bbl",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Petroleum Corporation, Bloomberg",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

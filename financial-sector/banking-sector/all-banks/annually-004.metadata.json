@@ -1,0 +1,13 @@
+{
+  "banking-sector-total-number-of-other-banking-outlets": {
+    "sub4": "banking-sector-total-number-of-other-banking-outlets",
+    "unit": "Unit",
+    "scale": "Unit",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "District",
+    "Note": "",
+    "Data last updated": "2021-03-05",
+    "Update frequency": "10th day of next second month of next year"
+  }
+}

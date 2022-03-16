@@ -1,0 +1,68 @@
+{
+  "total-volume-of--received-for-clearing-through-cheque-imaging-and-truncation-system-(cits)": {
+    "sub4": "total-volume-of--received-for-clearing-through-cheque-imaging-and-truncation-system-(cits)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-value-of--received-for-clearing-through-cheque-imaging-and-truncation-system-(cits)": {
+    "sub4": "total-value-of--received-for-clearing-through-cheque-imaging-and-truncation-system-(cits)",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-volume-of--returned": {
+    "sub4": "total-volume-of--returned",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-value-of--returned": {
+    "sub4": "total-value-of--returned",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-volume-of-us-dollar--cleared": {
+    "sub4": "total-volume-of-us-dollar--cleared",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  },
+  "total-value-of-us-dollar--cleared": {
+    "sub4": "total-value-of-us-dollar--cleared",
+    "unit": "USD",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCPL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-22",
+    "Update frequency": "15 th day of the following month"
+  }
+}

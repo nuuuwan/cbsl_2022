@@ -1,0 +1,35 @@
+{
+  "vessels-arrived": {
+    "sub4": "vessels-arrived",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Ports Authority",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "One month after the end of the month"
+  },
+  "container-handled": {
+    "sub4": "container-handled",
+    "unit": "TEUs",
+    "scale": "TEUs",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Ports Authority",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "One month after the end of the month"
+  },
+  "cargo-handled": {
+    "sub4": "cargo-handled",
+    "unit": "Metric Tonne",
+    "scale": "Metric Tonne",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Ports Authority",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "One month after the end of the month"
+  }
+}

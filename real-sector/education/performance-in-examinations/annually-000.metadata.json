@@ -1,0 +1,112 @@
+{
+  "performance-of-candidates-school-candidates-sat-for-gce-(o-l)": {
+    "sub4": "performance-of-candidates-school-candidates-sat-for-gce-(o-l)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(o-l)-school-candidates-:-percentage-of-qualifying-for-gce-(a-l)": {
+    "sub4": "performance-of-candidates-gce-(o-l)-school-candidates-:-percentage-of-qualifying-for-gce-(a-l)",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-all-candidates-sat-for-gce-(o-l)": {
+    "sub4": "performance-of-candidates-all-candidates-sat-for-gce-(o-l)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(o-l)-all-candidates-:-percentage-of-qualifying-for-gce-(a-l)": {
+    "sub4": "performance-of-candidates-gce-(o-l)-all-candidates-:-percentage-of-qualifying-for-gce-(a-l)",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-school-candidates-sat-for-gce-(a-l)": {
+    "sub4": "performance-of-candidates-school-candidates-sat-for-gce-(a-l)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(a-l)-school-candidates-:-qualifying-to-enter-university": {
+    "sub4": "performance-of-candidates-gce-(a-l)-school-candidates-:-qualifying-to-enter-university",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(a-l)-school-candidates-:-percentage-of-qualifying-to-enter-university": {
+    "sub4": "performance-of-candidates-gce-(a-l)-school-candidates-:-percentage-of-qualifying-to-enter-university",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-all-candidates-sat-for-gce-(a-l)": {
+    "sub4": "performance-of-candidates-all-candidates-sat-for-gce-(a-l)",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(a-l)-all-candidates-:-qualifying-to-enter-university": {
+    "sub4": "performance-of-candidates-gce-(a-l)-all-candidates-:-qualifying-to-enter-university",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  },
+  "performance-of-candidates-gce-(a-l)-all-candidates-:-percentage-of-qualifying-to-enter-university": {
+    "sub4": "performance-of-candidates-gce-(a-l)-all-candidates-:-percentage-of-qualifying-to-enter-university",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Examinations",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-10-12",
+    "Update frequency": "End of August"
+  }
+}

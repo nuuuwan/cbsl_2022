@@ -1,0 +1,13 @@
+{
+  "transport-vehicle-registrations": {
+    "sub4": "transport-vehicle-registrations",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Department of Motor Traffic",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "One month after the end of the month"
+  }
+}

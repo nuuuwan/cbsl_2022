@@ -1,0 +1,13 @@
+{
+  "departures-for": {
+    "sub4": "departures-for",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Bureau of Foreign Employment",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "6 weeks after the relevant year"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "rail-transport-operated-kilometres": {
+    "sub4": "rail-transport-operated-kilometres",
+    "unit": "Kilometres",
+    "scale": "Kilometres",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  },
+  "rail-transport-freight-ton-kilometres": {
+    "sub4": "rail-transport-freight-ton-kilometres",
+    "unit": "Ton kilometres",
+    "scale": "Ton kilometres",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Three months after the end of the month"
+  }
+}

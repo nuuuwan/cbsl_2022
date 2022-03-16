@@ -1,0 +1,35 @@
+{
+  "electricity-electrification-level": {
+    "sub4": "electricity-electrification-level",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2018-08-01",
+    "Update frequency": "Four months after the end of the year"
+  },
+  "water-supply-access-to-safe-drinking-water": {
+    "sub4": "water-supply-access-to-safe-drinking-water",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the year"
+  },
+  "water-supply-access-to-pipe-borne-water": {
+    "sub4": "water-supply-access-to-pipe-borne-water",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply and Drainage Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the year"
+  }
+}

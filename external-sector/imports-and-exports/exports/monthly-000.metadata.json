@@ -1,0 +1,79 @@
+{
+  "merchandise-imports": {
+    "sub4": "merchandise-imports",
+    "unit": "US Dollars",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Sri Lanka Customs, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "unclassified-imports": {
+    "sub4": "unclassified-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "investment-goods-imports": {
+    "sub4": "investment-goods-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "agricultural": {
+    "sub4": "agricultural",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial--food,-beverages-and-tobacco": {
+    "sub4": "industrial--food,-beverages-and-tobacco",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial--petroleum-products": {
+    "sub4": "industrial--petroleum-products",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial--leather,-rubber-products": {
+    "sub4": "industrial--leather,-rubber-products",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "credit-card-local-(accepted-only-locally)": {
+    "sub4": "credit-card-local-(accepted-only-locally)",
+    "unit": "Rs",
+    "scale": "Million",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "credit-card-global-(accepted-globally)": {
+    "sub4": "credit-card-global-(accepted-globally)",
+    "unit": "Rs",
+    "scale": "Million",
+    "Sector": "Financial",
+    "Source": "Respective Financial Institutions",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

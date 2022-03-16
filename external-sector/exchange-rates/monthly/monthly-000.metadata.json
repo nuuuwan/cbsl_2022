@@ -1,0 +1,24 @@
+{
+  "month-end-a-exchange-rates": {
+    "sub4": "month-end-a-exchange-rates",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  },
+  "average-exchange-rates": {
+    "sub4": "average-exchange-rates",
+    "unit": "",
+    "scale": "",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": ""
+  }
+}

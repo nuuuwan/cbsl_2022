@@ -1,0 +1,112 @@
+{
+  "by-province-motor-cycles-western": {
+    "sub4": "by-province-motor-cycles-western",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-central": {
+    "sub4": "by-province-motor-cycles-central",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-southern": {
+    "sub4": "by-province-motor-cycles-southern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-northern": {
+    "sub4": "by-province-motor-cycles-northern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-eastern": {
+    "sub4": "by-province-motor-cycles-eastern",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-north-western": {
+    "sub4": "by-province-motor-cycles-north-western",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-north-central": {
+    "sub4": "by-province-motor-cycles-north-central",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-uva": {
+    "sub4": "by-province-motor-cycles-uva",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-sabaragamuwa": {
+    "sub4": "by-province-motor-cycles-sabaragamuwa",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "Provincial",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "by-province-motor-cycles-all-island": {
+    "sub4": "by-province-motor-cycles-all-island",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Divisional Secretariats",
+    "GeoArea": "National",
+    "Note": "Motor Vehicles with valid revenue licenses",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

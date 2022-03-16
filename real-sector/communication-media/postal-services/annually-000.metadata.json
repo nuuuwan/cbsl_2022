@@ -1,0 +1,79 @@
+{
+  "no.-of-main-post-offices": {
+    "sub4": "no.-of-main-post-offices",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of-sub-post-offices": {
+    "sub4": "no.-of-sub-post-offices",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of-agency-post-offices": {
+    "sub4": "no.-of-agency-post-offices",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.-of-postal-delivery-areas": {
+    "sub4": "no.-of-postal-delivery-areas",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "area-served-by-a-post-office": {
+    "sub4": "area-served-by-a-post-office",
+    "unit": "Sq. km.",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "post-offices": {
+    "sub4": "post-offices",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "average-population-served-by-a-post-office": {
+    "sub4": "average-population-served-by-a-post-office",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Department of Posts, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2020-12-23",
+    "Update frequency": "Four months after the end of the half year"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "total-outstanding-domestic-debt": {
+    "sub4": "total-outstanding-domestic-debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "outstanding-treasury-bills": {
+    "sub4": "outstanding-treasury-bills",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "outstanding-treasury-bonds": {
+    "sub4": "outstanding-treasury-bonds",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "outstanding-rupee-loans": {
+    "sub4": "outstanding-rupee-loans",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "outstanding-total-foreign-debt": {
+    "sub4": "outstanding-total-foreign-debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "total-outstanding-central-government-debt": {
+    "sub4": "total-outstanding-central-government-debt",
+    "unit": "Rupees",
+    "scale": "Billion",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

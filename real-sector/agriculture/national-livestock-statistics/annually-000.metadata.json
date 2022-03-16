@@ -1,0 +1,68 @@
+{
+  "national-milk-production": {
+    "sub4": "national-milk-production",
+    "unit": "Mn litres",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health / Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "egg-production": {
+    "sub4": "egg-production",
+    "unit": "No",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health / Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "beef-production": {
+    "sub4": "beef-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "mutton-production": {
+    "sub4": "mutton-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "pork-production": {
+    "sub4": "pork-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  },
+  "poultry-production": {
+    "sub4": "poultry-production",
+    "unit": "Kg",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Animal Production and Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  }
+}

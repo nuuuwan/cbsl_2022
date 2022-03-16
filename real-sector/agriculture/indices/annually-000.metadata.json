@@ -1,0 +1,13 @@
+{
+  "agriculture-volume-index": {
+    "sub4": "agriculture-volume-index",
+    "unit": "Percentage Change",
+    "scale": "Index Point",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "The average values for the base values in the production index was changed from the period 1997-2000 to 2007-2010.",
+    "Data last updated": "2019-10-01",
+    "Update frequency": "Four Months after end of the year and halfyear"
+  }
+}

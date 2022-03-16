@@ -1,0 +1,101 @@
+{
+  "estimated--production-western": {
+    "sub4": "estimated--production-western",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-central": {
+    "sub4": "estimated--production-central",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-southern": {
+    "sub4": "estimated--production-southern",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-northern": {
+    "sub4": "estimated--production-northern",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-eastern": {
+    "sub4": "estimated--production-eastern",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-north-western": {
+    "sub4": "estimated--production-north-western",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-north-central": {
+    "sub4": "estimated--production-north-central",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-uva": {
+    "sub4": "estimated--production-uva",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "estimated--production-sabaragamuwa": {
+    "sub4": "estimated--production-sabaragamuwa",
+    "unit": "Nuts",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Coconut Research Institute",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

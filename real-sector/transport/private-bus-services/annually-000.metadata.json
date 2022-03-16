@@ -1,0 +1,57 @@
+{
+  "total-fleet-all-island": {
+    "sub4": "total-fleet-all-island",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "National Transport Commission",
+    "GeoArea": "National",
+    "Note": "From 2014 onwards,figures include the data related to the permits issued by the National Transport Commission as well.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "seating-capacity-all-island": {
+    "sub4": "seating-capacity-all-island",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "National Transport Commission",
+    "GeoArea": "National",
+    "Note": "From 2014 onwards,figures include the data related to the permits issued by the National Transport Commission as well.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "operated-kilometers-all-island": {
+    "sub4": "operated-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Transport Commission",
+    "GeoArea": "National",
+    "Note": "From 2014 onwards,figures include the data related to the permits issued by the National Transport Commission as well.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "buses-operated-all-island": {
+    "sub4": "buses-operated-all-island",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "National Transport Commission",
+    "GeoArea": "National",
+    "Note": "From 2014 onwards,figures include the data related to the permits issued by the National Transport Commission as well.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "passenger-kilometers-all-island": {
+    "sub4": "passenger-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Transport Commission",
+    "GeoArea": "National",
+    "Note": "From 2014 onwards,figures include the data related to the permits issued by the National Transport Commission as well.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}
