@@ -35,11 +35,20 @@ def sub_to_title(sub):
 
 
 def humanize_number(x):
-    if x > 1_000_000:
+    ax = abs(x)
+    if ax > 1_000_000_000_000:
+        x_x = x / 1_000_000_000_000
+        return f'{x_x:.1f}', 'T'
+
+    if ax > 1_000_000_000:
+        x_x = x / 1_000_000_000
+        return f'{x_x:.1f}', 'B'
+
+    if ax > 1_000_000:
         x_x = x / 1_000_000
         return f'{x_x:.1f}', 'M'
 
-    if x > 1_000:
+    if ax > 1_000:
         x_x = x / 1_000
         return f'{x_x:.1f}', 'K'
 
@@ -66,24 +75,30 @@ def format_cell(k, d, metadata, value_to_rank_p):
         class_name = 'div-cell-text-metadata'
     else:
         unit = metadata.get('unit')
+        scale = metadata.get('scale')
         value = parse_float(v)
         if value == 0:
             text = '-'
         else:
             rank_p = value_to_rank_p[value]
-            hue = 0 + 120 * (1 - rank_p)
+            hue = 0 + 240 * (1 - rank_p)
             lightness = 0.8
             background = colorx.random_hsl(hue=hue, lightness=lightness)
-            if unit == 'Thousands':
+            if unit in ['Thousands', '000 persons']:
                 value *= 1000
+            if scale in ['Million', 'Mn.']:
+                value *= 1000_000
 
             text, display_unit = humanize_number(value)
             class_name = 'div-cell-number'
 
-            if unit == '%':
+            if (unit and unit[0] == '%') or unit in ['%', 'Percentage']:
                 text, display_unit = f'{value:.1f}', '%'
             elif unit in ['Per 1,000 Persons', 'Per 1000 Persons']:
                 text, display_unit = f'{value:.1f}', 'per 1000'
+
+            if unit in ['Rs.', 'Kg', 'm3', 'Sq. km.']:
+                display_unit += ' ' + unit
 
     return [_('div', [
         _('div', [
@@ -145,9 +160,12 @@ def render_header_row(key_list):
 
 
 def render_row(key_list, d, metadata_idx):
-    sorted_values = sorted(list(map(
-        lambda k: parse_float(d.get(k, '')),
-        key_list[1:],
+    sorted_values = sorted(list(filter(
+        lambda x: x,
+        list(map(
+            lambda v: parse_float(v),
+            list(d.values())[1:],
+        )),
     )))
     n = len(sorted_values)
     value_to_rank_p = dict(list(map(
@@ -170,6 +188,7 @@ def render_table(
     key_list,
     metadata_idx,
 ):
+    data_list = sorted(data_list, key=lambda d: d['sub4'])
     thead = _('thead', [
         render_header_row(key_list),
     ])
