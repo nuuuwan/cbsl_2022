@@ -1,7 +1,6 @@
 import math
 
 from cbsl._utils import log
-from cbsl.browser_common import save_screenshot
 from cbsl.frequency import FREQUNCY_CONFIG
 from cbsl.parsers import parse_step1, parse_step2, parse_step3
 from cbsl.persistence import init, save_contents, save_results
@@ -22,10 +21,8 @@ def scrape_basic():
 def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
     browser = open_browser()
     open_step1(browser)
-    save_screenshot(browser)
 
     elem_selects = open_step2(browser, sub1, i_sub2, sub2, frequency_name)
-    save_screenshot(browser)
 
     if not elem_selects:
         browser.quit()
@@ -47,7 +44,6 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
                 i_sub4_min,
                 i_sub4_offset +
                 i_sub4_max)
-            save_screenshot(browser)
 
             [footnote_idx, results_idx] = parse_step3(
                 browser.page_source,
@@ -63,7 +59,7 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
             )
             go_back_to_step2(browser)
         i_sub4_offset += n_sub4
-        browser.quit()
+    browser.quit()
 
 
 def scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name):
