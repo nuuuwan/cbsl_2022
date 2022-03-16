@@ -33,12 +33,20 @@ def copy_files():
 def get_sub3_html_file_only(sub3):
     return f'{sub3}.html'
 
+def get_all_keys(data_list):
+    k_set = set()
+    for d in data_list:
+        for k in d:
+            k_set.add(k)
+    k_set.remove('sub4')
+    return ['sub4'] + list(k_set)
+
 
 def render_metadata(
     metadata_idx,
 ):
     data_list = list(metadata_idx.values())
-    key_list = list(data_list[0].keys())
+    key_list = get_all_keys(data_list)
     thead = _('thead', [
         _('tr', list(map(
             lambda k: _('th', k),
@@ -47,11 +55,11 @@ def render_metadata(
     ])
     tbody = _('tbody', list(map(
         lambda d: _('tr', list(map(
-            lambda v: _(
+            lambda k: _(
                 'td',
-                v,
+                d.get(k, ''),
             ),
-            d.values(),
+            key_list,
         ))),
         data_list,
     )))
@@ -164,10 +172,14 @@ def render_sub2(sub1, sub2, idx34):
     ] + rendered_sub3s, {'class': 'div-sub2'})
 
 
-def render_sub1(sub1, idx234):
+def render_sub1(sub1, idx234, test_mode):
+    idx234_items = list(idx234.items())
+    if test_mode:
+        idx234_items = idx234_items[:1]
+
     rendered_sub2s = list(map(
         lambda x: render_sub2(sub1, x[0], x[1]),
-        list(idx234.items()),
+        idx234_items,
     ))
 
     return _('div', [
@@ -188,7 +200,7 @@ def main(test_mode):
         idx1234_items = idx1234_items[:1]
 
     rendered_sub1s = list(map(
-        lambda x: render_sub1(x[0], x[1]),
+        lambda x: render_sub1(x[0], x[1], test_mode),
         idx1234_items,
     ))
 
