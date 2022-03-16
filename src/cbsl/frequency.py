@@ -18,10 +18,10 @@ def build_frequency_config():
     max_ut = timex.get_unixtime()
     min_ut = max_ut - timex.SECONDS_IN.YEAR * TIME_WINDOW_YEARS
 
-    min_date, max_date = list(map(
-        lambda ut: timex.format_time(ut, '%Y-%m-%d'),
-        [min_ut, max_ut],
-    ))
+    # min_date, max_date = list(map(
+    #     lambda ut: timex.format_time(ut, '%Y-%m-%d'),
+    #     [min_ut, max_ut],
+    # ))
 
     min_month, max_month = list(map(
         lambda ut: timex.format_time(ut, '%Y-%m'),
@@ -40,9 +40,9 @@ def build_frequency_config():
         FREQUNCY.MONTHLY: {
             'time_span': [min_month, max_month],
         },
-        FREQUNCY.DAILY: {
-            'time_span': [min_date, max_date],
-        },
+        # FREQUNCY.DAILY: {
+        #     'time_span': [min_date, max_date],
+        # },
     }
 
 
