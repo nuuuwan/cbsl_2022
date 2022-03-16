@@ -24,6 +24,10 @@ def make_sub(s, parent_s=''):
     s = s.replace(' ', '-')
     s = re.sub(r'-+', '-', s).strip()
     s = s.replace(parent_s, '').strip('-')
+
+    if s == '':
+        return parent_s
+
     return s
 
 
