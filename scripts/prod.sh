@@ -1,1 +1,1 @@
-python src/cbsl/run_pipeline.py
+python3 src/cbsl/run_pipeline.py
