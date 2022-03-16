@@ -12,4 +12,4 @@ git add .
 git commit -m "[clean_data] $(date)"
 git push origin data
 
-git checkout master
+git checkout main
