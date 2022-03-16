@@ -42,7 +42,6 @@ def get_idx1234():
                 for file_only in os.listdir(dir123):
                     if file_only[-4:] != '.tsv':
                         continue
-                    print(file_only)
                     data_file = os.path.join(dir123, file_only)
                     data_list = tsv.read(data_file)
                     for d in data_list:
