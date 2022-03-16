@@ -14,9 +14,9 @@ GROUP_SIZE = 30
 def scrape_basic():
     browser = open_browser()
     open_step1(browser)
-    idx = parse_step1(browser.page_source)
-    save_contents(idx, 'basic')
-    return idx
+    idx12 = parse_step1(browser.page_source)
+    save_contents(idx12, 'basic')
+    return idx12
 
 
 def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
@@ -31,43 +31,59 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
         browser.quit()
         return
 
-    parse_step2(browser.page_source)
-    n_elem_selects = len(elem_selects)
-    n_groups = math.ceil(n_elem_selects / GROUP_SIZE)
-    for i_group in range(0, n_groups):
-        i_min = GROUP_SIZE * i_group
-        i_max = min(i_min + GROUP_SIZE, n_elem_selects)
-        open_step3(browser, i_min, i_max)
-        save_screenshot(browser)
+    idx34 = parse_step2(browser.page_source)
+    i_sub4_offset = 0
+    for sub3 in idx34:
+        sub4_list = list(idx34[sub3].values())
+        n_sub4 = len(sub4_list)
+        n_groups = math.ceil(n_sub4 / GROUP_SIZE)
+        for i_group in range(0, n_groups):
+            i_sub4_min = GROUP_SIZE * i_group
+            i_sub4_max = min(i_sub4_min + GROUP_SIZE, n_sub4)
 
-        [footnote_idx, results_idx] = parse_step3(
-            browser.page_source,
-        )
-        save_results(
-            sub1,
-            sub2,
-            frequency_name,
-            i_group,
-            results_idx,
-            footnote_idx,
-        )
-        go_back_to_step2(browser)
-    browser.quit()
+            open_step3(
+                browser,
+                i_sub4_offset +
+                i_sub4_min,
+                i_sub4_offset +
+                i_sub4_max)
+            save_screenshot(browser)
+
+            [footnote_idx, results_idx] = parse_step3(
+                browser.page_source,
+            )
+            save_results(
+                sub1,
+                sub2,
+                sub3,
+                frequency_name,
+                i_group,
+                results_idx,
+                footnote_idx,
+            )
+            go_back_to_step2(browser)
+        i_sub4_offset += n_sub4
+        browser.quit()
 
 
-def scrape_details(idx):
-    for sub1 in idx:
-        for i_sub2, sub2 in enumerate(list(idx[sub1])):
+def scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name):
+    try:
+        scrape_sub2(sub1, i_sub2, sub2, frequency_name)
+    except Exception as e:
+        log.error(repr(e))
+        log.error(f'Could not scrape: {sub1}/{sub2}')
+
+
+def scrape_details(idx12):
+    for sub1 in idx12:
+        for i_sub2, sub2 in enumerate(list(idx12[sub1])):
             for frequency_name in FREQUNCY_CONFIG:
-                try:
-                    scrape_sub2(sub1, i_sub2, sub2, frequency_name)
-                except Exception:
-                    log.error(f'Could not scrape: {sub1}/{sub2}')
+                scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name)
 
 
 def run():
-    idx = scrape_basic()
-    scrape_details(idx)
+    idx12 = scrape_basic()
+    scrape_details(idx12)
 
 
 if __name__ == '__main__':
