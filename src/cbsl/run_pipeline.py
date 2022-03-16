@@ -29,7 +29,7 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
         browser.quit()
         return
 
-    idx34 = parse_step2(browser.page_source)
+    idx34 = parse_step2(browser.page_source, sub2)
     i_sub4_offset = 0
     for sub3 in idx34:
         sub4_list = list(idx34[sub3].values())
