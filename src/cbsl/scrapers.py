@@ -64,7 +64,7 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     find_element_by_id(browser, checkbox_id).click()
 
     select = Select(find_element_by_tag_name(browser, 'select'))
-    select.select_by_value(frequency_name[0])
+    select.select_by_value(frequency_name[0].upper())
 
     elem_text_box_list = find_elements_by_class_name(browser,
                                                      CLASS_TXT_BOX)

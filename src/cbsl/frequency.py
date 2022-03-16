@@ -2,13 +2,13 @@ from utils import timex
 
 
 class FREQUNCY:
-    ANNUALLY = 'Annually'
-    CENSUS_YEAR = 'Census Year'
-    ACADEMIC_YEAR = 'Academic Year'
-    HALF_YEARLY = 'Half Yearly'
-    QUARTERY = 'Quarterly'
-    MONTHLY = 'Monthly'
-    DAILY = 'Daily'
+    ANNUALLY = 'annually'
+    CENSUS_YEAR = 'census-year'
+    ACADEMIC_YEAR = 'academic-year'
+    HALF_YEARLY = 'half-yearly'
+    QUARTERY = 'quarterly'
+    MONTHLY = 'monthly'
+    DAILY = 'daily'
 
 
 TIME_WINDOW_YEARS = 100
