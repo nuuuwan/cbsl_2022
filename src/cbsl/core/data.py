@@ -11,7 +11,7 @@ IDX2_FILE = os.path.join(DIR_DATA, 'contents.basic.json')
 def git_checkout():
     if os.path.exists(DIR_DATA):
         os.system(f'rm -rf {DIR_DATA}')
-    os.mkdir(DIR_DATA)
+    os.system(f'mkdir -p {DIR_DATA}')
 
     os.system(';'.join([
         f'cd {DIR_DATA}',
