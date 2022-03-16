@@ -4,7 +4,7 @@ from utils.xmlx import _
 
 from cbsl._constants import DIR_GH_PAGES, URL
 from cbsl._utils import log
-from cbsl.core.data import get_idx1234, git_checkout
+from cbsl.core.data import get_idx1234
 
 
 def sub_to_title(sub):
@@ -21,9 +21,42 @@ def copy_files():
         os.system(f'cp src/cbsl/gh_pages/{file_only} {DIR_GH_PAGES}/')
 
 
+def get_sub3_html_file_only(sub3):
+    return f'{sub3}.html'
+
+
+def build_sub3(sub3, idx4):
+    head = _('head', [
+        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'})
+    ])
+    body = _('body', [
+        _('h2', 'Central Bank of Sri Lanka - Data Library'),
+        _('h1', sub_to_title(sub3)),
+        _('h3', [
+            _('span', 'Source:'),
+            _('a', URL, {'href': URL})
+        ]),
+    ])
+    html = _('html', [head, body])
+
+    html_file_only = get_sub3_html_file_only(sub3)
+    html_file = os.path.join(DIR_GH_PAGES, html_file_only)
+    html.store(html_file)
+    log.info(f'Stored {html_file}')
+
+    return html_file_only
+
+
 def render_sub3(sub3, idx4):
+    html_file_only = build_sub3(sub3, idx4)
+    n_sub4 = len(idx4)
     return _('div', [
-        _('div', sub_to_title(sub3), {'class': 'div-sub3-title'}),
+        _('div', [
+            _('a', [
+                _('span', sub_to_title(sub3)),
+                _('span', f'({n_sub4})'),
+            ], {'href': html_file_only}),
+        ], {'class': 'div-sub3-title'}),
     ], {'class': 'div-sub3'})
 
 
