@@ -44,11 +44,3 @@ table, th, td {
   border: 1px solid #ccc;
   padding: 3px;
 }
-
-td {
-  text-align: right;
-}
-
-.td-0 {
-  text-align: left;
-}
