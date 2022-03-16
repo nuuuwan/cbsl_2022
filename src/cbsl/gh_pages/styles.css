@@ -14,29 +14,23 @@ a:hover {
 }
 
 
-.div-supertitle {
-  color: gray;
-  font-size: 150%;
-}
-
-.div-title {
-  color: gray;
+h1 {
+  color: #ccc;
   font-size: 200%;
 }
 
-.div-source {
-  color: gray;
+h2 {
+  color: #888;
+  font-size: 150%;
+}
+
+h3 {
+  color: #444;
   font-size: 100%;
 }
 
-.div-sub1-title {
-  font-size: 200%;
-}
 
-.div-sub2-title {
-  font-size: 150%;
-}
-
-.div-sub3-title {
+.div-source {
+  color: gray;
   font-size: 100%;
 }
