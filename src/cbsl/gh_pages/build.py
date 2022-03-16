@@ -13,7 +13,7 @@ def sub_to_title(sub):
 
 def init():
     os.system(f'rm -rf {DIR_GH_PAGES}')
-    os.system(f'mkdir {DIR_GH_PAGES}')
+    os.system(f'mkdir -p {DIR_GH_PAGES}')
 
 
 def copy_files():
@@ -50,8 +50,8 @@ def render_sub1(sub1, idx234):
 
 
 def main():
-    init()
     git_checkout()
+    init()
     copy_files()
 
     idx1234 = get_idx1234()
