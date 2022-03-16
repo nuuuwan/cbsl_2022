@@ -1,0 +1,42 @@
+body {
+  width: 80%;
+  margin: auto;
+  margin-top: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: orange;
+}
+
+
+.div-supertitle {
+  color: gray;
+  font-size: 150%;
+}
+
+.div-title {
+  color: gray;
+  font-size: 200%;
+}
+
+.div-source {
+  color: gray;
+  font-size: 100%;
+}
+
+.div-sub1-title {
+  font-size: 200%;
+}
+
+.div-sub2-title {
+  font-size: 150%;
+}
+
+.div-sub3-title {
+  font-size: 100%;
+}
