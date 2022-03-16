@@ -18,6 +18,7 @@ def init():
 def save_results(
         sub1,
         sub2,
+        sub3,
         frequency_name,
         i_group,
         results_idx,
@@ -26,6 +27,7 @@ def save_results(
         DIR_DATA,
         sub1,
         sub2,
+        sub3,
     ).replace(' ', '-').lower()
 
     if not os.path.exists(dir):
