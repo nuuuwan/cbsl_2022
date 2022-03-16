@@ -14,11 +14,16 @@ def sub_to_title(sub):
     return sub.replace('-', ' ').title()
 
 
-def format_cell(s, i_col):
-    if i_col == 0:
-        return sub_to_title(s)
-    return s
+def format_cell(k, d):
+    v = d.get(k, '')
+    if k == 'sub4':
+        return sub_to_title(v)
+    return v
 
+def format_header_cell(k):
+    if k == 'sub4':
+        return 'Subject'
+    return k
 
 def init():
     os.system(f'rm -rf {DIR_GH_PAGES}')
@@ -49,19 +54,10 @@ def render_metadata(
     data_list = list(metadata_idx.values())
     key_list = get_all_keys(data_list)
     thead = _('thead', [
-        _('tr', list(map(
-            lambda k: _('th', k),
-            key_list,
-        ))),
+        render_header_row(key_list),
     ])
     tbody = _('tbody', list(map(
-        lambda d: _('tr', list(map(
-            lambda k: _(
-                'td',
-                d.get(k, ''),
-            ),
-            key_list,
-        ))),
+        lambda d: render_row(key_list, d),
         data_list,
     )))
     return _('table', [thead, tbody])
@@ -69,14 +65,14 @@ def render_metadata(
 
 def render_header_row(key_list):
     return _('tr', list(map(
-        lambda k: _('th', k),
+        lambda k: _('th', format_header_cell(k)),
         key_list,
     )))
 
 
 def render_row(key_list, d):
     return _('tr', list(map(
-        lambda k: _('td', d[k]),
+        lambda k: _('td', format_cell(k, d)),
         key_list,
     )))
 
