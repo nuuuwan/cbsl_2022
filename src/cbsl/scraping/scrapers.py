@@ -6,12 +6,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from cbsl._constants import URL
 from cbsl._utils import log
-from cbsl.browser_common import (find_element_by_class_name,
-                                 find_element_by_id, find_element_by_id_safe,
-                                 find_element_by_tag_name,
-                                 find_elements_by_class_name,
-                                 find_elements_by_id, scroll_down)
-from cbsl.frequency import FREQUNCY_CONFIG
+from cbsl.base.browser_common import (find_element_by_class_name,
+                                      find_element_by_id,
+                                      find_element_by_id_safe,
+                                      find_element_by_tag_name,
+                                      find_elements_by_class_name,
+                                      find_elements_by_id, scroll_down)
+from cbsl.core.frequency import FREQUNCY_CONFIG
 
 TIME_WAIT_FOR_ERROR = 3
 TIME_WAIT_FOR_PAGE1 = 10

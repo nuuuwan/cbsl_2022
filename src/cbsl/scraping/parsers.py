@@ -3,8 +3,9 @@ import re
 from bs4 import BeautifulSoup
 
 from cbsl._utils import log
-from cbsl.scrapers import (CLASS_TABLE0, ID_TABLE_PAGE1_SEARCH_LIST,
-                           ID_TABLE_PAGE2_FOOTNOTES, ID_TABLE_PAGE2_RESULTS)
+from cbsl.scraping.scrapers import (CLASS_TABLE0, ID_TABLE_PAGE1_SEARCH_LIST,
+                                    ID_TABLE_PAGE2_FOOTNOTES,
+                                    ID_TABLE_PAGE2_RESULTS)
 
 MIN_SUB3_LEN = 6
 

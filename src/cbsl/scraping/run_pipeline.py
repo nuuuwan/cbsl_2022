@@ -2,11 +2,11 @@ import argparse
 import math
 
 from cbsl._utils import log
-from cbsl.frequency import FREQUNCY_CONFIG
-from cbsl.parsers import parse_step1, parse_step2, parse_step3
-from cbsl.persistence import init, save_contents, save_results
-from cbsl.scrapers import (go_back_to_step2, open_browser, open_step1,
-                           open_step2, open_step3)
+from cbsl.core.frequency import FREQUNCY_CONFIG
+from cbsl.scraping.parsers import parse_step1, parse_step2, parse_step3
+from cbsl.scraping.persistence import init, save_contents, save_results
+from cbsl.scraping.scrapers import (go_back_to_step2, open_browser, open_step1,
+                                    open_step2, open_step3)
 
 GROUP_SIZE = 30
 

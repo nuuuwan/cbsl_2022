@@ -1,1 +1,1 @@
-python3 src/cbsl/run_pipeline.py --test-mode
+python3 src/cbsl/scraping/run_pipeline.py --test-mode
