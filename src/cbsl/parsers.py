@@ -17,7 +17,7 @@ def clean(s):
     return s
 
 
-def make_sub(s, parent_s):
+def make_sub(s, parent_s=''):
     s = clean(s)
     s = s.lower()
     s = s.replace(' ', '-')
