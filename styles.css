@@ -14,29 +14,41 @@ a:hover {
 }
 
 
-.div-supertitle {
-  color: gray;
+h1 {
+  color: #ccc;
+  font-size: 200%;
+}
+
+h2 {
+  color: #888;
   font-size: 150%;
 }
 
-.div-title {
-  color: gray;
-  font-size: 200%;
+h3 {
+  color: #444;
+  font-size: 100%;
 }
+
 
 .div-source {
   color: gray;
   font-size: 100%;
 }
 
-.div-sub1-title {
-  font-size: 200%;
+table {
+  margin: 12px;
+  border-collapse: collapse;
 }
 
-.div-sub2-title {
-  font-size: 150%;
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 3px;
 }
 
-.div-sub3-title {
-  font-size: 100%;
+td {
+  text-align: right;
+}
+
+.td-0 {
+  text-align: left;
 }
