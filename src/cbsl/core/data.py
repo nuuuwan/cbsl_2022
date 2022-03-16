@@ -59,5 +59,12 @@ def read_file(sub1, sub2, sub3, file_only):
     return tsv.read(tsv_file)
 
 
+def read_metadata(sub1, sub2, sub3, file_only):
+    dir123 = os.path.join(DIR_DATA, sub1, sub2, sub3)
+    tsv_file = os.path.join(dir123, file_only)
+    metadata_file = tsv_file.replace('.tsv', '.metadata.json')
+    return jsonx.read(metadata_file)
+
+
 if __name__ == '__main__':
     print(get_idx1234())
