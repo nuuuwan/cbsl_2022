@@ -10,6 +10,7 @@ from cbsl.scrapers import (go_back_to_step2, open_browser, open_step1,
 GROUP_SIZE = 30
 TEST_MODE = True
 
+
 def scrape_basic():
     browser = open_browser()
     open_step1(browser)
@@ -75,7 +76,7 @@ def scrape_details(idx12):
         log.warning('Running in TEST_MODE')
     else:
         log.debug('NOT running in TEST_MODE')
-        
+
     for sub1 in idx12:
         for i_sub2, sub2 in enumerate(list(idx12[sub1])):
             for frequency_name in FREQUNCY_CONFIG:
