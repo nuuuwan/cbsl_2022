@@ -1,5 +1,5 @@
 
-name: Upload Data - Manual
+name: Build GH Pages - Manual
 
 on: workflow_dispatch
 
