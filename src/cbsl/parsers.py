@@ -12,6 +12,7 @@ MIN_SUB3_LEN = 6
 def clean(s):
     s = s.replace(' -', '-')
     s = s.replace('- ', '-')
+    s = s.replace('--', '-')
     s = re.sub(r'\s+', ' ', s).strip()
     return s
 
