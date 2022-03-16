@@ -51,16 +51,16 @@ def open_step1(browser):
     find_element_by_class_name(browser, CLASS_TABLE0)
 
 
-def open_step2(browser, sub0, i_sub1, sub1, frequency_name):
+def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     log.debug(
-        f'Openning to step2 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
+        f'Openning to step2 ({sub1}/{i_sub2}-{sub2}/{frequency_name})...')
 
     find_element_by_class_name(browser, CLASS_TABLE0)
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
 
-    sub0_str = sub0.replace(' ', '')
+    sub1_str = sub1.replace(' ', '')
     checkbox_id = 'ContentPlaceHolder1_grdSubjects_'  \
-        + f'{sub0_str}_chkIsSelect_{i_sub1}'
+        + f'{sub1_str}_chkIsSelect_{i_sub2}'
     find_element_by_id(browser, checkbox_id).click()
 
     select = Select(find_element_by_tag_name(browser, 'select'))
@@ -82,7 +82,7 @@ def open_step2(browser, sub0, i_sub1, sub1, frequency_name):
 
     elem = find_element_by_id_safe(browser, ID_SPAN_ERROR)
     if elem:
-        log.info(f'No elements for {sub0}/{sub1}/{frequency_name}')
+        log.info(f'No elements for {sub1}/{sub2}/{frequency_name}')
         return False
 
     find_element_by_id(browser, ID_CHECKBOX_LIST_ALL_ITEMS).click()

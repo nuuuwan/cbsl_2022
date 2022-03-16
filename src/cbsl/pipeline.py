@@ -22,16 +22,16 @@ def init():
 
 
 def save_results(
-        sub0,
         sub1,
+        sub2,
         frequency_name,
         i_group,
         results_idx,
         footnote_idx):
     dir = os.path.join(
         DIR_DATA,
-        sub0,
         sub1,
+        sub2,
     ).replace(' ', '-').lower()
 
     if not os.path.exists(dir):
@@ -39,17 +39,17 @@ def save_results(
 
     data_list = []
     metadata_idx = {}
-    for sub3, d in results_idx.items():
+    for sub4, d in results_idx.items():
         data_list.append(
             {
-                'sub3': sub3,
+                'sub4': sub4,
             } | dict(reversed(d['results'].items()))
         )
-        metadata_idx[sub3] = {
-            'sub3': sub3,
+        metadata_idx[sub4] = {
+            'sub4': sub4,
             'unit': d['unit'],
             'scale': d['scale'],
-        } | footnote_idx.get(sub3, {})
+        } | footnote_idx.get(sub4, {})
 
     frequency_name_str = frequency_name.replace(' ', '-').lower()
     file_prefix = f'{frequency_name_str}-{i_group:03d}'
@@ -68,8 +68,8 @@ def save_results(
 def save_contents(idx, prefix):
     data_file = os.path.join(DIR_DATA, f'contents.{prefix}.json')
     jsonx.write(data_file, idx)
-    n_sub0 = len(idx)
-    log.info(f'Wrote {n_sub0} sub0s to {data_file}')
+    n_sub1 = len(idx)
+    log.info(f'Wrote {n_sub1} sub1s to {data_file}')
 
 
 def scrape_basic():
@@ -80,12 +80,12 @@ def scrape_basic():
     return idx
 
 
-def scrape_sub1(sub0, i_sub1, sub1, frequency_name):
+def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
     browser = open_browser()
     open_step1(browser)
     save_screenshot(browser)
 
-    elem_selects = open_step2(browser, sub0, i_sub1, sub1, frequency_name)
+    elem_selects = open_step2(browser, sub1, i_sub2, sub2, frequency_name)
     save_screenshot(browser)
 
     if not elem_selects:
@@ -105,8 +105,8 @@ def scrape_sub1(sub0, i_sub1, sub1, frequency_name):
             browser.page_source,
         )
         save_results(
-            sub0,
             sub1,
+            sub2,
             frequency_name,
             i_group,
             results_idx,
@@ -117,13 +117,13 @@ def scrape_sub1(sub0, i_sub1, sub1, frequency_name):
 
 
 def scrape_details(idx):
-    for sub0 in idx:
-        for i_sub1, sub1 in enumerate(list(idx[sub0])):
+    for sub1 in idx:
+        for i_sub2, sub2 in enumerate(list(idx[sub1])):
             for frequency_name in FREQUNCY_CONFIG:
                 try:
-                    scrape_sub1(sub0, i_sub1, sub1, frequency_name)
+                    scrape_sub2(sub1, i_sub2, sub2, frequency_name)
                 except Exception:
-                    log.error(f'Could not scrape: {sub0}/{sub1}')
+                    log.error(f'Could not scrape: {sub1}/{sub2}')
 
 
 def run():
