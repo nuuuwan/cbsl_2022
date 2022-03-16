@@ -44,16 +44,16 @@ def open_browser():
     return browser
 
 
-def open_page0(browser):
-    log.debug('Openning page0...')
+def open_step1(browser):
+    log.debug('Openning step1...')
     browser.get(URL)
     browser.set_window_size(BROWSER_WIDTH, BROWSER_HEIGHT)
     find_element_by_class_name(browser, CLASS_TABLE0)
 
 
-def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
+def open_step2(browser, sub0, i_sub1, sub1, frequency_name):
     log.debug(
-        f'Openning to page1 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
+        f'Openning to step2 ({sub0}/{i_sub1}-{sub1}/{frequency_name})...')
 
     find_element_by_class_name(browser, CLASS_TABLE0)
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
@@ -90,8 +90,8 @@ def open_page1(browser, sub0, i_sub1, sub1, frequency_name):
     return browser.find_elements_by_id(ID_CHECKBOX_SELECT)
 
 
-def open_page2(browser, i_min, i_max):
-    log.debug(f'Openning page2 ({i_min} to {i_max})...')
+def open_step3(browser, i_min, i_max):
+    log.debug(f'Openning step3 ({i_min} to {i_max})...')
 
     chk = find_element_by_id(browser, ID_CHECKBOX_LIST_ALL_ITEMS)
     if not chk.is_selected():
@@ -123,11 +123,11 @@ def open_page2(browser, i_min, i_max):
     find_element_by_id(browser, ID_TABLE_PAGE2_FOOTNOTES)
 
 
-def go_back_to_page0(browser):
-    log.debug('Going back page 0')
+def go_back_to_step1(browser):
+    log.debug('Going back step 1')
     find_element_by_id(browser, ID_BUTTON_BACK_PAGE1).click()
 
 
-def go_back_to_page1(browser):
-    log.debug('Going back page 1')
+def go_back_to_step2(browser):
+    log.debug('Going back step 2')
     find_element_by_id(browser, ID_BUTTON_BACK_PAGE2).click()

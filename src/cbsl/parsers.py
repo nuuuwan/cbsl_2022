@@ -16,8 +16,8 @@ def clean(s):
     return s
 
 
-def parse_page0(html):
-    log.debug('Parsing page0...')
+def parse_step1(html):
+    log.debug('Parsing step1...')
     soup = BeautifulSoup(html, 'html.parser')
     idx = {}
     n_sub0, n_sub1 = 0, 0
@@ -34,8 +34,8 @@ def parse_page0(html):
     return idx
 
 
-def parse_page1(html):
-    log.debug('Parsing page1...')
+def parse_step2(html):
+    log.debug('Parsing step2...')
     soup = BeautifulSoup(html, 'html.parser')
     idx = {}
     n_sub2, n_sub3 = 0, 0
@@ -59,7 +59,7 @@ def parse_page1(html):
     return idx
 
 
-def parse_page2_footnotes(soup):
+def parse_step3_footnotes(soup):
     table = soup.find('table', {'id': ID_TABLE_PAGE2_FOOTNOTES})
     footnote_idx = {}
     cur_footnote = None
@@ -84,7 +84,7 @@ def parse_page2_footnotes(soup):
     return footnote_idx
 
 
-def parse_page2_results(soup):
+def parse_step3_results(soup):
     table = soup.find('table', {'id': ID_TABLE_PAGE2_RESULTS})
     headers = None
     results_idx = {}
@@ -118,9 +118,9 @@ def parse_page2_results(soup):
     return results_idx
 
 
-def parse_page2(html):
-    log.debug('Parsing page2...')
+def parse_step3(html):
+    log.debug('Parsing step3...')
     soup = BeautifulSoup(html, 'html.parser')
-    footnote_idx = parse_page2_footnotes(soup)
-    results_idx = parse_page2_results(soup)
+    footnote_idx = parse_step3_footnotes(soup)
+    results_idx = parse_step3_results(soup)
     return [footnote_idx, results_idx]
