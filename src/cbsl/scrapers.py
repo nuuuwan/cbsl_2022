@@ -8,7 +8,9 @@ from cbsl._constants import URL
 from cbsl._utils import log
 from cbsl.browser_common import (find_element_by_class_name,
                                  find_element_by_id, find_element_by_id_safe,
-                                 find_element_by_tag_name, save_screenshot,
+                                 find_element_by_tag_name,
+                                 find_elements_by_class_name,
+                                 find_elements_by_id, save_screenshot,
                                  scroll_down)
 from cbsl.frequency import FREQUNCY_CONFIG
 
@@ -67,8 +69,8 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     select.select_by_value(frequency_name[0])
 
     find_element_by_class_name(browser, CLASS_TXT_BOX)
-    elem_text_box_list = browser.find_elements_by_class_name(
-        CLASS_TXT_BOX)
+    elem_text_box_list = find_elements_by_class_name(browser,
+                                                     CLASS_TXT_BOX)
 
     log.debug(elem_text_box_list)
     d = FREQUNCY_CONFIG[frequency_name]
@@ -87,7 +89,7 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
 
     find_element_by_id(browser, ID_CHECKBOX_LIST_ALL_ITEMS).click()
     find_element_by_id(browser, ID_CHECKBOX_SELECT)
-    return browser.find_elements_by_id(ID_CHECKBOX_SELECT)
+    return find_elements_by_id(browser, ID_CHECKBOX_SELECT)
 
 
 def open_step3(browser, i_min, i_max):
@@ -98,11 +100,11 @@ def open_step3(browser, i_min, i_max):
         chk.click()
 
     find_element_by_id_safe(browser, ID_IMG_DEL)
-    for elem_del in browser.find_elements_by_id(ID_IMG_DEL):
+    for elem_del in find_elements_by_id(browser, ID_IMG_DEL):
         elem_del.click()
 
     find_element_by_id(browser, ID_CHECKBOX_SELECT)
-    elem_selects = browser.find_elements_by_id(ID_CHECKBOX_SELECT)
+    elem_selects = find_elements_by_id(browser, ID_CHECKBOX_SELECT)
     save_screenshot(browser)
 
     n_elem_selects = len(elem_selects)
