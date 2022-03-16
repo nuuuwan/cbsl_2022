@@ -42,5 +42,40 @@ table {
 
 table, th, td {
   border: 1px solid #ccc;
-  padding: 3px;
+  padding: 6px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.div-cell-number {
+  text-align: right;
+  color: brown;
+}
+
+.div-cell-text {
+  text-align: left;
+  color: black;
+}
+
+.div-cell-text-metadata {
+  text-align: left;
+  color: gray;
+}
+
+.div-cell-date {
+  text-align: right;
+  color: #88f;
+}
+
+.div-cell-number-percent {
+  text-align: right;
+  color: maroon;
+}
+
+.div-cell-unit {
+  color: gray;
+  text-align: right;
+  font-size: x-small;
 }

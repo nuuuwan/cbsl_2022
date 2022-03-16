@@ -2,23 +2,82 @@ import math
 import os
 
 from utils.xmlx import _
+from utils import timex
 
 from cbsl._constants import DIR_GH_PAGES, URL
 from cbsl._utils import is_test_mode, log
 from cbsl.core.data import get_idx1234, git_checkout, read_file, read_metadata
 
 MAX_COLS_PER_TABLE = 10
+METADATA_FIELDS = [
+    'Sector',
+    'scale',
+    'GeoArea',
+    'Source',
+    'Data last updated',
+    'unit',
+    'Update frequency',
+    'Note',
+]
 
+def parse_float(s):
+    s = s.replace(',', '')
+    try:
+        f = (float)(s)
+        return f
+    except ValueError:
+        return 0
 
 def sub_to_title(sub):
     return sub.replace('-', ' ').title()
 
+def humanize_number(x):
+    if x > 1_000_000:
+        x_x = x / 1_000_000
+        return f'{x_x:.1f}', 'M'
 
-def format_cell(k, d):
+    if x > 1_000:
+        x_x = x / 1_000
+        return f'{x_x:.1f}', 'K'
+
+    return f'{x}', ''
+
+def format_cell(k, d, metadata):
     v = d.get(k, '')
+    display_unit = ''
     if k == 'sub4':
-        return sub_to_title(v)
-    return v
+        text = sub_to_title(v)
+        class_name = 'div-cell-text'
+    elif k == 'Data last updated':
+        try:
+            ut = timex.parse_time(v, '%Y-%m-%d')
+            text = timex.format_time(ut, '%b %d, %Y')
+        except:
+            text = ''
+        class_name = 'div-cell-date'
+    elif k in METADATA_FIELDS:
+        text = v
+        class_name = 'div-cell-text-metadata'
+    else:
+        unit = metadata.get('unit')
+        value = parse_float(v)
+        if unit == 'Thousands':
+            value *= 1000
+
+        text, display_unit = humanize_number(value)
+        class_name = 'div-cell-number'
+
+        if unit == '%':
+            text, display_unit = f'{value:.1f}', '%'
+        elif unit in ['Per 1,000 Persons', 'Per 1000 Persons']:
+            text, display_unit = f'{value:.1f}', 'per 1000'
+
+
+
+    return [_('div', [
+        _('div', text, {'class': class_name}),
+        _('div', display_unit, {'class': 'div-cell-unit'}),
+    ])]
 
 
 def format_header_cell(k):
@@ -47,7 +106,7 @@ def get_all_keys(data_list):
         for k in d:
             k_set.add(k)
     k_set.remove('sub4')
-    return ['sub4'] + list(k_set)
+    return ['sub4'] + list(sorted(k_set))
 
 
 def render_metadata(
@@ -59,7 +118,7 @@ def render_metadata(
         render_header_row(key_list),
     ])
     tbody = _('tbody', list(map(
-        lambda d: render_row(key_list, d),
+        lambda d: render_row(key_list, d, {}),
         data_list,
     )))
     return _('table', [thead, tbody])
@@ -72,9 +131,10 @@ def render_header_row(key_list):
     )))
 
 
-def render_row(key_list, d):
+def render_row(key_list, d, metadata_idx):
+    metadata = metadata_idx.get(d['sub4'])
     return _('tr', list(map(
-        lambda k: _('td', format_cell(k, d)),
+        lambda k: _('td', format_cell(k, d, metadata)),
         key_list,
     )))
 
@@ -82,12 +142,13 @@ def render_row(key_list, d):
 def render_table(
     data_list,
     key_list,
+    metadata_idx,
 ):
     thead = _('thead', [
         render_header_row(key_list),
     ])
     tbody = _('tbody', list(map(
-        lambda d: render_row(key_list, d),
+        lambda d: render_row(key_list, d, metadata_idx),
         data_list,
     )))
     return _('table', [thead, tbody])
@@ -109,7 +170,7 @@ def get_non_empty_result_key_list(data_list):
     return list(reversed(sorted(non_empty_key_list)))
 
 
-def render_tables(data_list):
+def render_tables(data_list, metadata_idx):
     all_result_key_list = get_non_empty_result_key_list(data_list)
     n_cols = len(all_result_key_list)
     n_groups = math.ceil(n_cols / MAX_COLS_PER_TABLE)
@@ -124,6 +185,7 @@ def render_tables(data_list):
             render_table(
                 data_list,
                 key_list,
+                metadata_idx,
             )
         )
     return rendered_tables
@@ -134,7 +196,7 @@ def render_file(sub1, sub2, sub3, file_only, sub4_list):
     metadata_idx = read_metadata(sub1, sub2, sub3, file_only)
 
     rendered_metadata = render_metadata(metadata_idx)
-    rendered_tables = render_tables(data_list)
+    rendered_tables = render_tables(data_list, metadata_idx)
     return _('div', [
         _('h2', file_only),
         rendered_metadata,
@@ -143,6 +205,7 @@ def render_file(sub1, sub2, sub3, file_only, sub4_list):
 
 def build_sub3(sub1, sub2, sub3, file_to_sub4s):
     head = _('head', [
+        _('meta', None, {'charset': 'UTF-8'}),
         _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'})
     ])
 
@@ -224,7 +287,8 @@ def main(test_mode):
     ))
 
     head = _('head', [
-        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'})
+        _('meta', None, {'charset': 'UTF-8'}),
+        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
     ])
     body = _('body', [
         _('h2', 'Central Bank of Sri Lanka'),
