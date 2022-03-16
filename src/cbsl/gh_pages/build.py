@@ -4,8 +4,8 @@ import os
 from utils.xmlx import _
 
 from cbsl._constants import DIR_GH_PAGES, URL
-from cbsl._utils import log
-from cbsl.core.data import get_idx1234, git_checkout, read_file
+from cbsl._utils import get_args, log
+from cbsl.core.data import get_idx1234, git_checkout, read_file, read_metadata
 
 MAX_COLS_PER_TABLE = 10
 
@@ -34,41 +34,77 @@ def get_sub3_html_file_only(sub3):
     return f'{sub3}.html'
 
 
+def rendered_metadata(
+    metadata_idx,
+):
+    data_list = list(metadata_idx.values())
+    key_list = list(data_list[0].keys())
+    thead = _('thead', [
+        _('tr', list(map(
+            lambda k: _('th', k),
+            key_list,
+        ))),
+    ])
+    tbody = _('tbody', list(map(
+        lambda d: _('tr', list(map(
+            lambda v: _(
+                'td',
+                v,
+            ),
+            d.values(),
+        ))),
+        data_list,
+    )))
+    return _('table', [thead, tbody])
+
+
+def render_table(
+    data_list,
+    key_list,
+    i_cols,
+):
+    thead = _('thead', [
+        _('tr', list(map(
+            lambda i_col: _('th', key_list[i_col]),
+            i_cols,
+        ))),
+    ])
+    tbody = _('tbody', list(map(
+        lambda d: _('tr', list(map(
+            lambda i_col: _(
+                'td',
+                format_cell(d[key_list[i_col]], i_col),
+                {'class': f'td-{i_col}'}
+            ),
+            i_cols,
+        ))),
+        data_list,
+    )))
+    return _('table', [thead, tbody])
+
+
 def render_tables(data_list):
     n_cols = len(data_list[0].keys()) - 1
     n_groups = math.ceil(n_cols / MAX_COLS_PER_TABLE)
-
     key_list = list(data_list[0].keys())
     rendered_tables = []
     for i_group in range(0, n_groups):
         col_min = i_group * MAX_COLS_PER_TABLE
         col_max = min(col_min + MAX_COLS_PER_TABLE, n_cols)
         i_cols = [0] + [i + 1 for i in range(col_min, col_max)]
-
-        thead = _('thead', [
-            _('tr', list(map(
-                lambda i_col: _('th', key_list[i_col]),
-                i_cols,
-            ))),
-        ])
-        tbody = _('tbody', list(map(
-            lambda d: _('tr', list(map(
-                lambda i_col: _(
-                    'td',
-                    format_cell(d[key_list[i_col]], i_col),
-                    {'class': f'td-{i_col}'}
-                ),
-                i_cols,
-            ))),
+        rendered_tables.append(
             data_list,
-        )))
-        rendered_table = _('table', [thead, tbody])
-        rendered_tables.append(rendered_table)
+            key_list,
+            i_cols,
+        )
     return rendered_tables
 
 
 def render_file(sub1, sub2, sub3, file_only, sub4_list):
     data_list = read_file(sub1, sub2, sub3, file_only)
+    metadata_idx = read_metadata(sub1, sub2, sub3, file_only)
+
+    rendered_metadata(metadata_idx)
     rendered_tables = render_tables(data_list)
     return _('div', [
         _('h2', file_only),
@@ -136,16 +172,21 @@ def render_sub1(sub1, idx234):
     ] + rendered_sub2s, {'class': 'div-sub1'})
 
 
-def main():
-    git_checkout()
+def main(test_mode):
+    if not test_mode:
+        git_checkout()
     init()
     copy_files()
 
     idx1234 = get_idx1234()
 
+    idx1234_items = list(idx1234.items())
+    if test_mode:
+        idx1234_items = idx1234_items[:1]
+
     rendered_sub1s = list(map(
         lambda x: render_sub1(x[0], x[1]),
-        list(idx1234.items()),
+        idx1234_items,
     ))
 
     head = _('head', [
@@ -167,4 +208,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    args = get_args()
+    main(args.test_mode)
