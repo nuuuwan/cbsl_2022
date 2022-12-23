@@ -1,7 +1,7 @@
 import math
 
 from cbsl._utils import is_test_mode, log
-from cbsl.core.frequency import FREQUNCY_CONFIG
+from cbsl.core.frequency import FREQ_CONFIG
 from cbsl.scraping.parsers.step1 import parse_step1
 from cbsl.scraping.parsers.step2 import parse_step2
 from cbsl.scraping.parsers.step3 import parse_step3
@@ -12,7 +12,7 @@ from cbsl.scraping.navigators import (go_back_to_step2, open_browser, open_step1
 GROUP_SIZE = 30
 
 
-def scrape_basic():
+def scrape_level1_and_level2():
     browser = open_browser()
     open_step1(browser)
     idx12 = parse_step1(browser.page_source)
@@ -20,7 +20,7 @@ def scrape_basic():
     return idx12
 
 
-def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
+def scrape_level3_and_level4(sub1, i_sub2, sub2, frequency_name):
     browser = open_browser()
     open_step1(browser)
 
@@ -66,7 +66,7 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
 
 def scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name):
     try:
-        scrape_sub2(sub1, i_sub2, sub2, frequency_name)
+        scrape_level3_and_level4(sub1, i_sub2, sub2, frequency_name)
     except Exception as e:
         log.error(repr(e))
         log.error(f'Could not scrape: {sub1}/{sub2}')
@@ -80,7 +80,7 @@ def scrape_details(idx12, test_mode):
 
     for sub1 in idx12:
         for i_sub2, sub2 in enumerate(list(idx12[sub1])):
-            for frequency_name in FREQUNCY_CONFIG:
+            for frequency_name in FREQ_CONFIG:
                 scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name)
 
             if test_mode:
@@ -91,7 +91,7 @@ def scrape_details(idx12, test_mode):
 
 def run(test_mode):
     init()
-    idx12 = scrape_basic()
+    idx12 = scrape_level1_and_level2()
     scrape_details(idx12, test_mode)
 
 

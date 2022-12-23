@@ -50,4 +50,4 @@ def build_frequency_config():
     }
 
 
-FREQUNCY_CONFIG = build_frequency_config()
+FREQ_CONFIG = build_frequency_config()

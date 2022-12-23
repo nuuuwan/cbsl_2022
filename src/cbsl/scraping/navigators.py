@@ -11,7 +11,7 @@ from cbsl.base.browser_common import (find_element_by_class_name,
                                       find_element_by_tag_name,
                                       find_elements_by_class_name,
                                       find_elements_by_id, scroll_down)
-from cbsl.core.frequency import FREQUNCY_CONFIG
+from cbsl.core.frequency import FREQ_CONFIG
 
 TIME_WAIT_FOR_ERROR = 3
 TIME_WAIT_FOR_PAGE1 = 10
@@ -71,7 +71,7 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
 
     elem_text_box_list = find_elements_by_class_name(browser, CLASS_TXT_BOX)
 
-    d = FREQUNCY_CONFIG[frequency_name]
+    d = FREQ_CONFIG[frequency_name]
     time_span = d['time_span']
     for i, elem_text_box in enumerate(elem_text_box_list):
         elem_text_box.clear()
