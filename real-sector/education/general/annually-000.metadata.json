@@ -7,7 +7,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "government-schools-student/teacher-ratio": {
@@ -18,7 +18,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-age-specific-enrolment-ratio": {
@@ -29,7 +29,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-primary-net-enrolment-ratio": {
@@ -40,7 +40,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-government-schools": {
@@ -51,7 +51,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-government-students": {
@@ -62,7 +62,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-government-teachers": {
@@ -73,7 +73,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-pirivenas-schools": {
@@ -84,7 +84,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-pirivenas-students": {
@@ -95,7 +95,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-pirivenas-teachers": {
@@ -117,7 +117,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-private-students": {
@@ -128,7 +128,7 @@
     "Source": "Ministry of Education",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "education-private-teachers": {

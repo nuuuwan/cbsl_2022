@@ -1,13 +1,24 @@
 {
-  "merchandise-import-unit-value-index-(2010=100)": {
-    "sub4": "merchandise-import-unit-value-index-(2010=100)",
-    "unit": "Index Points",
-    "scale": "Units",
+  "(in-usd-terms)": {
+    "sub4": "(in-usd-terms)",
+    "unit": "USD",
+    "scale": "Millions",
     "Sector": "External Sector",
-    "Source": "Central Bank of Sri Lanka",
+    "Source": "CBSL",
     "GeoArea": "National",
-    "Note": "2010=100",
-    "Data last updated": "2020-07-23",
-    "Update frequency": "Two months after end of the month/quarter/year"
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "(in-rs-terms)": {
+    "sub4": "(in-rs-terms)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
   }
 }

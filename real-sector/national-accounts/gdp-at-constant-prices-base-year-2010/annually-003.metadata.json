@@ -174,5 +174,60 @@
     "Note": "HH & NPISH \u2013 Households and Non-Profit Institutions Serving Households",
     "Data last updated": "2021-05-07",
     "Update frequency": "20th day of the third calender month after completion of a year"
+  },
+  "gdp-growth-constant-(2010)-prices-agriculture,-forestry-and-fishing": {
+    "sub4": "gdp-growth-constant-(2010)-prices-agriculture,-forestry-and-fishing",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-industries": {
+    "sub4": "gdp-growth-constant-(2010)-prices-industries",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-services": {
+    "sub4": "gdp-growth-constant-(2010)-prices-services",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-taxes-less-subsidies-on-products": {
+    "sub4": "gdp-growth-constant-(2010)-prices-taxes-less-subsidies-on-products",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-gross-domestic-product": {
+    "sub4": "gdp-growth-constant-(2010)-prices-gross-domestic-product",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
   }
 }

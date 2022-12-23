@@ -40,7 +40,7 @@
     "Source": "Ministry of Finance, Central Bank of Sri Laka",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "government-expenditure-on-health-as-a-per-cent-of-gdp": {
@@ -51,7 +51,7 @@
     "Source": "Ministry of Finance, Central Bank of Sri Laka",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the half year"
   },
   "general-governmnet-expenditure-recurrent-expenditure": {
@@ -62,7 +62,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   },
   "general-governmnet-expenditure-capital-expenditure": {
@@ -73,7 +73,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   },
   "general-governmnet-expenditure-total-expenditure": {
@@ -84,7 +84,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   }
 }

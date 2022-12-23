@@ -1,0 +1,57 @@
+{
+  "colombo-tea-auction-price": {
+    "sub4": "colombo-tea-auction-price",
+    "unit": "USD",
+    "scale": "Per Kg",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "rice-imports": {
+    "sub4": "rice-imports",
+    "unit": "USD",
+    "scale": "Per MT",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "sugar-imports": {
+    "sub4": "sugar-imports",
+    "unit": "USD",
+    "scale": "Per MT",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "wheat-imports": {
+    "sub4": "wheat-imports",
+    "unit": "USD",
+    "scale": "Per MT",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "crude-oil-imports": {
+    "sub4": "crude-oil-imports",
+    "unit": "USD",
+    "scale": "Per Barrel",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

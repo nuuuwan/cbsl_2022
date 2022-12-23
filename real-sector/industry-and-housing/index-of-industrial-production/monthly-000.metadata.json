@@ -1,0 +1,161 @@
+{
+  "food-products-wearing-apparel": {
+    "sub4": "food-products-wearing-apparel",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "wearing-apparel": {
+    "sub4": "wearing-apparel",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "other-non-metallic-mineral-products": {
+    "sub4": "other-non-metallic-mineral-products",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "coke-and-refined-petroleum-products": {
+    "sub4": "coke-and-refined-petroleum-products",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "rubber-and-plastic-products": {
+    "sub4": "rubber-and-plastic-products",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "chemicals-and-chemical-products": {
+    "sub4": "chemicals-and-chemical-products",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "beverages": {
+    "sub4": "beverages",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "food-products-wearing-apparel-change": {
+    "sub4": "food-products-wearing-apparel-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "wearing-apparel-change": {
+    "sub4": "wearing-apparel-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "other-non-metallic-mineral-products-change": {
+    "sub4": "other-non-metallic-mineral-products-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "coke-and-refined-petroleum-products-change": {
+    "sub4": "coke-and-refined-petroleum-products-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "rubber-and-plastic-products-change": {
+    "sub4": "rubber-and-plastic-products-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "chemicals-and-chemical-products-change": {
+    "sub4": "chemicals-and-chemical-products-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "beverages-change": {
+    "sub4": "beverages-change",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "change": {
+    "sub4": "change",
+    "unit": "",
+    "scale": "%"
+  }
+}

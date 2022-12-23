@@ -1,6 +1,6 @@
 {
-  "wage-rate-index-government-employees-(2012=100)-total-nominal": {
-    "sub4": "wage-rate-index-government-employees-(2012=100)-total-nominal",
+  "(2012=100)(nominal)": {
+    "sub4": "(2012=100)(nominal)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
@@ -10,8 +10,8 @@
     "Data last updated": "2020-07-21",
     "Update frequency": "Two months"
   },
-  "wage-rate-index-government-employees-(2012=100)-total-real": {
-    "sub4": "wage-rate-index-government-employees-(2012=100)-total-real",
+  "(2012=100)(real)": {
+    "sub4": "(2012=100)(real)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
@@ -20,5 +20,27 @@
     "Note": "Based on NCPI (2013=100)",
     "Data last updated": "2020-07-21",
     "Update frequency": "Two months"
+  },
+  "(2016=100)(nominal)": {
+    "sub4": "(2016=100)(nominal)",
+    "unit": "Rupees",
+    "scale": "Index Value",
+    "Sector": "Monetary Sector",
+    "Source": "",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "(2016=100)(real)": {
+    "sub4": "(2016=100)(real)",
+    "unit": "Rupees",
+    "scale": "Index Value",
+    "Sector": "Monetary Sector",
+    "Source": "",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
   }
 }

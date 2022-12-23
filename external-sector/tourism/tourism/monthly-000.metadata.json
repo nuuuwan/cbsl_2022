@@ -9,5 +9,27 @@
     "Note": "",
     "Data last updated": "",
     "Update frequency": ""
+  },
+  "tourist-arrivals-y-o-y-change": {
+    "sub4": "tourist-arrivals-y-o-y-change",
+    "unit": "%",
+    "scale": "NULL",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": "NULL"
+  },
+  "earnings-from--y-o-y-change": {
+    "sub4": "earnings-from--y-o-y-change",
+    "unit": "Rs.",
+    "scale": "NULL",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": "NULL"
   }
 }

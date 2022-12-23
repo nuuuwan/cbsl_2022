@@ -1,0 +1,13 @@
+{
+  "merchandise-imports-total": {
+    "sub4": "merchandise-imports-total",
+    "unit": "US Dollars",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Sri Lanka Customs, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-26",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  }
+}

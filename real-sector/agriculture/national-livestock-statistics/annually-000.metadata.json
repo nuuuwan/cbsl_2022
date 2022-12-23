@@ -7,7 +7,7 @@
     "Source": "Department of Animal Production and Health / Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-04-25",
     "Update frequency": "Four Months after end of the year and halfyear"
   },
   "egg-production": {
@@ -18,7 +18,7 @@
     "Source": "Department of Animal Production and Health / Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-04-25",
     "Update frequency": "Four Months after end of the year and halfyear"
   },
   "beef-production": {
@@ -29,7 +29,7 @@
     "Source": "Department of Animal Production and Health",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four Months after end of the year and halfyear"
   },
   "mutton-production": {
@@ -40,7 +40,7 @@
     "Source": "Department of Animal Production and Health",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four Months after end of the year and halfyear"
   },
   "pork-production": {
@@ -51,7 +51,7 @@
     "Source": "Department of Animal Production and Health",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four Months after end of the year and halfyear"
   },
   "poultry-production": {
@@ -62,7 +62,7 @@
     "Source": "Department of Animal Production and Health",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2019-10-01",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four Months after end of the year and halfyear"
   }
 }

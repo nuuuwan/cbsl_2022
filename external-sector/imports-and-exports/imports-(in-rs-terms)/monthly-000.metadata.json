@@ -1,0 +1,57 @@
+{
+  "merchandise-imports": {
+    "sub4": "merchandise-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "consumer-goods-imports": {
+    "sub4": "consumer-goods-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "intermediate-goods-imports": {
+    "sub4": "intermediate-goods-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "investment-goods-imports": {
+    "sub4": "investment-goods-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "unclassified-imports": {
+    "sub4": "unclassified-imports",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

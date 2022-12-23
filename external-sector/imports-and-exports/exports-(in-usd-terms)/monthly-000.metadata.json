@@ -1,0 +1,112 @@
+{
+  "merchandise-exports-total": {
+    "sub4": "merchandise-exports-total",
+    "unit": "US Dollars",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Ceylon Petroleum Corporation and Other Exporters of Petroleum, National Gem and Jewellery Authority, Sri Lanka Customs, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-26",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "agricultural-exports": {
+    "sub4": "agricultural-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial-exports-total": {
+    "sub4": "industrial-exports-total",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial-exports-food,-beverages-and-tobacco-exports": {
+    "sub4": "industrial-exports-food,-beverages-and-tobacco-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial-exports-textiles-and-garments-exports": {
+    "sub4": "industrial-exports-textiles-and-garments-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial-exports-petroleum-products-exports": {
+    "sub4": "industrial-exports-petroleum-products-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industrial-exports-leather,-rubber-products-exports": {
+    "sub4": "industrial-exports-leather,-rubber-products-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "other-industrial-exports": {
+    "sub4": "other-industrial-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "mineral-exports": {
+    "sub4": "mineral-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "unclassified-exports": {
+    "sub4": "unclassified-exports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

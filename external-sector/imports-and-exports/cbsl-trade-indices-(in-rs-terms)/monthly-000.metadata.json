@@ -1,0 +1,156 @@
+{
+  "merchandise-export-value-index-(1997=100)": {
+    "sub4": "merchandise-export-value-index-(1997=100)",
+    "unit": "USd",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-export-volume-index-(1997=100)": {
+    "sub4": "merchandise-export-volume-index-(1997=100)",
+    "unit": "USD",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-export-unit-value-index-(1997=100)": {
+    "sub4": "merchandise-export-unit-value-index-(1997=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-value-index-(1997=100)": {
+    "sub4": "merchandise-import-value-index-(1997=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-volume-index-(1997=100)": {
+    "sub4": "merchandise-import-volume-index-(1997=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-unit-value-index-(1997=100)": {
+    "sub4": "merchandise-import-unit-value-index-(1997=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "terms-of-trade-(1997=100)": {
+    "sub4": "terms-of-trade-(1997=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "1997=100",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-export-value-index-(2010=100)": {
+    "sub4": "merchandise-export-value-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-export-volume-index-(2010=100)": {
+    "sub4": "merchandise-export-volume-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-export-unit-value-index-(2010=100)": {
+    "sub4": "merchandise-export-unit-value-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-value-index-(2010=100)": {
+    "sub4": "merchandise-import-value-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-volume-index-(2010=100)": {
+    "sub4": "merchandise-import-volume-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "merchandise-import-unit-value-index-(2010=100)": {
+    "sub4": "merchandise-import-unit-value-index-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "terms-of-trade-(2010=100)": {
+    "sub4": "terms-of-trade-(2010=100)",
+    "unit": "Index Points",
+    "scale": "Units",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "2010=100",
+    "Data last updated": "2020-07-23",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  }
+}

@@ -1,24 +1,57 @@
 {
-  "wage-rate-index-informal-private-sector-(2012=100)-total-nominal": {
-    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-total-nominal",
+  "(2012=100)(nominal)": {
+    "sub4": "(2012=100)(nominal)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Central Bank of Sri Lanka",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2022-02-22",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Two months"
   },
-  "wage-rate-index-informal-private-sector-(2012=100)-total-real": {
-    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-total-real",
+  "(2012=100)(real)": {
+    "sub4": "(2012=100)(real)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Central Bank of Sri Lanka",
     "GeoArea": "National",
     "Note": "Based on NCPI (2013=100)",
-    "Data last updated": "2022-02-22",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Two months"
+  },
+  "wage-rate-index-informal-private-sector-(2012=100)-agricuture-nominal": {
+    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-agricuture-nominal",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "wage-rate-index-informal-private-sector-(2012=100)-industry-nominal": {
+    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-industry-nominal",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "wage-rate-index-informal-private-sector-(2012=100)-services-nominal": {
+    "sub4": "wage-rate-index-informal-private-sector-(2012=100)-services-nominal",
+    "unit": "",
+    "scale": "Index Value",
+    "Sector": "Real Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
   }
 }

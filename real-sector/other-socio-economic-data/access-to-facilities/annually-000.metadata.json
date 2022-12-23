@@ -7,7 +7,7 @@
     "Source": "Ceylon Electricity Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2018-08-01",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the year"
   },
   "water-supply-access-to-safe-drinking-water": {
@@ -18,7 +18,7 @@
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the year"
   },
   "water-supply-access-to-pipe-borne-water": {
@@ -29,7 +29,7 @@
     "Source": "National Water Supply and Drainage Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-07-14",
     "Update frequency": "Four months after the end of the year"
   }
 }

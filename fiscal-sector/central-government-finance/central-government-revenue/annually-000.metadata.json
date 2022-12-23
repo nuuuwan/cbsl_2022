@@ -7,7 +7,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   },
   "general-government-revenue-non-tax-revenue": {
@@ -18,7 +18,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   },
   "general-government-revenue-total-tax-and-non-tax-revenue": {
@@ -29,7 +29,7 @@
     "Source": "Ministry of Finance",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-10-07",
+    "Data last updated": "2022-09-28",
     "Update frequency": "Four months after the end of year"
   }
 }

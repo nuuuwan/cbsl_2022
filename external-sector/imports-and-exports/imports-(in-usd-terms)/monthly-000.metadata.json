@@ -1,0 +1,57 @@
+{
+  "merchandise-imports-total": {
+    "sub4": "merchandise-imports-total",
+    "unit": "US Dollars",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Ceylon Petroleum Corporation, Lanka IOC PLC, Sri Lanka Customs, Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-26",
+    "Update frequency": "Two months after end of the month/quarter/year"
+  },
+  "consumer-goods-imports": {
+    "sub4": "consumer-goods-imports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "intermediate-goods-imports": {
+    "sub4": "intermediate-goods-imports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "investment-goods-imports": {
+    "sub4": "investment-goods-imports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "unclassified-imports": {
+    "sub4": "unclassified-imports",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}
