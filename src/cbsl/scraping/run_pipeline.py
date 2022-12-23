@@ -3,7 +3,7 @@ import math
 from cbsl._utils import is_test_mode, log
 from cbsl.core.frequency import FREQUNCY_CONFIG
 from cbsl.scraping.parsers import parse_step1, parse_step2, parse_step3
-from cbsl.scraping.persistence import save_contents, save_results
+from cbsl.scraping.persistence import init, save_contents, save_results
 from cbsl.scraping.scrapers import (go_back_to_step2, open_browser, open_step1,
                                     open_step2, open_step3)
 
@@ -88,6 +88,7 @@ def scrape_details(idx12, test_mode):
 
 
 def run(test_mode):
+    init()
     idx12 = scrape_basic()
     scrape_details(idx12, test_mode)
 
