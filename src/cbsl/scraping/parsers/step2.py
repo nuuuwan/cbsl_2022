@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 from cbsl._utils import log
 from cbsl.scraping.parsers.common import make_sub
-from cbsl.scraping.scrapers import ID_TABLE_PAGE1_SEARCH_LIST
+from cbsl.scraping.navigators import ID_TABLE_PAGE1_SEARCH_LIST
 
 MIN_SUB3_LEN = 6
 
