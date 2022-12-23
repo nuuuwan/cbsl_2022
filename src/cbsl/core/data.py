@@ -12,11 +12,15 @@ def git_checkout():
     os.system(f'rm -rf {DIR_DATA}')
     os.system(f'mkdir -p {DIR_DATA}')
 
-    os.system(';'.join([
-        f'cd {DIR_DATA}',
-        'git clone https://github.com/nuuuwan/cbsl.git .',
-        'git checkout data',
-    ]))
+    os.system(
+        ';'.join(
+            [
+                f'cd {DIR_DATA}',
+                'git clone https://github.com/nuuuwan/cbsl.git .',
+                'git checkout data',
+            ]
+        )
+    )
     log.info(f'git clone https://github.com/nuuuwan/cbsl.git -> {DIR_DATA}')
 
 

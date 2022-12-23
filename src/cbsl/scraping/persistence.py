@@ -16,19 +16,18 @@ def init():
 
 
 def save_results(
-        sub1,
-        sub2,
-        sub3,
-        frequency_name,
-        i_group,
-        results_idx,
-        footnote_idx):
-    dir = os.path.join(
-        DIR_DATA,
-        sub1,
-        sub2,
-        sub3,
-    ).replace(' ', '-').lower()
+    sub1, sub2, sub3, frequency_name, i_group, results_idx, footnote_idx
+):
+    dir = (
+        os.path.join(
+            DIR_DATA,
+            sub1,
+            sub2,
+            sub3,
+        )
+        .replace(' ', '-')
+        .lower()
+    )
 
     if not os.path.exists(dir):
         os.system(f'mkdir -p "{dir}"')
@@ -39,7 +38,8 @@ def save_results(
         data_list.append(
             {
                 'sub4': sub4,
-            } | dict(reversed(d['results'].items()))
+            }
+            | dict(reversed(d['results'].items()))
         )
         metadata_idx[sub4] = {
             'sub4': sub4,

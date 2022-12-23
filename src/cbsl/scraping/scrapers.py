@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
@@ -41,8 +40,8 @@ def open_browser():
     options = Options()
     options.headless = True
     browser = webdriver.Chrome(
-        ChromeDriverManager().install(),
-        options=options)
+        ChromeDriverManager().install(), options=options
+    )
     return browser
 
 
@@ -55,20 +54,22 @@ def open_step1(browser):
 
 def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
     log.debug(
-        f'Openning to step2 ({sub1}/{i_sub2}-{sub2}/{frequency_name})...')
+        f'Openning to step2 ({sub1}/{i_sub2}-{sub2}/{frequency_name})...'
+    )
 
     find_element_by_id(browser, ID_BUTTON_CLEAR_ALL).click()
 
     sub1_str = sub1.replace('-', ' ').title().replace(' ', '')
-    checkbox_id = 'ContentPlaceHolder1_grdSubjects_'  \
+    checkbox_id = (
+        'ContentPlaceHolder1_grdSubjects_'
         + f'{sub1_str}_chkIsSelect_{i_sub2}'
+    )
     find_element_by_id(browser, checkbox_id).click()
 
     select = Select(find_element_by_tag_name(browser, 'select'))
     select.select_by_value(frequency_name[0].upper())
 
-    elem_text_box_list = find_elements_by_class_name(browser,
-                                                     CLASS_TXT_BOX)
+    elem_text_box_list = find_elements_by_class_name(browser, CLASS_TXT_BOX)
 
     log.debug(elem_text_box_list)
     d = FREQUNCY_CONFIG[frequency_name]

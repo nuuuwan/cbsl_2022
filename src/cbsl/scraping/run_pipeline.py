@@ -40,10 +40,9 @@ def scrape_sub2(sub1, i_sub2, sub2, frequency_name):
 
             open_step3(
                 browser,
-                i_sub4_offset +
-                i_sub4_min,
-                i_sub4_offset +
-                i_sub4_max)
+                i_sub4_offset + i_sub4_min,
+                i_sub4_offset + i_sub4_max,
+            )
 
             [footnote_idx, results_idx] = parse_step3(
                 browser.page_source,

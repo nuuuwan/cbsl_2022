@@ -105,25 +105,31 @@ def parse_step3_results(soup, sub3):
     results_idx = {}
     for row in table.find_all('tr'):
         if not headers:
-            th_list = list(map(
-                lambda th: clean(th.text),
-                row.find_all('th'),
-            ))
+            th_list = list(
+                map(
+                    lambda th: clean(th.text),
+                    row.find_all('th'),
+                )
+            )
             headers = th_list[4:]
         else:
-            td_list = list(map(
-                lambda th: clean(th.text),
-                row.find_all('td'),
-            ))
+            td_list = list(
+                map(
+                    lambda th: clean(th.text),
+                    row.find_all('td'),
+                )
+            )
 
             if td_list[0] != '':
                 sub4, unit, scale = td_list[1:4]
                 sub4 = make_sub(sub4, sub3)
 
-                results = dict(zip(
-                    headers,
-                    td_list[4:],
-                ))
+                results = dict(
+                    zip(
+                        headers,
+                        td_list[4:],
+                    )
+                )
                 results_idx[sub4] = {
                     'sub4': sub4,
                     'unit': unit,

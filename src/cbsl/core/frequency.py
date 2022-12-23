@@ -23,15 +23,19 @@ def build_frequency_config():
     #     [min_ut, max_ut],
     # ))
 
-    min_month, max_month = list(map(
-        lambda ut: timex.format_time(ut, '%Y-%m'),
-        [min_ut, max_ut],
-    ))
+    min_month, max_month = list(
+        map(
+            lambda ut: timex.format_time(ut, '%Y-%m'),
+            [min_ut, max_ut],
+        )
+    )
 
-    min_year, max_year = list(map(
-        lambda ut: timex.format_time(ut, '%Y'),
-        [min_ut, max_ut],
-    ))
+    min_year, max_year = list(
+        map(
+            lambda ut: timex.format_time(ut, '%Y'),
+            [min_ut, max_ut],
+        )
+    )
 
     return {
         FREQUNCY.ANNUALLY: {

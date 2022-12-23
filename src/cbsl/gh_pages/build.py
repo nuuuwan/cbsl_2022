@@ -100,12 +100,22 @@ def format_cell(k, d, metadata, value_to_rank_p):
             if unit in ['Rs.', 'Kg', 'm3', 'Sq. km.']:
                 display_unit += ' ' + unit
 
-    return [_('div', [
-        _('div', [
-            _('div', text, {'class': class_name}),
-            _('div', display_unit, {'class': 'div-cell-unit'}),
-        ], {'class': 'div-cell-inner'})
-    ], {'style': f'background:{background}'})]
+    return [
+        _(
+            'div',
+            [
+                _(
+                    'div',
+                    [
+                        _('div', text, {'class': class_name}),
+                        _('div', display_unit, {'class': 'div-cell-unit'}),
+                    ],
+                    {'class': 'div-cell-inner'},
+                )
+            ],
+            {'style': f'background:{background}'},
+        )
+    ]
 
 
 def format_header_cell(k):
@@ -142,45 +152,73 @@ def render_metadata(
 ):
     data_list = list(metadata_idx.values())
     key_list = get_all_keys(data_list)
-    thead = _('thead', [
-        render_header_row(key_list),
-    ])
-    tbody = _('tbody', list(map(
-        lambda d: render_row(key_list, d, {}),
-        data_list,
-    )))
+    thead = _(
+        'thead',
+        [
+            render_header_row(key_list),
+        ],
+    )
+    tbody = _(
+        'tbody',
+        list(
+            map(
+                lambda d: render_row(key_list, d, {}),
+                data_list,
+            )
+        ),
+    )
     return _('table', [thead, tbody])
 
 
 def render_header_row(key_list):
-    return _('tr', list(map(
-        lambda k: _('th', format_header_cell(k)),
-        key_list,
-    )))
+    return _(
+        'tr',
+        list(
+            map(
+                lambda k: _('th', format_header_cell(k)),
+                key_list,
+            )
+        ),
+    )
 
 
 def render_row(key_list, d, metadata_idx):
-    sorted_values = sorted(list(filter(
-        lambda x: x,
-        list(map(
-            lambda v: parse_float(v),
-            list(d.values())[1:],
-        )),
-    )))
+    sorted_values = sorted(
+        list(
+            filter(
+                lambda x: x,
+                list(
+                    map(
+                        lambda v: parse_float(v),
+                        list(d.values())[1:],
+                    )
+                ),
+            )
+        )
+    )
     n = len(sorted_values)
-    value_to_rank_p = dict(list(map(
-        lambda x: [x[1], x[0] / n],
-        enumerate(sorted_values),
-    )))
+    value_to_rank_p = dict(
+        list(
+            map(
+                lambda x: [x[1], x[0] / n],
+                enumerate(sorted_values),
+            )
+        )
+    )
 
     metadata = metadata_idx.get(d['sub4'])
-    return _('tr', list(map(
-        lambda k: _(
-            'td',
-            format_cell(k, d, metadata, value_to_rank_p),
+    return _(
+        'tr',
+        list(
+            map(
+                lambda k: _(
+                    'td',
+                    format_cell(k, d, metadata, value_to_rank_p),
+                ),
+                key_list,
+            )
         ),
-        key_list,
-    )))
+    )
 
 
 def render_table(
@@ -189,21 +227,30 @@ def render_table(
     metadata_idx,
 ):
     data_list = sorted(data_list, key=lambda d: d['sub4'])
-    thead = _('thead', [
-        render_header_row(key_list),
-    ])
-    tbody = _('tbody', list(map(
-        lambda d: render_row(key_list, d, metadata_idx),
-        data_list,
-    )))
+    thead = _(
+        'thead',
+        [
+            render_header_row(key_list),
+        ],
+    )
+    tbody = _(
+        'tbody',
+        list(
+            map(
+                lambda d: render_row(key_list, d, metadata_idx),
+                data_list,
+            )
+        ),
+    )
     table_title = key_list[1] + ' to ' + key_list[-1]
-    return _('div',
-             [
-                 _('h3', table_title),
-                 _('table', [thead, tbody]),
-             ],
-             {'class': 'div-single-table'},
-             )
+    return _(
+        'div',
+        [
+            _('h3', table_title),
+            _('table', [thead, tbody]),
+        ],
+        {'class': 'div-single-table'},
+    )
 
 
 def get_non_empty_result_key_list(data_list):
@@ -231,8 +278,9 @@ def render_tables(data_list, metadata_idx):
     for i_group in range(0, n_groups):
         col_min = i_group * MAX_COLS_PER_TABLE
         col_max = min(col_min + MAX_COLS_PER_TABLE, n_cols)
-        key_list = ['sub4'] + [all_result_key_list[i]
-                               for i in range(col_min, col_max)]
+        key_list = ['sub4'] + [
+            all_result_key_list[i] for i in range(col_min, col_max)
+        ]
         rendered_tables.append(
             render_table(
                 data_list,
@@ -249,31 +297,42 @@ def render_file(sub1, sub2, sub3, file_only, sub4_list):
 
     rendered_metadata = render_metadata(metadata_idx)
     rendered_tables = render_tables(data_list, metadata_idx)
-    return _('div', [
-        _('h2', file_only),
-        rendered_metadata,
-    ] + rendered_tables, {'class': 'div-file'})
+    return _(
+        'div',
+        [
+            _('h2', file_only),
+            rendered_metadata,
+        ]
+        + rendered_tables,
+        {'class': 'div-file'},
+    )
 
 
 def build_sub3(sub1, sub2, sub3, file_to_sub4s):
-    head = _('head', [
-        _('meta', None, {'charset': 'UTF-8'}),
-        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'})
-    ])
+    head = _(
+        'head',
+        [
+            _('meta', None, {'charset': 'UTF-8'}),
+            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
+        ],
+    )
 
-    rendered_files = list(map(
-        lambda x: render_file(sub1, sub2, sub3, x[0], x[1]),
-        file_to_sub4s.items(),
-    ))
+    rendered_files = list(
+        map(
+            lambda x: render_file(sub1, sub2, sub3, x[0], x[1]),
+            file_to_sub4s.items(),
+        )
+    )
 
-    body = _('body', [
-        _('h2', 'Central Bank of Sri Lanka - Data Library'),
-        _('h1', sub_to_title(sub3)),
-        _('h3', [
-            _('span', 'Source:'),
-            _('a', URL, {'href': URL})
-        ]),
-    ] + rendered_files)
+    body = _(
+        'body',
+        [
+            _('h2', 'Central Bank of Sri Lanka - Data Library'),
+            _('h1', sub_to_title(sub3)),
+            _('h3', [_('span', 'Source:'), _('a', URL, {'href': URL})]),
+        ]
+        + rendered_files,
+    )
     html = _('html', [head, body])
 
     html_file_only = get_sub3_html_file_only(sub3)
@@ -286,24 +345,43 @@ def build_sub3(sub1, sub2, sub3, file_to_sub4s):
 
 def render_sub3(sub1, sub2, sub3, file_to_sub4s):
     html_file_only = build_sub3(sub1, sub2, sub3, file_to_sub4s)
-    return _('div', [
-        _('div', [
-            _('a', [
-                _('span', sub_to_title(sub3)),
-            ], {'href': html_file_only}),
-        ], {'class': 'div-sub3-title'}),
-    ], {'class': 'div-sub3'})
+    return _(
+        'div',
+        [
+            _(
+                'div',
+                [
+                    _(
+                        'a',
+                        [
+                            _('span', sub_to_title(sub3)),
+                        ],
+                        {'href': html_file_only},
+                    ),
+                ],
+                {'class': 'div-sub3-title'},
+            ),
+        ],
+        {'class': 'div-sub3'},
+    )
 
 
 def render_sub2(sub1, sub2, idx34):
-    rendered_sub3s = list(map(
-        lambda x: render_sub3(sub1, sub2, x[0], x[1]),
-        idx34.items(),
-    ))
+    rendered_sub3s = list(
+        map(
+            lambda x: render_sub3(sub1, sub2, x[0], x[1]),
+            idx34.items(),
+        )
+    )
 
-    return _('div', [
-        _('h2', sub_to_title(sub2)),
-    ] + rendered_sub3s, {'class': 'div-sub2'})
+    return _(
+        'div',
+        [
+            _('h2', sub_to_title(sub2)),
+        ]
+        + rendered_sub3s,
+        {'class': 'div-sub2'},
+    )
 
 
 def render_sub1(sub1, idx234, test_mode):
@@ -311,14 +389,21 @@ def render_sub1(sub1, idx234, test_mode):
     if test_mode:
         idx234_items = idx234_items[:1]
 
-    rendered_sub2s = list(map(
-        lambda x: render_sub2(sub1, x[0], x[1]),
-        idx234_items,
-    ))
+    rendered_sub2s = list(
+        map(
+            lambda x: render_sub2(sub1, x[0], x[1]),
+            idx234_items,
+        )
+    )
 
-    return _('div', [
-        _('h1', sub_to_title(sub1)),
-    ] + rendered_sub2s, {'class': 'div-sub1'})
+    return _(
+        'div',
+        [
+            _('h1', sub_to_title(sub1)),
+        ]
+        + rendered_sub2s,
+        {'class': 'div-sub1'},
+    )
 
 
 def main(test_mode):
@@ -333,23 +418,29 @@ def main(test_mode):
     if test_mode:
         idx1234_items = idx1234_items[:1]
 
-    rendered_sub1s = list(map(
-        lambda x: render_sub1(x[0], x[1], test_mode),
-        idx1234_items,
-    ))
+    rendered_sub1s = list(
+        map(
+            lambda x: render_sub1(x[0], x[1], test_mode),
+            idx1234_items,
+        )
+    )
 
-    head = _('head', [
-        _('meta', None, {'charset': 'UTF-8'}),
-        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
-    ])
-    body = _('body', [
-        _('h2', 'Central Bank of Sri Lanka'),
-        _('h1', 'Data Library'),
-        _('h3', [
-            _('span', 'Source:'),
-            _('a', URL, {'href': URL})
-        ]),
-    ] + rendered_sub1s)
+    head = _(
+        'head',
+        [
+            _('meta', None, {'charset': 'UTF-8'}),
+            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
+        ],
+    )
+    body = _(
+        'body',
+        [
+            _('h2', 'Central Bank of Sri Lanka'),
+            _('h1', 'Data Library'),
+            _('h3', [_('span', 'Source:'), _('a', URL, {'href': URL})]),
+        ]
+        + rendered_sub1s,
+    )
     html = _('html', [head, body])
 
     html_file = os.path.join(DIR_GH_PAGES, 'index.html')
