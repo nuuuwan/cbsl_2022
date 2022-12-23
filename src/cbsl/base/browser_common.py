@@ -31,7 +31,7 @@ def find_element_by_id(browser, id, time_wait=TIME_WAIT_DEFAULT, do_log=True):
 def find_elements_by_id(browser, id, time_wait=TIME_WAIT_DEFAULT):
     log.debug(f'find_elements_by_id: {id} ({time_wait}s)')
     find_element_by_id(browser, id, time_wait)
-    return browser.find_elements_by_id(id)
+    return browser.find_elements(By.ID, id)
 
 
 def find_element_by_class_name(
@@ -48,7 +48,7 @@ def find_elements_by_class_name(
 ):
     log.debug(f'find_elements_by_class_name: {class_name} ({time_wait}s)')
     find_element_by_class_name(browser, class_name, time_wait)
-    return browser.find_elements_by_class_name(class_name)
+    return browser.find_elements(By.CLASS_NAME, class_name)
 
 
 def find_element_by_tag_name(browser, tag_name, time_wait=TIME_WAIT_DEFAULT):
