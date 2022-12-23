@@ -2,12 +2,12 @@ import math
 
 from cbsl._utils import is_test_mode, log
 from cbsl.core.frequency import FREQUENCY_CONFIG
+from cbsl.scraping.navigators import (go_back_to_step2, open_browser,
+                                      open_step1, open_step2, open_step3)
 from cbsl.scraping.parsers.step1 import parse_step1
 from cbsl.scraping.parsers.step2 import parse_step2
 from cbsl.scraping.parsers.step3 import parse_step3
 from cbsl.scraping.persistence import init, save_contents, save_results
-from cbsl.scraping.navigators import (go_back_to_step2, open_browser, open_step1,
-                                    open_step2, open_step3)
 
 GROUP_SIZE = 30
 

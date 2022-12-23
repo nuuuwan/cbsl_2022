@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 
 from cbsl._utils import log
-from cbsl.scraping.parsers.common import clean, make_sub
 from cbsl.scraping.navigators import (ID_TABLE_PAGE2_FOOTNOTES,
-                                    ID_TABLE_PAGE2_RESULTS)
+                                      ID_TABLE_PAGE2_RESULTS)
+from cbsl.scraping.parsers.common import clean, make_sub
 
 MIN_SUB3_LEN = 6
 

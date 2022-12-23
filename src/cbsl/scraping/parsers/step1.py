@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 
 from cbsl._utils import log
-from cbsl.scraping.parsers.common import make_sub
 from cbsl.scraping.navigators import CLASS_TABLE0
+from cbsl.scraping.parsers.common import make_sub
 
 
 def parse_step1(html):

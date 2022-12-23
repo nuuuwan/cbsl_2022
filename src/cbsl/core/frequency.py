@@ -1,4 +1,3 @@
-from utils import timex
 
 
 class FREQUENCY:
@@ -15,38 +14,28 @@ TIME_WINDOW_YEARS = 100
 
 
 def build_frequency_config():
-    max_ut = timex.get_unixtime()
-    min_ut = max_ut - timex.SECONDS_IN.YEAR * TIME_WINDOW_YEARS
-
-    # min_date, max_date = list(map(
-    #     lambda ut: timex.format_time(ut, '%Y-%m-%d'),
-    #     [min_ut, max_ut],
-    # ))
-
-    min_month, max_month = list(
-        map(
-            lambda ut: timex.format_time(ut, '%Y-%m'),
-            [min_ut, max_ut],
-        )
-    )
-
-    min_year, max_year = list(
-        map(
-            lambda ut: timex.format_time(ut, '%Y'),
-            [min_ut, max_ut],
-        )
-    )
-
     return {
         FREQUENCY.ANNUALLY: {
-            'time_span': [min_year, max_year],
+            'time_span': ['1925', '2025'],
+        },
+        FREQUENCY.CENSUS_YEAR: {
+            'time_span': ['1925', '2025'],
+        },
+        FREQUENCY.ACADEMIC_YEAR: {
+            'time_span': ['1925', '2025'],
+        },
+        FREQUENCY.HALF_YEARLY: {
+            'time_span': ['1925', '2025'],
+        },
+        FREQUENCY.QUARTERLY: {
+            'time_span': ['1925', '2025'],
         },
         FREQUENCY.MONTHLY: {
-            'time_span': [min_month, max_month],
+            'time_span': ['1925-01', '2025-01'],
         },
-        # FREQUNCY.DAILY: {
-        #     'time_span': [min_date, max_date],
-        # },
+        FREQUENCY.DAILY: {
+            'time_span': ['1925-01-01', '2025-01-01'],
+        },
     }
 
 
