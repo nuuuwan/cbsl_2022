@@ -1,0 +1,35 @@
+{
+  "international-investment-position-(iip)-assets": {
+    "sub4": "international-investment-position-(iip)-assets",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "iip-liabilities": {
+    "sub4": "iip-liabilities",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "iip-net": {
+    "sub4": "iip-net",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  }
+}

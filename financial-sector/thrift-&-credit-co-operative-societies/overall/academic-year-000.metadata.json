@@ -1,0 +1,13 @@
+{
+  "thrift-&-credit-co-operative-societies-no.-of-societies": {
+    "sub4": "thrift-&-credit-co-operative-societies-no.-of-societies",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

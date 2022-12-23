@@ -1,0 +1,56 @@
+{
+  "sri-lanka": {
+    "sub4": "sri-lanka",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-02-23",
+    "Update frequency": ""
+  },
+  "male": {
+    "sub4": "male",
+    "unit": "Thousands",
+    "scale": ""
+  },
+  "female": {
+    "sub4": "female",
+    "unit": "Thousands",
+    "scale": ""
+  },
+  "growth-rate": {
+    "sub4": "growth-rate",
+    "unit": "%",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "District",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "crude-birth-rate-all-island": {
+    "sub4": "crude-birth-rate-all-island",
+    "unit": "Per 1,000 Persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General\u2019s Department",
+    "GeoArea": "National",
+    "Note": "For 2010 and 2011 figures are based on place of occurrence.From 2012 onwards,figures are based on usual place of residence.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "crude-death-rate-all-island": {
+    "sub4": "crude-death-rate-all-island",
+    "unit": "Per 1000 Persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General\u2019s Department",
+    "GeoArea": "National",
+    "Note": "For 2010 and 2011 figures are based on place of occurrence.From 2012 onwards,figures are based on usual place of residence.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

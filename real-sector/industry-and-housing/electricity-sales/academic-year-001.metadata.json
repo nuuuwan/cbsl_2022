@@ -1,0 +1,68 @@
+{
+  "units-western-total": {
+    "sub4": "units-western-total",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "Provincial",
+    "Note": "Excluding Colombo city",
+    "Data last updated": "2022-01-12",
+    "Update frequency": "End of August"
+  },
+  "units-southern-total": {
+    "sub4": "units-southern-total",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-12",
+    "Update frequency": "End of August"
+  },
+  "units-northern-total": {
+    "sub4": "units-northern-total",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-12",
+    "Update frequency": "End of August"
+  },
+  "units-uva-total": {
+    "sub4": "units-uva-total",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-12",
+    "Update frequency": "End of August"
+  },
+  "units-sabaragamuwa-total": {
+    "sub4": "units-sabaragamuwa-total",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-12",
+    "Update frequency": "End of August"
+  },
+  "units-transmission-bulk-supply-to-leco": {
+    "sub4": "units-transmission-bulk-supply-to-leco",
+    "unit": "GWh",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Ceylon Electricity Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": ""
+  }
+}

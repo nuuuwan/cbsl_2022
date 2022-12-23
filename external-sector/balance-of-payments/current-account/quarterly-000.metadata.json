@@ -1,0 +1,24 @@
+{
+  "balance-of-payments-(bop)-trade-deficit": {
+    "sub4": "balance-of-payments-(bop)-trade-deficit",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "bop--deficit": {
+    "sub4": "bop--deficit",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  }
+}

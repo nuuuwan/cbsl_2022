@@ -1,0 +1,24 @@
+{
+  "total-volume-of--financial-transactions": {
+    "sub4": "total-volume-of--financial-transactions",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs, LSBs, FCs",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-value-of--financial-transactions": {
+    "sub4": "total-value-of--financial-transactions",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs, LSBs, FCs",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

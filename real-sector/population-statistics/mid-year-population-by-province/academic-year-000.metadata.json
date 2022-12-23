@@ -1,0 +1,101 @@
+{
+  "mid-year-population-western": {
+    "sub4": "mid-year-population-western",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-central": {
+    "sub4": "mid-year-population-central",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-southern": {
+    "sub4": "mid-year-population-southern",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-northern": {
+    "sub4": "mid-year-population-northern",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-eastern": {
+    "sub4": "mid-year-population-eastern",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-north-western": {
+    "sub4": "mid-year-population-north-western",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-north-central": {
+    "sub4": "mid-year-population-north-central",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-uva": {
+    "sub4": "mid-year-population-uva",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  },
+  "mid-year-population-sabaragamuwa": {
+    "sub4": "mid-year-population-sabaragamuwa",
+    "unit": "Thousands",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Registrar General's Department",
+    "GeoArea": "Provincial",
+    "Note": "(a) Data from 2001 to 2011 are based on the Census of Population and Housing-2001 (b) Data from 2012 onwards are based on the Census of Population and Housing-2012",
+    "Data last updated": "2022-02-23",
+    "Update frequency": "twelve weeks after the relevant year"
+  }
+}

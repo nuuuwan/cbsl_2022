@@ -1,0 +1,35 @@
+{
+  "number-of-atm-terminals-(as-at-end-period)": {
+    "sub4": "number-of-atm-terminals-(as-at-end-period)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs, LSBs, FCs",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-volume-of-financial-transactions-through-atm-terminals": {
+    "sub4": "total-volume-of-financial-transactions-through-atm-terminals",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs, LSBs, FCs",
+    "GeoArea": "National",
+    "Note": "Transactions carried out at any ATM (On-us and Not-on-us transactions) reported by card issuers",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-value-of-financial-transactions-through-atm-terminals": {
+    "sub4": "total-value-of-financial-transactions-through-atm-terminals",
+    "unit": "LKR",
+    "scale": "Thousands",
+    "Sector": "Financial",
+    "Source": "LCBs, LSBs, FCs",
+    "GeoArea": "National",
+    "Note": "Transactions carried out at any ATM (On-us and Not-on-us transactions) reported by card issuers",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "population(census)-sri-lanka": {
+    "sub4": "population(census)-sri-lanka",
+    "unit": "000' persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Seven days from the published date"
+  },
+  "population(census)-urban": {
+    "sub4": "population(census)-urban",
+    "unit": "000' persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Seven days from the published date"
+  },
+  "population(census)-rural": {
+    "sub4": "population(census)-rural",
+    "unit": "000' persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Seven days from the published date"
+  },
+  "population(census)-estate": {
+    "sub4": "population(census)-estate",
+    "unit": "000' persons",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2015-12-29",
+    "Update frequency": "Seven days from the published date"
+  }
+}

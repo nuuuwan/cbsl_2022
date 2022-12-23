@@ -1,0 +1,112 @@
+{
+  "external--(eds)-outstanding-total-external-debt": {
+    "sub4": "external--(eds)-outstanding-total-external-debt",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-general-government-short-term": {
+    "sub4": "eds-general-government-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-general-government-long-term": {
+    "sub4": "eds-general-government-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-central-bank-short-term": {
+    "sub4": "eds-central-bank-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-central-bank-long-term": {
+    "sub4": "eds-central-bank-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-deposit-taking-corporations-short-term": {
+    "sub4": "eds-deposit-taking-corporations-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-deposit-taking-corporations-long-term": {
+    "sub4": "eds-deposit-taking-corporations-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-other-sectors-short-term": {
+    "sub4": "eds-other-sectors-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-other-sectors-long-term": {
+    "sub4": "eds-other-sectors-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-direct-investment-intercompany-lending": {
+    "sub4": "eds-direct-investment-intercompany-lending",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  }
+}

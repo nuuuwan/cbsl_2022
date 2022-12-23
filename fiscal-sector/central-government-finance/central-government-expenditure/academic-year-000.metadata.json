@@ -1,0 +1,90 @@
+{
+  "total-expenditure-on-higher-education": {
+    "sub4": "total-expenditure-on-higher-education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "capital-expenditure-on-higher-education": {
+    "sub4": "capital-expenditure-on-higher-education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "recurrent-expenditure-on-higher-education": {
+    "sub4": "recurrent-expenditure-on-higher-education",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "University Grants Commission",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "government-expenditure-on-education-as-a-per-cent-of-gdp": {
+    "sub4": "government-expenditure-on-education-as-a-per-cent-of-gdp",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Finance, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-07-14",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "government-expenditure-on-health-as-a-per-cent-of-gdp": {
+    "sub4": "government-expenditure-on-health-as-a-per-cent-of-gdp",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Ministry of Finance, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-07-14",
+    "Update frequency": "Four months after the end of the half year"
+  },
+  "general-governmnet-expenditure-recurrent-expenditure": {
+    "sub4": "general-governmnet-expenditure-recurrent-expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  },
+  "general-governmnet-expenditure-capital-expenditure": {
+    "sub4": "general-governmnet-expenditure-capital-expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  },
+  "general-governmnet-expenditure-total-expenditure": {
+    "sub4": "general-governmnet-expenditure-total-expenditure",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  }
+}

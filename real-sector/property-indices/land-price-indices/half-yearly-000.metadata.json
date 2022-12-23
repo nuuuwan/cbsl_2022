@@ -1,0 +1,90 @@
+{
+  "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-overall": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-overall",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year-1998=100. LPI covers 50 centers of Colombo, Dehiwala, Homagama, Kaduwela and Kesbewa Divisional Secretariat Divisions in Colombo District.",
+    "Data last updated": "2022-06-30",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-residential": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-residential",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year-1998=100. LPI covers 50 centers of Colombo, Dehiwala, Homagama, Kaduwela and Kesbewa Divisional Secretariat Divisions in Colombo District.",
+    "Data last updated": "2022-06-30",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-commercial": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-commercial",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year-1998=100. LPI covers 50 centers of Colombo, Dehiwala, Homagama, Kaduwela and Kesbewa Divisional Secretariat Divisions in Colombo District.",
+    "Data last updated": "2022-06-30",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-industrial": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(1998=100)-industrial",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year-1998=100. LPI covers 50 centers of Colombo, Dehiwala, Homagama, Kaduwela and Kesbewa Divisional Secretariat Divisions in Colombo District.",
+    "Data last updated": "2022-06-30",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-overall": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-overall",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "LPI covers 82 centers of all Divisional Secretariat Divisions in Colombo District. Compiled based on per perch bare land price data collected from the Government Valuation Department of Sri Lanka. Base Year: 2017 1st Half=100. The whole series of LVI (2017 H1 =100) was revised in June 2022 based on the re-estimated data provided by the Government Valuation Department with the revisions introduced to their valuation methodology.",
+    "Data last updated": "2022-08-18",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-residential": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-residential",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year: 2017 1st Half=100. LPI covers 82 centers of all Divisional Secretariat Divisions in Colombo District. The whole series of LVI (2017 H1 =100) was revised in June 2022 based on the re-estimated data provided by the Government Valuation Department with the revisions introduced to their valuation methodology.",
+    "Data last updated": "2022-08-18",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-commercial": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-commercial",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year: 2017 1st Half=100. LPI covers 82 centers of all Divisional Secretariat Divisions in Colombo District. The whole series of LVI (2017 H1 =100) was revised in June 2022 based on the re-estimated data provided by the Government Valuation Department with the revisions introduced to their valuation methodology.",
+    "Data last updated": "2022-08-18",
+    "Update frequency": "60th day after the semi annum"
+  },
+  "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-industrial": {
+    "sub4": "land-valuations-indicator-(lvi)-for-colombo-(2017-1st-half-=-100)-industrial",
+    "unit": "Index Value",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "Base Year: 2017 1st Half=100. LPI covers 82 centers of all Divisional Secretariat Divisions in Colombo District. The whole series of LVI (2017 H1 =100) was revised in June 2022 based on the re-estimated data provided by the Government Valuation Department with the revisions introduced to their valuation methodology.",
+    "Data last updated": "2022-08-18",
+    "Update frequency": "60th day after the semi annum"
+  }
+}

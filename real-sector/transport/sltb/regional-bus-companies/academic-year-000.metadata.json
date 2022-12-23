@@ -1,0 +1,46 @@
+{
+  "sltb-regional-bus-companies-revenue": {
+    "sub4": "sltb-regional-bus-companies-revenue",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sltb-regional-bus-companies-buses-operated-all-island": {
+    "sub4": "sltb-regional-bus-companies-buses-operated-all-island",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "Buses under SLTTS (Sri Lanka Tourist Transport Service), are included in Western Province from 2014 onwards.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sltb-regional-bus-companies-operated-kilometers-all-island": {
+    "sub4": "sltb-regional-bus-companies-operated-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "Buses under SLTTS (Sri Lanka Tourist Transport Service), are included in Western Province from 2014 onwards.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sltb-regional-bus-companies-passenger-kilometers-all-island": {
+    "sub4": "sltb-regional-bus-companies-passenger-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Transport Board",
+    "GeoArea": "National",
+    "Note": "(1). Buses under SLTTS (Sri Lanka Tourist Transport Service), are included in Western Province from 2014 onwards. (2).Data from 2009 has been revised due to a change in the data source from National Transport Commission to Sri Lanka Transport Board.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

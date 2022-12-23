@@ -1,0 +1,24 @@
+{
+  "no.-of-domestic--users-(as-at-end-of-the-quarter)": {
+    "sub4": "no.-of-domestic--users-(as-at-end-of-the-quarter)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "SWIFT",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-17",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "domestic--traffic-(in-transactions)": {
+    "sub4": "domestic--traffic-(in-transactions)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "SWIFT",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-05-17",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

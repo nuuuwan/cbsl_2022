@@ -1,0 +1,57 @@
+{
+  "telecommunication-fixed-telephone-lines": {
+    "sub4": "telecommunication-fixed-telephone-lines",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Telecommunication Regulatory Commission of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "telecommunication-fixed-wireless-phones": {
+    "sub4": "telecommunication-fixed-wireless-phones",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Telecommunication Regulatory Commission of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "telecommunication-cellular-phones": {
+    "sub4": "telecommunication-cellular-phones",
+    "unit": "Number",
+    "scale": "Number",
+    "Sector": "Real Sector",
+    "Source": "Telecommunication Regulatory Commission of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "telecommunication-telephone-penetration": {
+    "sub4": "telecommunication-telephone-penetration",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Telecommunication Regulatory Commission of Sri Lanka, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-23",
+    "Update frequency": "Three months after the end of the quarter"
+  },
+  "telecommunication-internet-penetration": {
+    "sub4": "telecommunication-internet-penetration",
+    "unit": "Percentage",
+    "scale": "Percentage",
+    "Sector": "Real Sector",
+    "Source": "Telecommunication Regulatory Commission of Sri Lanka, Central Bank of Sri Laka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-23",
+    "Update frequency": "Three months after the end of the quarter"
+  }
+}

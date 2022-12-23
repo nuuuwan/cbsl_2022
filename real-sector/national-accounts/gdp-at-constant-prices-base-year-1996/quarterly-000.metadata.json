@@ -1,0 +1,46 @@
+{
+  "agriculture-gdp-at-constant-prices-(1996-series)": {
+    "sub4": "agriculture-gdp-at-constant-prices-(1996-series)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-03-17",
+    "Update frequency": ""
+  },
+  "industry-gdp-at-constant-prices-(1996-series)": {
+    "sub4": "industry-gdp-at-constant-prices-(1996-series)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-03-17",
+    "Update frequency": ""
+  },
+  "services-gdp-at-constant-prices-(1996-series)": {
+    "sub4": "services-gdp-at-constant-prices-(1996-series)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-03-17",
+    "Update frequency": ""
+  },
+  "gdp-gross-domestic-product-at-constant-(1996)-prices": {
+    "sub4": "gdp-gross-domestic-product-at-constant-(1996)-prices",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-03-17",
+    "Update frequency": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "thrift-&-credit-co-operative-societies--granted-total": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "thrift-&-credit-co-operative-societies--granted-agriculture-&-animal-husbandry": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-agriculture-&-animal-husbandry",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "thrift-&-credit-co-operative-societies--granted-small-industries": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-small-industries",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "thrift-&-credit-co-operative-societies--granted-housing-electrification-&-water": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-housing-electrification-&-water",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "thrift-&-credit-co-operative-societies--granted-commerce-&-other-projects": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-commerce-&-other-projects",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "thrift-&-credit-co-operative-societies--granted-other": {
+    "sub4": "thrift-&-credit-co-operative-societies--granted-other",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

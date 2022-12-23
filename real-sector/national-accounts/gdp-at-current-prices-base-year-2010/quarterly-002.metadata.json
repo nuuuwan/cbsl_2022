@@ -1,0 +1,79 @@
+{
+  "gdp-exp.-at-current-mp-(2010-series)-gross-capital-formation-(gcf)": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-gross-capital-formation-(gcf)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-gcf-gross-fixed-capital-formation": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-gcf-gross-fixed-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices; GCF \u2013 Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-gcf-changes-in-inventories": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-gcf-changes-in-inventories",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices; GCF \u2013 Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-gcf-acquisitions-less-disposal-of-valuables": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-gcf-acquisitions-less-disposal-of-valuables",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices; GCF \u2013 Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-external-demand-net-external-demand": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-external-demand-net-external-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-external-demand-exports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-external-demand-exports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-current-mp-(2010-series)-external-demand-imports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-current-mp-(2010-series)-external-demand-imports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "MP \u2013 Market Prices",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  }
+}

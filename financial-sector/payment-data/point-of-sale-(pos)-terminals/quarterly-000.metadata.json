@@ -1,0 +1,46 @@
+{
+  "total-value-of-debit-card-transactions-(carried-out-at-pos-terminals)": {
+    "sub4": "total-value-of-debit-card-transactions-(carried-out-at-pos-terminals)",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "Licensed Service Providers of Payment Cards",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "number-of--(as-at-end-period)": {
+    "sub4": "number-of--(as-at-end-period)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "Licensed Service Providers of Payment Cards",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-volume-of-point-of-sale-(pos)-terminal-transactions-during-the-period": {
+    "sub4": "total-volume-of-point-of-sale-(pos)-terminal-transactions-during-the-period",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "Licensed Service Providers of Payment Cards",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-value-of-point-of-sale-(pos)-terminal-transactions-during-the-period": {
+    "sub4": "total-value-of-point-of-sale-(pos)-terminal-transactions-during-the-period",
+    "unit": "LKR",
+    "scale": "Thousands",
+    "Sector": "Financial",
+    "Source": "Licensed Service Providers of Payment Cards",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

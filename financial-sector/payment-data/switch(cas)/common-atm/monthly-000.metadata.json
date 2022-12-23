@@ -7,7 +7,7 @@
     "Source": "LCPL",
     "GeoArea": "National",
     "Note": "ATM transactions carried out through Common ATM Switch (Not-on-us)",
-    "Data last updated": "2022-02-22",
+    "Data last updated": "2022-12-16",
     "Update frequency": "15 th day of the following month"
   },
   "total-value-of-financial-transactions-through-common-atm-switch-(cas)": {
@@ -18,7 +18,7 @@
     "Source": "LCPL",
     "GeoArea": "National",
     "Note": "ATM transactions carried out through Common ATM Switch (Not-on-us)",
-    "Data last updated": "2022-02-22",
+    "Data last updated": "2022-12-16",
     "Update frequency": "15 th day of the following month"
   }
 }

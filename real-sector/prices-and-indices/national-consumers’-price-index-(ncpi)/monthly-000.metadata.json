@@ -1,6 +1,6 @@
 {
-  "national-consumer-price-index-(ncpi)(2013=100)-backcasted-series": {
-    "sub4": "national-consumer-price-index-(ncpi)(2013=100)-backcasted-series",
+  "ncpi(2013=100)(headline)-backcasted-series": {
+    "sub4": "ncpi(2013=100)(headline)-backcasted-series",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
@@ -10,92 +10,92 @@
     "Data last updated": "2017-05-16",
     "Update frequency": "End of August"
   },
-  "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(monthly-%)": {
-    "sub4": "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(monthly-%)",
+  "ncpi(2013=100)(headline)(monthly-%)": {
+    "sub4": "ncpi(2013=100)(headline)(monthly-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(yoy-%)(headline-inflation)": {
-    "sub4": "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(yoy-%)(headline-inflation)",
+  "ncpi(2013=100)(headline)(year-on-year-%)": {
+    "sub4": "ncpi(2013=100)(headline)(year-on-year-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(annual-average-%)(headline-inflat": {
-    "sub4": "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items(annual-average-%)(headline-inflat",
+  "ncpi(2013=100)(headline)(annual-average-%)": {
+    "sub4": "ncpi(2013=100)(headline)(annual-average-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(core)(2013=100)-all-items": {
-    "sub4": "national-consumer-price-index-(ncpi)(core)(2013=100)-all-items",
+  "ncpi(2013=100)(core)": {
+    "sub4": "ncpi(2013=100)(core)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "Statistics Department",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(core)(2013=100)(monthly-%)": {
-    "sub4": "national-consumer-price-index-(ncpi)(core)(2013=100)(monthly-%)",
+  "ncpi(2013=100)(core)(monthly-%)": {
+    "sub4": "ncpi(2013=100)(core)(monthly-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "Statistics Department",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(core)(2013=100)(year-on-year-%)": {
-    "sub4": "national-consumer-price-index-(ncpi)(core)(2013=100)(year-on-year-%)",
+  "ncpi(2013=100)(core)(year-on-year-%)": {
+    "sub4": "ncpi(2013=100)(core)(year-on-year-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "Statistics Department",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(core)(2013=100)(annual-average-%)": {
-    "sub4": "national-consumer-price-index-(ncpi)(core)(2013=100)(annual-average-%)",
+  "ncpi(2013=100)(core)(annual-average-%)": {
+    "sub4": "ncpi(2013=100)(core)(annual-average-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
     "Note": "Statistics Department",
-    "Data last updated": "2021-10-27",
+    "Data last updated": "2022-11-30",
     "Update frequency": "Three Working Days"
   },
-  "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items": {
-    "sub4": "national-consumer-price-index-(ncpi)(headline)(2013=100)-all-items",
+  "ncpi(2013=100)(headline)": {
+    "sub4": "ncpi(2013=100)(headline)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
     "Source": "Department of Census and Statistics",
     "GeoArea": "National",
-    "Note": "NCPI (2013=100)",
-    "Data last updated": "2021-10-27",
+    "Note": "Statistics Department",
+    "Data last updated": "2022-11-30",
     "Update frequency": ""
   }
 }

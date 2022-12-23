@@ -1,0 +1,13 @@
+{
+  "value-of-payments-made-through-money-orders-and-postal-orders": {
+    "sub4": "value-of-payments-made-through-money-orders-and-postal-orders",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "Postal Department",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

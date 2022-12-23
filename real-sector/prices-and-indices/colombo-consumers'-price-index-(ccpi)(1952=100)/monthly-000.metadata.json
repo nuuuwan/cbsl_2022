@@ -1,6 +1,6 @@
 {
-  "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items": {
-    "sub4": "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items",
+  "ccpi(1952=100)(headline)": {
+    "sub4": "ccpi(1952=100)(headline)",
     "unit": "Index Value",
     "scale": "",
     "Sector": "Real Sector",
@@ -10,8 +10,8 @@
     "Data last updated": "2017-05-08",
     "Update frequency": ""
   },
-  "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items-(year-onyear-%)": {
-    "sub4": "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items-(year-onyear-%)",
+  "ccpi(1952=100)(headline)(year-on-year-%)": {
+    "sub4": "ccpi(1952=100)(headline)(year-on-year-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",
@@ -21,8 +21,8 @@
     "Data last updated": "2017-05-08",
     "Update frequency": ""
   },
-  "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items-(annual-average-%)": {
-    "sub4": "colombo-consumers'-price-index-(ccpi)-(1952=100)-all-items-(annual-average-%)",
+  "ccpi(1952=100)(headline)(annual-average-%)": {
+    "sub4": "ccpi(1952=100)(headline)(annual-average-%)",
     "unit": "Percentage",
     "scale": "",
     "Sector": "Real Sector",

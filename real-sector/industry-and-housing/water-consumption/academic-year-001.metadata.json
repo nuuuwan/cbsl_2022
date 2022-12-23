@@ -1,0 +1,112 @@
+{
+  "revenue-collected-western-total": {
+    "sub4": "revenue-collected-western-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-central-total": {
+    "sub4": "revenue-collected-central-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-southern-total": {
+    "sub4": "revenue-collected-southern-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-northern-total": {
+    "sub4": "revenue-collected-northern-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-eastern-total": {
+    "sub4": "revenue-collected-eastern-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-north-western-total": {
+    "sub4": "revenue-collected-north-western-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-north-central-total": {
+    "sub4": "revenue-collected-north-central-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-uva-total": {
+    "sub4": "revenue-collected-uva-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-sabaragamuwa-total": {
+    "sub4": "revenue-collected-sabaragamuwa-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "Provincial",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "revenue-collected-sri-lanka-total": {
+    "sub4": "revenue-collected-sri-lanka-total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "National Water Supply & Drainage Board",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

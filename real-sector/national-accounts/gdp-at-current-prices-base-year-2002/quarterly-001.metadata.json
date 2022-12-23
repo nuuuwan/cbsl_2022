@@ -1,0 +1,101 @@
+{
+  "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade": {
+    "sub4": "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-import-trade": {
+    "sub4": "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-import-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-export-trade": {
+    "sub4": "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-export-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-domestic-trade": {
+    "sub4": "gdp-current-prices-(2002-series)-services-wholesale-and-retail-trade-domestic-trade",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-transport-and-communication": {
+    "sub4": "gdp-current-prices-(2002-series)-services-transport-and-communication",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-transport-and-communication-transport": {
+    "sub4": "gdp-current-prices-(2002-series)-services-transport-and-communication-transport",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-transport-and-communication-cargo-handling-ports-a": {
+    "sub4": "gdp-current-prices-(2002-series)-services-transport-and-communication-cargo-handling-ports-a",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-transport-and-communication-post-and-telecommunica": {
+    "sub4": "gdp-current-prices-(2002-series)-services-transport-and-communication-post-and-telecommunica",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "gdp-current-prices-(2002-series)-services-private-services": {
+    "sub4": "gdp-current-prices-(2002-series)-services-private-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-01-04",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  }
+}

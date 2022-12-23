@@ -1,0 +1,35 @@
+{
+  "general-government-revenue-tax-revenue": {
+    "sub4": "general-government-revenue-tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  },
+  "general-government-revenue-non-tax-revenue": {
+    "sub4": "general-government-revenue-non-tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  },
+  "general-government-revenue-total-tax-and-non-tax-revenue": {
+    "sub4": "general-government-revenue-total-tax-and-non-tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-09-28",
+    "Update frequency": "Four months after the end of year"
+  }
+}

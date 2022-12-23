@@ -1,0 +1,35 @@
+{
+  "total-number-of--transactions": {
+    "sub4": "total-number-of--transactions",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "value-of-total-receipts-through": {
+    "sub4": "value-of-total-receipts-through",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "value-of-total-payments-through": {
+    "sub4": "value-of-total-payments-through",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-10-28",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

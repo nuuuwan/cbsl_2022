@@ -1,0 +1,51 @@
+{
+  "tax-revenue": {
+    "sub4": "tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "non-tax-revenue": {
+    "sub4": "non-tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "total-tax-and-non-tax-revenue": {
+    "sub4": "total-tax-and-non-tax-revenue",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "grants": {
+    "sub4": "grants",
+    "unit": "LKR",
+    "scale": "Rs. million"
+  },
+  "total-tax-and-non-tax-revenue-and-grants": {
+    "sub4": "total-tax-and-non-tax-revenue-and-grants",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  }
+}

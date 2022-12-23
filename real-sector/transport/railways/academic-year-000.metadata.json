@@ -1,0 +1,68 @@
+{
+  "sri-lanka--route-broad-gauge": {
+    "sub4": "sri-lanka--route-broad-gauge",
+    "unit": "km.",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sri-lanka--main-stations-broad-gauge": {
+    "sub4": "sri-lanka--main-stations-broad-gauge",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sri-lanka--sub-stations-broad-gauge": {
+    "sub4": "sri-lanka--sub-stations-broad-gauge",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sri-lanka--passenger-kilometers-all-island": {
+    "sub4": "sri-lanka--passenger-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sri-lanka--operated-kilometers-all-island": {
+    "sub4": "sri-lanka--operated-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "sri-lanka--freight-tonne-kilometers-all-island": {
+    "sub4": "sri-lanka--freight-tonne-kilometers-all-island",
+    "unit": "km.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sri Lanka Railways",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

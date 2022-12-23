@@ -7,7 +7,7 @@
     "Source": "Sri Lanka Transport Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-09-23",
     "Update frequency": "Three months after the end of the month"
   },
   "public-road-transport-operated-kilometres": {
@@ -18,7 +18,7 @@
     "Source": "Sri Lanka Transport Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-09-23",
     "Update frequency": "Three months after the end of the month"
   },
   "public-road-transport-passenger-kilometres": {
@@ -29,7 +29,7 @@
     "Source": "Sri Lanka Transport Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-09-23",
     "Update frequency": "Three months after the end of the month"
   }
 }

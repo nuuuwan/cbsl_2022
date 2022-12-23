@@ -1,0 +1,13 @@
+{
+  "rupee-(lkr)-borrowings": {
+    "sub4": "rupee-(lkr)-borrowings",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  }
+}

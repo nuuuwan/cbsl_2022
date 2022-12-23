@@ -1,0 +1,222 @@
+{
+  "external--(eds)-outstanding-total-external-debt": {
+    "sub4": "external--(eds)-outstanding-total-external-debt",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-general-government-short-term": {
+    "sub4": "eds-general-government-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-general-government-long-term": {
+    "sub4": "eds-general-government-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-central-bank-short-term": {
+    "sub4": "eds-central-bank-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-central-bank-long-term": {
+    "sub4": "eds-central-bank-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-deposit-taking-corporations-short-term": {
+    "sub4": "eds-deposit-taking-corporations-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-deposit-taking-corporations-long-term": {
+    "sub4": "eds-deposit-taking-corporations-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-other-sectors-short-term": {
+    "sub4": "eds-other-sectors-short-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-other-sectors-long-term": {
+    "sub4": "eds-other-sectors-long-term",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "eds-direct-investment-intercompany-lending": {
+    "sub4": "eds-direct-investment-intercompany-lending",
+    "unit": "USD",
+    "scale": "Millions",
+    "Sector": "External Sector",
+    "Source": "Central Bank of Sri Lanka",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-03-07",
+    "Update frequency": "Four months after the end of quarter/year"
+  },
+  "central-government-primary-deficit-/-surplus": {
+    "sub4": "central-government-primary-deficit-/-surplus",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-overall-deficit-/-surplus": {
+    "sub4": "central-government-overall-deficit-/-surplus",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-overall-deficit-financing-foreign": {
+    "sub4": "central-government-overall-deficit-financing-foreign",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-overall-deficit-financing-domestic": {
+    "sub4": "central-government-overall-deficit-financing-domestic",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-overall-deficit-financing-domestic-bank": {
+    "sub4": "central-government-overall-deficit-financing-domestic-bank",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-overall-deficit-financing-domestic-non-bank": {
+    "sub4": "central-government-overall-deficit-financing-domestic-non-bank",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance",
+    "GeoArea": "National",
+    "Note": "Figures are reported on a cumulative basis for the financial year",
+    "Data last updated": "2022-11-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-debt-foreign": {
+    "sub4": "central-government-debt-foreign",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance / CBSL",
+    "GeoArea": "National",
+    "Note": "The debt data since April 2022 are highly provisional as the outstanding central government debt excludes several overdue debt service payments after April 12, 2022, the date of which the Interim Policy regarding the servicing of Sri Lanka\u2019s external public debt was announced by the Ministry of Finance, Economic Stabilization and National Policies. These debt service payments include overdue interest payments of affected debt which deemed to be capitalised as per the Interim Policy as well as the value of principal payments yet to be settled in relation to Sri Lanka Development Bonds",
+    "Data last updated": "2022-12-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-debt-domestic": {
+    "sub4": "central-government-debt-domestic",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance / CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-12-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-debt-domestic-short-term": {
+    "sub4": "central-government-debt-domestic-short-term",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance / CBSL",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-12-22",
+    "Update frequency": "Two months after the end of Quarter"
+  },
+  "central-government-debt-domestic-medium-and-long-term": {
+    "sub4": "central-government-debt-domestic-medium-and-long-term",
+    "unit": "LKR",
+    "scale": "Rs. million",
+    "Sector": "Financial",
+    "Source": "Ministry of Finance / CBSL",
+    "GeoArea": "National",
+    "Note": "The debt data since April 2022 are highly provisional as the outstanding central government debt excludes several overdue debt service payments after April 12, 2022, the date of which the Interim Policy regarding the servicing of Sri Lanka\u2019s external public debt was announced by the Ministry of Finance, Economic Stabilization and National Policies. These debt service payments include overdue interest payments of affected debt which deemed to be capitalised as per the Interim Policy as well as the value of principal payments yet to be settled in relation to Sri Lanka Development Bonds",
+    "Data last updated": "2022-12-22",
+    "Update frequency": "Two months after the end of Quarter"
+  }
+}

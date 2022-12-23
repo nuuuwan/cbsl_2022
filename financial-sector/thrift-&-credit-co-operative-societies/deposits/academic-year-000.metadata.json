@@ -1,0 +1,13 @@
+{
+  "thrift-&-credit-co-operative-societies--total": {
+    "sub4": "thrift-&-credit-co-operative-societies--total",
+    "unit": "Rs.",
+    "scale": "Mn.",
+    "Sector": "Real Sector",
+    "Source": "Sanasa Federation",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

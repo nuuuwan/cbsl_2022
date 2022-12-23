@@ -1,0 +1,156 @@
+{
+  "total-assets": {
+    "sub4": "total-assets",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "total-loan-loss-provisions": {
+    "sub4": "total-loan-loss-provisions",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "specific-loan-loss-provisions": {
+    "sub4": "specific-loan-loss-provisions",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-deposits": {
+    "sub4": "rupee-(lkr)-deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-time-deposits": {
+    "sub4": "rupee-(lkr)-time-deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-savings-deposits": {
+    "sub4": "rupee-(lkr)-savings-deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-current-deposits": {
+    "sub4": "rupee-(lkr)-current-deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-other-deposits": {
+    "sub4": "rupee-(lkr)-other-deposits",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "rupee-(lkr)-borrowings": {
+    "sub4": "rupee-(lkr)-borrowings",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "supplementary-capital-(tier-ii)": {
+    "sub4": "supplementary-capital-(tier-ii)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "total-risk-weighted-assets": {
+    "sub4": "total-risk-weighted-assets",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "total-income": {
+    "sub4": "total-income",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Total income includes interest income, foreign exchange income, fee based income and other operating income",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "staff-cost": {
+    "sub4": "staff-cost",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "value-added-tax-(vat)-on-financial-services": {
+    "sub4": "value-added-tax-(vat)-on-financial-services",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  }
+}

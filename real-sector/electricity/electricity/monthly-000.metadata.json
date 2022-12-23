@@ -7,7 +7,7 @@
     "Source": "Ceylon Electricity Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-11-17",
     "Update frequency": "Three months after the end of the quarter"
   },
   "power-generation": {
@@ -18,7 +18,7 @@
     "Source": "Ceylon Electricity Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-11-17",
     "Update frequency": "Three months after the end of the quarter"
   },
   "power-consumption": {
@@ -29,7 +29,7 @@
     "Source": "Ceylon Electricity Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-11-17",
     "Update frequency": "Three months after the end of the quarter"
   },
   "per-capita--consumption": {
@@ -40,7 +40,7 @@
     "Source": "Ceylon Electricity Board",
     "GeoArea": "National",
     "Note": "",
-    "Data last updated": "2020-12-23",
+    "Data last updated": "2022-11-17",
     "Update frequency": "Four months after the end of the year"
   }
 }

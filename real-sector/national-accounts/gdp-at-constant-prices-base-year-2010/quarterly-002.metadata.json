@@ -1,0 +1,134 @@
+{
+  "gdp-exp.-at-constant-(2010)-prices-gross-capital-formation-(gcf)": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gross-capital-formation-(gcf)",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-gross-fixed-capital-formation": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-gross-fixed-capital-formation",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GCF-Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-changes-in-inventories": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-changes-in-inventories",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GCF \u2013 Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-gcf-acquisitions-less-disposal-of-valuables": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-gcf-acquisitions-less-disposal-of-valuables",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "GCF \u2013 Gross Capital Formation",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-net-external-demand": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-net-external-demand",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-exports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-exports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-exp.-at-constant-(2010)-prices-external-demand-imports-of-goods-and-services": {
+    "sub4": "gdp-exp.-at-constant-(2010)-prices-external-demand-imports-of-goods-and-services",
+    "unit": "Rs.",
+    "scale": "Million",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "20th day of the third calender month after completion of a quarter"
+  },
+  "gdp-growth-constant-(2010)-prices-agriculture,-forestry-and-fishing": {
+    "sub4": "gdp-growth-constant-(2010)-prices-agriculture,-forestry-and-fishing",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-industries": {
+    "sub4": "gdp-growth-constant-(2010)-prices-industries",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-services": {
+    "sub4": "gdp-growth-constant-(2010)-prices-services",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-taxes-less-subsidies-on-products": {
+    "sub4": "gdp-growth-constant-(2010)-prices-taxes-less-subsidies-on-products",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "gdp-growth-constant-(2010)-prices-gross-domestic-product": {
+    "sub4": "gdp-growth-constant-(2010)-prices-gross-domestic-product",
+    "unit": "",
+    "scale": "%",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "total-volume-of-customer-account-based-mobile-transactions-(effected-through-mobile-phones)": {
+    "sub4": "total-volume-of-customer-account-based-mobile-transactions-(effected-through-mobile-phones)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-07-19",
+    "Update frequency": "15 th day of second immediate quarter"
+  },
+  "total-value-of-customer-account-based-mobile-transactions-(effected-through-mobile-phone)": {
+    "sub4": "total-value-of-customer-account-based-mobile-transactions-(effected-through-mobile-phone)",
+    "unit": "LKR",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "LCBs",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-07-19",
+    "Update frequency": "15 th day of second immediate quarter"
+  }
+}

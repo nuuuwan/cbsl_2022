@@ -1,0 +1,178 @@
+{
+  "no.of-dental-surgeons": {
+    "sub4": "no.of-dental-surgeons",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "Includes Regional and Consultant Dental Surgeons",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-registered-assistant-medical-offices": {
+    "sub4": "no.of-registered-assistant-medical-offices",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-public-health-nursing-sisters": {
+    "sub4": "no.of-public-health-nursing-sisters",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-public-health-inspectors": {
+    "sub4": "no.of-public-health-inspectors",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-public-health-midwives": {
+    "sub4": "no.of-public-health-midwives",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-hospital-midwives": {
+    "sub4": "no.of-hospital-midwives",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-pharmacists": {
+    "sub4": "no.of-pharmacists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-dispensers": {
+    "sub4": "no.of-dispensers",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-medical-laboratory-technologists": {
+    "sub4": "no.of-medical-laboratory-technologists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-radiographers": {
+    "sub4": "no.of-radiographers",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-physiotherapists": {
+    "sub4": "no.of-physiotherapists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-ecg-recordists": {
+    "sub4": "no.of-ecg-recordists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-eeg-recordists": {
+    "sub4": "no.of-eeg-recordists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-school-dental-therapists": {
+    "sub4": "no.of-school-dental-therapists",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-medical-offices-total": {
+    "sub4": "no.of-medical-offices-total",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "Includes Medical Officers in curative, administrative and preventive services.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  },
+  "no.of-nurses-total": {
+    "sub4": "no.of-nurses-total",
+    "unit": "Number",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Medical Statistics Unit, Ministry of Health",
+    "GeoArea": "National",
+    "Note": "Excludes Pupil Nurses.",
+    "Data last updated": "2022-01-18",
+    "Update frequency": "End of August"
+  }
+}

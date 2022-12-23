@@ -1,0 +1,13 @@
+{
+  "greater-colombo-housing-approval-index": {
+    "sub4": "greater-colombo-housing-approval-index",
+    "unit": "Index Points",
+    "scale": "Index Points",
+    "Sector": "Real Sector",
+    "Source": "Urban councils, municipal councils and pradeshiya sabhas of greater colombo area",
+    "GeoArea": "National",
+    "Note": "1995=100",
+    "Data last updated": "2022-07-14",
+    "Update frequency": "Four months after the end of the half year"
+  }
+}

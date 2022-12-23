@@ -1,0 +1,90 @@
+{
+  "(2002=100)": {
+    "sub4": "(2002=100)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2017-03-17",
+    "Update frequency": "Series has been discontinued due to base year revision"
+  },
+  "(2010=100)": {
+    "sub4": "(2010=100)",
+    "unit": "",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "agriculture-implicit-price-deflator-(2002=100)": {
+    "sub4": "agriculture-implicit-price-deflator-(2002=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "industry-implicit-price-deflator-(2002=100)": {
+    "sub4": "industry-implicit-price-deflator-(2002=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "services-implicit-price-deflator-(2002=100)": {
+    "sub4": "services-implicit-price-deflator-(2002=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "",
+    "Update frequency": ""
+  },
+  "agriculture-implicit-price-deflator-(2010=100)": {
+    "sub4": "agriculture-implicit-price-deflator-(2010=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "industry-implicit-price-deflator-(2010=100)": {
+    "sub4": "industry-implicit-price-deflator-(2010=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  },
+  "services-implicit-price-deflator-(2010=100)": {
+    "sub4": "services-implicit-price-deflator-(2010=100)",
+    "unit": "Index",
+    "scale": "",
+    "Sector": "Real Sector",
+    "Source": "Department of Census and Statistics",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-07-27",
+    "Update frequency": "15th day of the third calender month after completion of a quarter/year"
+  }
+}

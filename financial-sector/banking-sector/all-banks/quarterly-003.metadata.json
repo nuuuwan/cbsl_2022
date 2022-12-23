@@ -1,0 +1,178 @@
+{
+  "banking-sector-total-capital-adequacy-ratio-(car)": {
+    "sub4": "banking-sector-total-capital-adequacy-ratio-(car)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of regulatory capital to risk-weighted assets",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-provision-coverage-ratio": {
+    "sub4": "banking-sector-total-provision-coverage-ratio",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of specific provisions and general provisions to non-performing advances net of interest in suspense",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-loans-and-advances-to-total-assets": {
+    "sub4": "banking-sector-total-loans-and-advances-to-total-assets",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Total loans and advances including non-performing loans net of interest in suspense",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-staff-expenses-to-non-interest-expenses": {
+    "sub4": "banking-sector-staff-expenses-to-non-interest-expenses",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Share of staff expenses in non-interest expenses (operating expenses)",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-cost-to-total-income": {
+    "sub4": "banking-sector-total-cost-to-total-income",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of interest expenses and non-interest expenses to interest income and non-interest income",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-income-to-average-assets": {
+    "sub4": "banking-sector-total-income-to-average-assets",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-statutory-liquid-asset-ratio-(slar)-\u2013-domestic-banking-unit-(dbu)": {
+    "sub4": "banking-sector-statutory-liquid-asset-ratio-(slar)-\u2013-domestic-banking-unit-(dbu)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of liquid assets as defined in the Banking Act to total liabilities subject to minimum liquid assets requirement in Domestic Banking Unit",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-statutory-liquid-assets-ratio-(slar)-\u2013-offshore-banking-unit-(obu)": {
+    "sub4": "banking-sector-statutory-liquid-assets-ratio-(slar)-\u2013-offshore-banking-unit-(obu)",
+    "unit": "Ratio",
+    "scale": "%",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "The ratio of liquid assets as defined in the Banking Act to total liabilities subject to minimum liquid assets requirement in Offshore Banking Unit",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-assets": {
+    "sub4": "banking-sector-total-assets",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-loan-loss-provisions": {
+    "sub4": "banking-sector-total-loan-loss-provisions",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-non-performing-advances-(npls)-special-mentioned-category": {
+    "sub4": "banking-sector-non-performing-advances-(npls)-special-mentioned-category",
+    "unit": "%",
+    "scale": "",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-liabilities-including-equity": {
+    "sub4": "banking-sector-total-liabilities-including-equity",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-supplementary-capital-(tier-ii)": {
+    "sub4": "banking-sector-supplementary-capital-(tier-ii)",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-risk-weighted-assets": {
+    "sub4": "banking-sector-total-risk-weighted-assets",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-total-income": {
+    "sub4": "banking-sector-total-income",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "Total income includes interest income, foreign exchange income, fee based income and other operating income",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  },
+  "banking-sector-value-added-tax-(vat)-on-financial-services": {
+    "sub4": "banking-sector-value-added-tax-(vat)-on-financial-services",
+    "unit": "Rs",
+    "scale": "Millions",
+    "Sector": "Financial",
+    "Source": "CBSL Website",
+    "GeoArea": "National",
+    "Note": "",
+    "Data last updated": "2021-12-03",
+    "Update frequency": "10th day of next second month"
+  }
+}
