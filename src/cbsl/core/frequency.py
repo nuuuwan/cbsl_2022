@@ -1,12 +1,12 @@
 from utils import timex
 
 
-class FREQUNCY:
+class FREQUENCY:
     ANNUALLY = 'annually'
     CENSUS_YEAR = 'census-year'
     ACADEMIC_YEAR = 'academic-year'
     HALF_YEARLY = 'half-yearly'
-    QUARTERY = 'quarterly'
+    QUARTERLY = 'quarterly'
     MONTHLY = 'monthly'
     DAILY = 'daily'
 
@@ -38,10 +38,10 @@ def build_frequency_config():
     )
 
     return {
-        FREQUNCY.ANNUALLY: {
+        FREQUENCY.ANNUALLY: {
             'time_span': [min_year, max_year],
         },
-        FREQUNCY.MONTHLY: {
+        FREQUENCY.MONTHLY: {
             'time_span': [min_month, max_month],
         },
         # FREQUNCY.DAILY: {
@@ -50,4 +50,4 @@ def build_frequency_config():
     }
 
 
-FREQ_CONFIG = build_frequency_config()
+FREQUENCY_CONFIG = build_frequency_config()
