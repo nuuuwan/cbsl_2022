@@ -1,5 +1,3 @@
-
-
 class FREQUENCY:
     ANNUALLY = 'annually'
     CENSUS_YEAR = 'census-year'

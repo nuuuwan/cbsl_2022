@@ -10,6 +10,7 @@ from cbsl.scraping.parsers.step3 import parse_step3
 from cbsl.scraping.persistence import init, save_contents, save_results
 
 GROUP_SIZE = 30
+TEST_MODE_SUB2 = 'tourism'
 
 
 def scrape_level1_and_level2():
@@ -80,13 +81,10 @@ def scrape_details(idx12, test_mode):
 
     for sub1 in idx12:
         for i_sub2, sub2 in enumerate(list(idx12[sub1])):
+            if test_mode and sub2 != TEST_MODE_SUB2:
+                continue
             for frequency_name in FREQUENCY_CONFIG:
                 scrape_sub2_safe(sub1, i_sub2, sub2, frequency_name)
-
-            if test_mode:
-                break
-        if test_mode:
-            break
 
 
 def run(test_mode):
