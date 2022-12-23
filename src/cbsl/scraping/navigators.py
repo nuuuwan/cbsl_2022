@@ -71,7 +71,6 @@ def open_step2(browser, sub1, i_sub2, sub2, frequency_name):
 
     elem_text_box_list = find_elements_by_class_name(browser, CLASS_TXT_BOX)
 
-    log.debug(elem_text_box_list)
     d = FREQUNCY_CONFIG[frequency_name]
     time_span = d['time_span']
     for i, elem_text_box in enumerate(elem_text_box_list):
