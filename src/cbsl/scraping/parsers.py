@@ -39,11 +39,13 @@ def parse_step1(html):
     for table in soup.find_all('table', {'class': CLASS_TABLE0}):
         tr_list = [tr for tr in table.find_all('tr')]
         sub1 = make_sub(tr_list[0].text)
+        log.debug(sub1)
         n_sub1 += 1
         idx[sub1] = {}
         for tr in tr_list[1:]:
             sub2 = make_sub(tr.find_all('td')[1].text)
             idx[sub1][sub2] = {}
+            log.debug(f'{sub1}/{sub2}')
             n_sub2 += 1
     log.info(f'Found {n_sub1} sub1s, {n_sub2} sub2s')
     return idx
