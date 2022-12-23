@@ -20,6 +20,16 @@ METADATA_FIELDS = [
     'Note',
 ]
 
+HEAD = _(
+        'head',
+        [
+            _('meta', None, {'charset': 'UTF-8'}),
+            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
+            _('link', None, {'rel': 'stylesheet', 'href': 'https://fonts.googleapis.com/css?family=PT Sans'}),
+        ],
+    )
+    
+
 
 def parse_float(s):
     s = s.replace(',', '')
@@ -309,14 +319,6 @@ def render_file(sub1, sub2, sub3, file_only, sub4_list):
 
 
 def build_sub3(sub1, sub2, sub3, file_to_sub4s):
-    head = _(
-        'head',
-        [
-            _('meta', None, {'charset': 'UTF-8'}),
-            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
-        ],
-    )
-
     rendered_files = list(
         map(
             lambda x: render_file(sub1, sub2, sub3, x[0], x[1]),
@@ -333,7 +335,7 @@ def build_sub3(sub1, sub2, sub3, file_to_sub4s):
         ]
         + rendered_files,
     )
-    html = _('html', [head, body])
+    html = _('html', [HEAD, body])
 
     html_file_only = get_sub3_html_file_only(sub3)
     html_file = os.path.join(DIR_GH_PAGES, html_file_only)
@@ -425,13 +427,6 @@ def main(test_mode):
         )
     )
 
-    head = _(
-        'head',
-        [
-            _('meta', None, {'charset': 'UTF-8'}),
-            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
-        ],
-    )
     body = _(
         'body',
         [
@@ -441,7 +436,7 @@ def main(test_mode):
         ]
         + rendered_sub1s,
     )
-    html = _('html', [head, body])
+    html = _('html', [HEAD, body])
 
     html_file = os.path.join(DIR_GH_PAGES, 'index.html')
     html.store(html_file)
