@@ -21,14 +21,20 @@ METADATA_FIELDS = [
 ]
 
 HEAD = _(
-        'head',
-        [
-            _('meta', None, {'charset': 'UTF-8'}),
-            _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
-            _('link', None, {'rel': 'stylesheet', 'href': 'https://fonts.googleapis.com/css?family=PT Sans'}),
-        ],
-    )
-    
+    'head',
+    [
+        _('meta', None, {'charset': 'UTF-8'}),
+        _('link', None, {'rel': 'stylesheet', 'href': 'styles.css'}),
+        _(
+            'link',
+            None,
+            {
+                'rel': 'stylesheet',
+                'href': 'https://fonts.googleapis.com/css?family=PT Sans',
+            },
+        ),
+    ],
+)
 
 
 def parse_float(s):
@@ -66,6 +72,8 @@ def humanize_number(x):
 
 
 def format_cell(k, d, metadata, value_to_rank_p):
+    if not metadata:
+        return []
     v = d.get(k, '')
     display_unit = ''
     background = 'white'
