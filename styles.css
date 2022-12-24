@@ -2,6 +2,8 @@ body {
   width: 80%;
   margin: auto;
   margin-top: 12px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
 }
 
 a {
@@ -28,6 +30,12 @@ h3 {
   color: #444;
   font-size: 100%;
 }
+
+p, div, span, table {
+  color: #000;
+  font-size: 100%;
+}
+
 
 
 .div-source {
